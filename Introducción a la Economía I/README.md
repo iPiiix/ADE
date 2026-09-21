@@ -4,8 +4,22 @@
 - **Centro:** Facultad de Economía y Empresa — Universidad de Murcia (Campus de Espinardo)
 - **Código de Asignatura:** `2343`
 - **Créditos:** 6 ECTS · **Tipo:** Formación Básica
-- **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5
+- **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5 (Turno Tarde)
+- **Profesorado:**
+  - **Sancho Portero, Israel** ([israelsp@um.es](mailto:israelsp@um.es))
+  - **Siles López, David** ([david.siles@um.es](mailto:david.siles@um.es))
 - **Departamento:** Fundamentos del Análisis Económico
+
+---
+
+## 🕒 Horarios y Aulas de Clase (Grupo 5)
+
+| Día | Franja Horaria | Modalidad | Subgrupo | Aula |
+| :---: | :---: | :---: | :---: | :---: |
+| **Jueves** | 18:00 – 20:00 | Teoría (Grupo Completo) | Grupo 5 | **Aula A412** |
+| **Miércoles** | 17:30 – 19:00 | Prácticas (Desdoble) | **Grupo A** | **Aula A412** |
+| **Miércoles** | 19:00 – 20:30 | Prácticas (Desdoble) | **Grupo B** | **Aula A411P** |
+| **Viernes** | *(Rotativo s/ Cronograma)* | Sesiones adicionales (+3h) | Grupo 5 | **Aula A412** |
 
 ---
 

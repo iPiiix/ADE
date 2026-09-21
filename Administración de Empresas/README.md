@@ -4,8 +4,20 @@
 - **Centro:** Facultad de Economía y Empresa — Universidad de Murcia (Campus de Espinardo)
 - **Código de Asignatura:** `2345`
 - **Créditos:** 6 ECTS · **Tipo:** Formación Básica
-- **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5
+- **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5 (Turno Tarde)
+- **Profesorado:** **Monllor Domínguez, Jorge** ([jmonllor@um.es](mailto:jmonllor@um.es))
 - **Departamento:** Organización de Empresas y Finanzas
+
+---
+
+## 🕒 Horarios y Aulas de Clase (Grupo 5)
+
+| Día | Franja Horaria | Modalidad | Subgrupo | Aula |
+| :---: | :---: | :---: | :---: | :---: |
+| **Martes** | 18:30 – 20:30 | Teoría (Grupo Completo) | Grupo 5 | **Aula A412** |
+| **Lunes** | 16:00 – 17:30 | Prácticas (Desdoble) | **Grupo B** | **Aula A411P** |
+| **Lunes** | 17:30 – 19:00 | Prácticas (Desdoble) | **Grupo A** | **Aula A412** |
+| **Viernes** | *(Rotativo s/ Cronograma)* | Sesiones adicionales (+3h) | Grupo 5 | **Aula A412** |
 
 ---
 

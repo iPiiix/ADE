@@ -4,8 +4,22 @@
 - **Centro:** Facultad de Economía y Empresa — Universidad de Murcia (Campus de Espinardo)
 - **Código de Asignatura:** `2346`
 - **Créditos:** 6 ECTS · **Tipo:** Formación Básica
-- **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5
+- **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5 (Turno Tarde)
+- **Profesorado:**
+  - **Hernández Carreño, Mª del Rosario** ([mrhc@um.es](mailto:mrhc@um.es))
+  - **Hernández Nicolás, Carmen María** ([cm.hernandeznicolas@um.es](mailto:cm.hernandeznicolas@um.es))
 - **Departamento:** Métodos Cuantitativos para la Economía y la Empresa
+
+---
+
+## 🕒 Horarios y Aulas de Clase (Grupo 5)
+
+| Día | Franja Horaria | Modalidad | Subgrupo | Aula |
+| :---: | :---: | :---: | :---: | :---: |
+| **Jueves** | 16:00 – 18:00 | Teoría (Grupo Completo) | Grupo 5 | **Aula A412** |
+| **Lunes** | 16:00 – 17:30 | Prácticas (Desdoble) | **Grupo A** | **Aula A412** |
+| **Lunes** | 17:30 – 19:00 | Prácticas (Desdoble) | **Grupo B** | **Aula A411P** |
+| **Viernes** | *(Rotativo s/ Cronograma)* | Sesiones adicionales (+3h) | Grupo 5 | **Aula A412** |
 
 ---
 

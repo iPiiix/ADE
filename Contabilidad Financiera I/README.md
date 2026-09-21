@@ -4,8 +4,23 @@
 - **Centro:** Facultad de Economía y Empresa — Universidad de Murcia (Campus de Espinardo)
 - **Código de Asignatura:** `2344`
 - **Créditos:** 6 ECTS · **Tipo:** Formación Básica
-- **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5
+- **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5 (Turno Tarde)
+- **Profesorado:**
+  - **García Hernández, Begoña** ([bgarcia@um.es](mailto:bgarcia@um.es))
+  - **Gil Jara, Juan**
+  - **García, Jesús** ([jesus.garcia@um.es](mailto:jesus.garcia@um.es))
 - **Departamento:** Economía Financiera y Contabilidad
+
+---
+
+## 🕒 Horarios y Aulas de Clase (Grupo 5)
+
+| Día | Franja Horaria | Modalidad | Subgrupo | Aula |
+| :---: | :---: | :---: | :---: | :---: |
+| **Martes** | 16:30 – 18:30 | Teoría (Grupo Completo) | Grupo 5 | **Aula A412** |
+| **Miércoles** | 16:00 – 17:30 | Prácticas (Desdoble) | **Grupo A** | **Aula A412** |
+| **Miércoles** | 17:30 – 19:00 | Prácticas (Desdoble) | **Grupo B** | **Aula A411P** |
+| **Viernes** | *(Rotativo s/ Cronograma)* | Sesiones adicionales (+3h) | Grupo 5 | **Aula A412** |
 
 ---
 

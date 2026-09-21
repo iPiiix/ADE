@@ -4,8 +4,20 @@
 - **Centro:** Facultad de Economía y Empresa — Universidad de Murcia (Campus de Espinardo)
 - **Código de Asignatura:** `2350`
 - **Créditos:** 4,5 ECTS · **Tipo:** Obligatoria
-- **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5
+- **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5 (Turno Tarde)
+- **Profesorado:** **Lafuente Lechuga, Matilde** ([mati@um.es](mailto:mati@um.es)) *(Coordinadora de Grupo)*
 - **Departamento:** Métodos Cuantitativos para la Economía y la Empresa
+
+---
+
+## 🕒 Horarios y Aulas de Clase (Grupo 5)
+
+| Día | Franja Horaria | Modalidad | Subgrupo | Aula |
+| :---: | :---: | :---: | :---: | :---: |
+| **Martes** | 15:00 – 16:30 | Teoría (Grupo Completo) | Grupo 5 | **Aula A412** |
+| **Miércoles** | 15:00 – 16:00 | Prácticas (Desdoble) | **Grupo A** | **Aula A412** |
+| **Miércoles** | 16:30 – 17:30 | Prácticas (Desdoble) | **Grupo B** | **Aula A411P** |
+| **Viernes** | *(Rotativo s/ Cronograma)* | Sesiones adicionales (+3h) | Grupo 5 | **Aula A412** |
 
 ---
 
