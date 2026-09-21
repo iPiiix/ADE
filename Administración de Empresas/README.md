@@ -1,18 +1,45 @@
 # 🏢 Administración de Empresas
 
-- **Código UM:** 2345 *(Equivalente a 17006 Fundamentos de Economía de la Empresa en la UCAM)*
-- **Centro:** Facultad de Economía y Empresa — Universidad de Murcia (UM)
-- **Curso:** 1.º Curso — Grado en ADE (Primer Cuatrimestre)
-- **Tipo:** Formación Básica (6 ECTS)
+- **Titulación:** (231) Grado en Administración y Dirección de Empresas (Plan 2009)
+- **Centro:** Facultad de Economía y Empresa — Universidad de Murcia (Campus de Espinardo)
+- **Código de Asignatura:** `2345`
+- **Créditos:** 6 ECTS · **Tipo:** Formación Básica
+- **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5
+- **Departamento:** Organización de Empresas y Finanzas
 
 ---
 
-## 📌 Descripción y Contenidos Clave
+## 📌 Descripción y Objetivos
 
-Concepto y tipos de empresa, el empresario y la toma de decisiones estratégicas, subsistemas funcionales y estructura organizativa.
+Introducción integral al concepto de empresa como sistema socio-técnico abierto, analizando el papel del empresario, los procesos de dirección y toma de decisiones, y el funcionamiento coordinado de sus subsistemas funcionales básicos.
+
+### 📚 Bloques Temáticos Principales
+
+1. **La Empresa y su Entorno:** Concepto, naturaleza y objetivos de la empresa. Tipologías empresariales y análisis del entorno general y específico.
+2. **El Empresario y la Dirección Estratégica:** Funciones directivas (planificación, organización, dirección de personas y control). Proceso de toma de decisiones.
+3. **El Subsistema de Operaciones y Producción:** Capacidad, localización, procesos productivos y gestión de inventarios y calidad.
+4. **El Subsistema Comercial / Marketing:** Mercado, segmentación, análisis del consumidor y las variables del Marketing Mix.
+5. **El Subsistema Financiero:** Fuentes de financiación empresarial, estructura económica y financiera, criterios básicos de selección de inversiones.
+6. **Diseño Organizativo y Recursos Humanos:** Estructura organizativa, departamentalización, liderazgo, motivación y gestión del talento.
 
 ---
 
-## 🗂️ Estructura de la Asignatura
+## 📊 Sistema de Evaluación Orientativo
 
-- [📁 Apuntes](./Apuntes) — Temario teórico y resúmenes.
+- **Evaluación Continua (30% – 40%):** Resolución y entrega de casos prácticos, trabajos en grupo, controles periódicos y participación en clase.
+- **Examen Final (60% – 70%):** Prueba teórico-práctica para acreditar el dominio de los conceptos fundamentales.
+
+---
+
+## 🗂️ Estructura de la Carpeta
+
+- [📁 Apuntes](./Apuntes) — Esquemas, resúmenes teóricos y notas de clase.
+- [📁 Prácticas](./Prácticas) — Casos prácticos, ejercicios resueltos y presentaciones.
+- [📁 Exámenes](./Exámenes) — Exámenes de convocatorias anteriores y autoevaluaciones.
+
+---
+
+## 🔗 Recursos de Interés
+
+- [Aula Virtual UM](https://aulavirtual.um.es/)
+- [Guía Docente Oficial UM — Cód. 2345](https://www.um.es/web/estudios/grados/ade/plan-guias)

@@ -1,19 +1,49 @@
 # 📈 Matemática de las Operaciones Financieras (MOF)
 
-- **Código UM:** 2346 *(Asignatura propia de la UM en 1C)*
-- **Centro:** Facultad de Economía y Empresa — Universidad de Murcia (UM)
-- **Curso:** 1.º Curso — Grado en ADE (Primer Cuatrimestre)
-- **Tipo:** Formación Básica (6 ECTS)
+- **Titulación:** (231) Grado en Administración y Dirección de Empresas (Plan 2009)
+- **Centro:** Facultad de Economía y Empresa — Universidad de Murcia (Campus de Espinardo)
+- **Código de Asignatura:** `2346`
+- **Créditos:** 6 ECTS · **Tipo:** Formación Básica
+- **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5
+- **Departamento:** Métodos Cuantitativos para la Economía y la Empresa
 
 ---
 
-## 📌 Descripción y Contenidos Clave
+## 📌 Descripción y Objetivos
 
-Estudio de las leyes financieras de capitalización y descuento, valoración de rentas financieras y operaciones financieras clásicas (préstamos y amortizaciones).
+Disciplina fundamental para el análisis de cualquier decisión de inversión o financiación en la empresa. Desarrolla las herramientas matemáticas para valorar capitales en diferentes instantes de tiempo, estudiar leyes financieras, calcular rendimientos efectivos (TAE) y estructurar préstamos y rentas.
+
+### 📚 Bloques Temáticos Principales
+
+1. **Fundamentos y Leyes Financieras:** Concepto de capital financiero, equivalencia de capitales, leyes de capitalización y descuento simple y compuesto. Propiedad de escindibilidad.
+2. **Tantos de Interés y de Descuento:** Tipos de interés nominales (TIN), tantos efectivos fraccionados, Tasa Anual Equivalente (TAE) y tantos continuos.
+3. **Valoración de Rentas Financieras Constantes:** Rentas temporales pospagables y prepagables (inmediatas, diferidas y anticipadas). Rentas perpetuas. Fórmulas de valor actual y valor final.
+4. **Valoración de Rentas Financieras Variables:** Rentas en progresión aritmética y en progresión geométrica. Rentas continuas y fraccionadas.
+5. **Operaciones de Amortización de Préstamos:** Concepto de préstamo, cuadro de amortización (anualidad, cuota de interés, cuota de amortización, capital amortizado y capital vivo).
+   - **Sistema Francés:** Términos amortizativos constantes.
+   - **Sistema Cuota de Amortización Constante:** Devolución fija de principal.
+   - **Sistema Americano:** Abono periódico de intereses y devolución del principal al vencimiento.
+   - **Préstamos con Carencia:** Carencia total o de principal.
+6. **Empréstitos y Operaciones Complejas:** Empréstitos de obligaciones, bonos cupón cero y rentabilidades efectivas de emisiones de deuda.
 
 ---
 
-## 🗂️ Estructura de la Asignatura
+## 📊 Sistema de Evaluación Orientativo
 
-- [📁 Apuntes](./Apuntes) — Leyes financieras, tipos de interés y formulaciones.
-- [📁 Prácticas](./Prácticas) — Problemas resueltos de rentas y préstamos.
+- **Evaluación Continua (30% – 40%):** Prácticas de laboratorio con hoja de cálculo (Excel), resolución de ejercicios de rentas y préstamos, y pruebas de seguimiento.
+- **Examen Final (60% – 70%):** Resolución de supuestos financieros prácticos complejos (diseño de cuadros de amortización, valoración de rentas y cálculo de costes efectivos).
+
+---
+
+## 🗂️ Estructura de la Carpeta
+
+- [📁 Apuntes](./Apuntes) — Formulario oficial de leyes financieras, rentas y préstamos.
+- [📁 Prácticas](./Prácticas) — Cuadros de amortización, ejercicios resueltos y plantillas de Excel.
+- [📁 Exámenes](./Exámenes) — Exámenes de convocatorias anteriores y soluciones comentadas.
+
+---
+
+## 🔗 Recursos de Interés
+
+- [Aula Virtual UM](https://aulavirtual.um.es/)
+- [Guía Docente Oficial UM — Cód. 2346](https://www.um.es/web/estudios/grados/ade/plan-guias)

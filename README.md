@@ -1,72 +1,74 @@
 # 🎓 Grado en Administración y Dirección de Empresas (ADE)
+### 🏛️ Universidad de Murcia (UM) — Facultad de Economía y Empresa
 
-Repositorio central de apuntes, prácticas y material académico para el **1.º Curso del Grado en ADE**.
-
-> 🔄 **Fase de Transición:** Actualmente asistiendo a clases en la **UCAM** (hasta finales de esta semana) con traslado inminente a la **Universidad de Murcia (UM)**.
-
----
-
-## 📌 Situación Académica
-
-| Período | Universidad / Centro | Grupo / Aula | Estado |
-| :--- | :--- | :--- | :---: |
-| **Semana actual (hasta finales de semana)** | **UCAM** — Fac. de Ciencias Jurídicas y de la Empresa | Grupo 1 (Teoría) · Aula P8_1_A06 | 🟢 En curso |
-| **Próxima semana (Definitivo)** | **UM (UMU)** — Fac. de Economía y Empresa (Espinardo) | *Por asignar grupo* | ⏳ Incorporación |
+Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos y preparación de exámenes para el **1.º Curso del Grado en ADE (Plan 2009)**.
 
 ---
 
-## 📝 Tareas Pendientes Esta Semana
+## 👤 Expediente y Datos Académicos
 
-- [ ] **Contabilidad Financiera:** Realizar las prácticas para el **jueves** (24 de septiembre de 2026) *(Clase: 11:00 – 13:00, Aula P8_1_A06)*.
-
----
-
-## 🕒 Horario Semanal (UCAM — Válido para estos días)
-
-> **Aula de referencia:** P8_1_A06 (Pabellón 8, 1.ª Planta, Aula 6)  
-> *Nota: Los martes no hay docencia lectiva programada.*
-
-| Franja | Lunes | Martes | Miércoles | Jueves | Viernes |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| **08:30 – 09:30** | — | — | Microeconomía I | Matemáticas I | Microeconomía I |
-| **09:30 – 10:30** | Comunicación I | — | Microeconomía I | Matemáticas I | Microeconomía I |
-| **10:30 – 11:00** | *Descanso* | — | *Descanso* | *Descanso* | *Descanso* |
-| **11:00 – 12:00** | Economía de la Empresa | — | Economía de la Empresa | Contabilidad Financiera | Matemáticas I |
-| **12:00 – 13:00** | Contabilidad Financiera | — | Economía de la Empresa | Contabilidad Financiera | Matemáticas I |
-| **13:00 – 14:00** | Contabilidad Financiera | — | Teología I *(hasta 14:30)* | Comunicación I | Economía de la Empresa |
-| **14:00 – 14:30** | Contabilidad Financiera | — | Teología I | — | — |
+| Campo | Información Oficial |
+| :--- | :--- |
+| **Estudiante** | **Santiago Pérez Guerrero** |
+| **DNI** | `21068132V` |
+| **N.º Expediente** | `13745` |
+| **Titulación** | **(231) Grado en Administración y Dirección de Empresas** (Plan 2009) |
+| **Centro** | Facultad de Economía y Empresa (Campus de Espinardo) |
+| **Rama de Conocimiento** | Ciencias Sociales y Jurídicas |
+| **Curso Académico** | **2026 / 2027** |
+| **Grupo Asignado** | **Grupo 5** |
+| **Régimen de Dedicación** | Tiempo Completo (**60 ECTS** matriculados) |
+| **Fecha de Matrícula** | 21 de septiembre de 2026 |
+| **Estado Matrícula** | Formalizada (Régimen Becario) |
 
 ---
 
-## 📚 Asignaturas (Plan UM / Definitivo del Curso)
+## 📚 Asignaturas Matriculadas (1.º Curso — 60 ECTS)
 
-Las carpetas principales corresponden al plan oficial de la **Universidad de Murcia**, que albergará todos los apuntes definitivos del cuatrimestre:
+### 🍂 Primer Cuatrimestre — C1 (28,5 ECTS)
 
-| Código UM | Asignatura | Créditos | Asignatura Equivalente UCAM | Carpeta |
-| :---: | :--- | :---: | :--- | :--- |
-| **2344** | Contabilidad Financiera I | 6 ECTS | 16745 – Fundamentos de Contabilidad Financiera | [📁 Contabilidad Financiera I](./Contabilidad%20Financiera%20I) |
-| **2343** | Introducción a la Economía I | 6 ECTS | 16750 – Microeconomía I | [📁 Introducción a la Economía I](./Introducción%20a%20la%20Economía%20I) |
-| **2345** | Administración de Empresas | 6 ECTS | 17006 – Fundamentos de Economía de la Empresa | [📁 Administración de Empresas](./Administración%20de%20Empresas) |
-| **2350** | Matemáticas para la Empresa I | 4,5 ECTS | 17007 – Matemáticas para la Empresa I | [📁 Matemáticas para la Empresa I](./Matemáticas%20para%20la%20Empresa%20I) |
-| **2346** | Matemática de las Operaciones Financieras (MOF) | 6 ECTS | *(Materia específica de la UM)* | [📁 Matemática de las Operaciones Financieras](./Matemática%20de%20las%20Operaciones%20Financieras) |
-
-*(Para las materias específicas de la UCAM de estos días como Comunicación y Teología, consultar [📁 Transición UCAM](./Transición%20UCAM)).*
+| Cód. | Asignatura | ECTS | Tipo | Grupo | Carpeta |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| **2343** | Introducción a la Economía I | 6,0 | Formación Básica | Grupo 5 | [📁 Ver Asignatura](./Introducción%20a%20la%20Economía%20I) |
+| **2344** | Contabilidad Financiera I | 6,0 | Formación Básica | Grupo 5 | [📁 Ver Asignatura](./Contabilidad%20Financiera%20I) |
+| **2345** | Administración de Empresas | 6,0 | Formación Básica | Grupo 5 | [📁 Ver Asignatura](./Administración%20de%20Empresas) |
+| **2346** | Matemática de las Operaciones Financieras | 6,0 | Formación Básica | Grupo 5 | [📁 Ver Asignatura](./Matemática%20de%20las%20Operaciones%20Financieras) |
+| **2350** | Matemáticas para la Empresa I | 4,5 | Obligatoria | Grupo 5 | [📁 Ver Asignatura](./Matemáticas%20para%20la%20Empresa%20I) |
 
 ---
 
-## 📋 Información y Guías de la UM
+### 🌸 Segundo Cuatrimestre — C2 (31,5 ECTS)
 
-Para revisar el plan docente completo, créditos de segundo cuatrimestre y enlaces institucionales de la UM, consulta:
-👉 **[PLAN_ESTUDIOS_UM.md](./PLAN_ESTUDIOS_UM.md)**
+| Cód. | Asignatura | ECTS | Tipo | Grupo | Carpeta |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| **2347** | Introducción a la Economía II | 6,0 | Formación Básica | Grupo 5 | [📁 Ver Asignatura](./Introducción%20a%20la%20Economía%20II) |
+| **2348** | Estadística para la Empresa I | 6,0 | Formación Básica | Grupo 5 | [📁 Ver Asignatura](./Estadística%20para%20la%20Empresa%20I) |
+| **2349** | Introducción al Marketing | 6,0 | Formación Básica | Grupo 5 | [📁 Ver Asignatura](./Introducción%20al%20Marketing) |
+| **2351** | Contabilidad Financiera II | 4,5 | Obligatoria | Grupo 5 | [📁 Ver Asignatura](./Contabilidad%20Financiera%20II) |
+| **2352** | Derecho Civil | 4,5 | Obligatoria | Grupo 5 | [📁 Ver Asignatura](./Derecho%20Civil) |
+| **2353** | Matemáticas para la Empresa II | 4,5 | Obligatoria | Grupo 5 | [📁 Ver Asignatura](./Matemáticas%20para%20la%20Empresa%20II) |
 
 ---
 
-## 🗂️ Estructura Sugerida por Asignatura
+## 🗂️ Estructura Estándar por Asignatura
+
+Cada carpeta de asignatura dispone de la siguiente organización interna:
 
 ```text
 Nombre_Asignatura/
-├── Apuntes/          # Resúmenes, fórmulas y notas de clase (Markdown o PDF)
-├── Prácticas/        # Casos prácticos resueltos y entregas
-├── Diapositivas/     # Presentaciones facilitadas por el profesorado
-└── Exámenes/         # Exámenes anteriores y autoevaluaciones
+├── README.md         # Ficha técnica, temario oficial y sistema de evaluación
+├── Apuntes/          # Resúmenes, formularios, esquemas y notas de clase
+├── Prácticas/        # Casos prácticos resueltos, entregas y ejercicios
+└── Exámenes/         # Exámenes de convocatorias anteriores y autoevaluaciones
 ```
+
+---
+
+## 🔗 Portales y Servicios Oficiales de la UM
+
+- 💻 **[Aula Virtual UM (Sakai)](https://aulavirtual.um.es/)** — Acceso diario a contenidos docentes, tareas y calificaciones.
+- 📱 **[MiCampus UM](https://micampus.um.es/)** — Portal del estudiante, resguardo definitivo, horarios y expediente académico.
+- 📑 **[Sede Electrónica — Carpeta Ciudadana](https://sede.um.es/carpeta)** — Notificaciones electrónicas y trámites administrativos.
+- 🔍 **[Validador de Documentos UMU](https://sede.um.es/validador/)** — Cotejo de autenticidad de resguardos y certificados con CSV.
+- 🏛️ **[Facultad de Economía y Empresa](https://www.um.es/web/economiayempresa/)** — Noticias, calendarios de exámenes y secretaría del centro.
+- 📋 **[Plan de Estudios y Guías Docentes](./PLAN_ESTUDIOS_UM.md)** — Consulta íntegra de la estructura del título.
