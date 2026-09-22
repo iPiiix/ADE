@@ -10,6 +10,7 @@ Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos 
 | Campo | Información Oficial |
 | :--- | :--- |
 | **Estudiante** | **Santiago Pérez Guerrero** |
+| **Correo UMU** | [s.perezguerrero@um.es](mailto:s.perezguerrero@um.es) |
 | **DNI** | `21068132V` |
 | **N.º Expediente** | `13745` |
 | **Titulación** | **(231) Grado en Administración y Dirección de Empresas** (Plan 2009) |
@@ -17,8 +18,8 @@ Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos 
 | **Rama de Conocimiento** | Ciencias Sociales y Jurídicas |
 | **Curso Académico** | **2026 / 2027** |
 | **Curso y Turno** | **1.º Curso — Turno de TARDE** |
-| **Grupo Asignado** | **Grupo 5** |
-| **Aulas de Docencia** | **Aula A412** (General: M, J, V y Grupo A en L/X) · **Aula A411P** (Grupo B en desdobles L/X) |
+| **Grupo Asignado** | **Grupo 5 — Subgrupo B (5B)** |
+| **Aulas de Docencia** | **Aula A412** (Teoría M, J, V) · **Aula A411P** (Prácticas Subgrupo B en L/X) |
 | **Coordinadora de Grupo** | **Matilde Lafuente Lechuga** ([mati@um.es](mailto:mati@um.es)) |
 | **Régimen de Dedicación** | Tiempo Completo (**60 ECTS** matriculados) |
 | **Estado Matrícula** | Formalizada (Régimen Becario — 21/09/2026) |
@@ -48,6 +49,23 @@ Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos 
 
 * **(\*) Horas Adicionales de Viernes (+3h):** A partir de la 2.ª semana del cuatrimestre, habrá 4 viernes lectivos donde las 5 asignaturas rotarán dos veces en bloques de 1,5 h para sumar 3 horas de clases adicionales (ver cronograma específico en Aula Virtual).
 * **(\*\*) Zona Docente Compartida — ZDC (+2h):** Franjas reservadas para conferencias del PAO (Plan Anual de Orientación), seminarios o recuperación docente programada.
+
+---
+
+### 🎯 Horario Personal Oficial — Santiago (Subgrupo 5B · Confirmado en MiCampus)
+
+| Día | Franja Horaria | Asignatura | Tipo | Aula |
+| :--- | :---: | :--- | :---: | :---: |
+| **Lunes** | 16:00 – 17:30<br>17:30 – 19:00 | **Administración de Empresas**<br>**Matemática de las Operaciones Financieras** | Seminario / Prácticas<br>Seminario / Prácticas | Aula A411P<br>Aula A411P |
+| **Martes** | 15:00 – 16:30<br>16:30 – 18:30<br>18:30 – 20:00 | **Matemáticas para la Empresa I**<br>**Contabilidad Financiera I**<br>**Administración de Empresas** | Clase Teórica<br>Clase Teórica<br>Clase Teórica | Aula A412<br>Aula A412<br>Aula A412 |
+| **Miércoles** | 15:00 – 16:30<br>16:30 – 17:30<br>17:30 – 19:00 | **Introducción a la Economía I**<br>**Matemáticas para la Empresa I**<br>**Contabilidad Financiera I** | Seminario / Prácticas<br>Seminario / Prácticas<br>Seminario / Prácticas | Aula A411P<br>Aula A411P<br>Aula A411P |
+| **Jueves** | 16:00 – 18:00<br>18:00 – 20:00 | **Matemática de las Operaciones Financieras**<br>**Introducción a la Economía I** | Clase Teórica<br>Clase Teórica | Aula A412<br>Aula A412 |
+| **Viernes** | *(Según rotación)* | Sesiones adicionales de refuerzo programadas | Rotativo | Aula A412 |
+
+> ⚠️ **Aviso de Festivos / No lectivos:**  
+> - **Jueves 24 de septiembre:** **NO HAY CLASE** por el *Acto de Apertura del Curso Académico*.  
+> - **Lunes 5 de octubre:** Festivo (*Día del Patrón de Veterinaria*).  
+> - **Lunes 12 de octubre:** Festivo nacional (*Fiesta Nacional*).
 
 ---
 
