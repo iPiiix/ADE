@@ -19,6 +19,8 @@
 | **Lunes** | 17:30 – 19:00 | Prácticas (Desdoble) | **Grupo A** | **Aula A412** |
 | **Viernes** | *(Rotativo s/ Cronograma)* | Sesiones adicionales (+3h) | Grupo 5 | **Aula A412** |
 
+> 📅 *Consulta el [Horario completo y visual del Grupo 5](../README.md#🕒-horario-semanal--grupo-5-turno-tarde--1er-cuatrimestre) con todas las asignaturas y desdobles.*
+
 ---
 
 ## 📌 Descripción y Objetivos
