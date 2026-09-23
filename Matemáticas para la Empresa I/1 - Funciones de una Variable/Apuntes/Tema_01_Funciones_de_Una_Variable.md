@@ -15,7 +15,7 @@
 | :---: | :--- | :--- |
 | $x$ (Variable exógena) | "Variable independiente" | Lo que tú decides o lo que viene de fuera (ej: el precio que le pones a una camiseta, o las horas de curro). |
 | $y$ ó $f(x)$ (Variable endógena) | "Variable dependiente" | El resultado final que depende de $x$ (ej: el beneficio que consigues o la cantidad de clientes que entran). |
-| $\operatorname{Dom}(f)$ | Dominio | Los valores de $x$ con los que la fórmula no explota (matemáticamente) y que tienen sentido real (económicamente: no fabricar tornillos negativos). |
+| $\text{Dom}(f)$ | Dominio | Los valores de $x$ con los que la fórmula no explota (matemáticamente) y que tienen sentido real (económicamente: no fabricar tornillos negativos). |
 | Pendiente $a$ de una recta | Inclinación de $y = ax + b$ | Cuánto sube o baja el resultado $y$ por cada unidad extra que aumentas la $x$. En economía es el **coste marginal** o **ingreso marginal**. |
 | $(g \circ f)(x) = g(f(x))$ | Composición de funciones | Una cadena de montaje: primero calculas $f(x)$ y al resultado que te da le aplicas la fórmula $g$. |
 | $\lim_{x \to x_0} f(x)$ | Límite cuando $x$ tiende a $x_0$ | A qué número se acerca el resultado $f(x)$ cuando nos ponemos pegaditos al valor $x_0$ (sin necesidad de pisarlo). |
@@ -32,18 +32,18 @@ Una función es una **máquina de procesar números**: metes un valor $x$ por la
    (ej. Unidades)        (Multiplicar x 15€)     (Ingreso Total)
 ```
 
-$$\operatorname{Dom}(f) = \{x \in \mathbb{R} \ / \ \exists f(x)\}$$
+$$\text{Dom}(f) = \{x \in \mathbb{R} \ / \ \exists f(x)\}$$
 
 ### 🔍 Las 3 Reglas de Oro para calcular Dominios:
 1. **Fracciones:** El denominador jamás puede valer cero.
    - Ejemplo: $f(x) = \frac{5}{x - 3} \implies x - 3 = 0 \iff x = 3$.  
-     $$\operatorname{Dom}(f) = \mathbb{R} \setminus \{3\} \quad \text{(todos los números reales excepto el 3)}$$
+     $$\text{Dom}(f) = \mathbb{R} \setminus \{3\} \quad \text{(todos los números reales excepto el 3)}$$
 2. **Raíces cuadradas:** Lo de dentro debe ser mayor o igual que 0.
    - Ejemplo: $f(x) = \sqrt{x - 4} \implies x - 4 \ge 0 \iff x \ge 4$.  
-     $$\operatorname{Dom}(f) = [4, +\infty)$$
+     $$\text{Dom}(f) = [4, +\infty)$$
 3. **Logaritmos:** Lo de dentro debe ser estrictamente positivo ($> 0$).
    - Ejemplo: $f(x) = \ln(x + 2) \implies x + 2 > 0 \iff x > -2$.  
-     $$\operatorname{Dom}(f) = (-2, +\infty)$$
+     $$\text{Dom}(f) = (-2, +\infty)$$
 
 > 💼 **Sentido Económico vs Matemático:**  
 > Matemáticamente, $f(x) = 100 - 2x$ existe para $x = -50$. Pero si $x$ son kilos de naranjas, **no existen los kilos negativos**. En economía casi siempre se añade la restricción implícita $x \ge 0$.

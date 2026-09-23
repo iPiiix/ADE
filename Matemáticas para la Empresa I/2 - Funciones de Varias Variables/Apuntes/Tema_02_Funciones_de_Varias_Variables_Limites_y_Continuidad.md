@@ -20,7 +20,7 @@ Cuando abres las diapositivas de la profesora y ves símbolos griegos o flechas,
 | $\vec{x} \cdot \vec{y} = \sum_{i=1}^n x_i y_i$ | Producto escalar | Multiplicar cada casilla por su pareja y sumar todos los resultados. **El resultado es un solo número, no una matriz**. |
 | $\mathcal{M}_{m \times n}$ | Matriz de orden $m \times n$ | Una tabla rectangular con $m$ filas (horizontales) y $n$ columnas (verticales). Regla mnemotécnica: **F**ilas primero, **C**olumnas después (**FC** Barcelona). |
 | $f: D \subseteq \mathbb{R}^n \to \mathbb{R}$ | Función real de varias variables | Una fórmula que toma varias entradas $(x,y)$ y te devuelve un solo resultado $z$. Ej: Precio y Publicidad $\to$ Beneficio. |
-| $\operatorname{Dom}(f)$ | Dominio de la función | La lista de combinaciones $(x,y)$ que la fórmula puede calcular sin romperse (sin dividir por 0 ni hacer raíces negativas). |
+| $\text{Dom}(f)$ | Dominio de la función | La lista de combinaciones $(x,y)$ que la fórmula puede calcular sin romperse (sin dividir por 0 ni hacer raíces negativas). |
 | $C_K = \{(x,y) / f(x,y) = K\}$ | Curva de nivel (o isolínea) | Como las líneas de altitud de un mapa de montaña: todos los puntos $(x,y)$ que dan exactamente el mismo resultado $K$. |
 | $Q = A K^\alpha L^\beta$ | Función Cobb-Douglas | La fórmula reina de producción en economía: $K$ es el capital (máquinas), $L$ es el trabajo (horas de empleados). |
 | $\lim_{(x,y) \to (x_0, y_0)} f(x,y)$ | Límite doble | Hacia qué valor se acerca el resultado cuando nos aproximamos al punto $(x_0, y_0)$ por cualquier camino. |
@@ -128,9 +128,9 @@ graph LR
 
 ### 2.1. El Dominio: ¿Qué números podemos meter en la máquina?
 
-El **Dominio** $\operatorname{Dom}(f)$ es el conjunto de puntos $(x,y)$ para los cuales la función **se puede calcular sin romper las matemáticas**:
+El **Dominio** $\text{Dom}(f)$ es el conjunto de puntos $(x,y)$ para los cuales la función **se puede calcular sin romper las matemáticas**:
 
-$$\operatorname{Dom}(f) = \{(x_1, \dots, x_n) \in \mathbb{R}^n / \exists f(x_1, \dots, x_n)\}$$
+$$\text{Dom}(f) = \{(x_1, \dots, x_n) \in \mathbb{R}^n / \exists f(x_1, \dots, x_n)\}$$
 
 #### 🔍 Las 3 trampas típicas para encontrar el Dominio:
 1. **Fracciones:** El denominador **NO puede ser 0**.
@@ -193,7 +193,7 @@ Dibujar en 3D en un examen con lápiz y papel es un dolor de cabeza. Por eso los
 > Imagina una montaña 3D. Si la cortas con un cuchillo horizontal a una altura fija de $100$ metros, la silueta que queda marcada en el suelo es una **curva de nivel de cota 100**. Todos los puntos de esa línea están exactamente a 100 metros de altitud.
 
 **Definición matemática:**
-$$C_K = \{(x, y) \in \operatorname{Dom}(f) \ / \ f(x, y) = K\}$$
+$$C_K = \{(x, y) \in \text{Dom}(f) \ / \ f(x, y) = K\}$$
 
 * **Propiedad de oro:** **Las curvas de nivel NUNCA se cortan entre sí**, porque un mismo punto $(x, y)$ no puede estar a dos alturas distintas a la vez.
 
