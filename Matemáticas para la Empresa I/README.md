@@ -84,6 +84,15 @@ La asignatura está organizada por temas individuales. Dentro de cada tema encon
 
 ---
 
+## 🛠️ Herramientas de Cálculo y Lienzo Digital
+
+- 🎨 **[tldraw](https://tldraw.com)** — **Lienzo Digital Principal:** Pizarra infinita con suavizado de trazo (*perfect-freehand*) para operar a mano alzada con el ratón o trackpad. Permite pegar capturas de los boletines de problemas y pintar las operaciones encima con colores.
+- 📐 **[GeoGebra Calculadora Suite](https://www.geogebra.org/calculator)** / **[GeoGebra 3D](https://www.geogebra.org/3d)** — Visualización gráfica interactiva de funciones polinómicas, curvas de nivel 3D, isocuantas y superficies.
+- 🧮 **[Symbolab](https://es.symbolab.com/)** — Comprobación de cálculos con desglose paso a paso (multiplicación de matrices, determinantes, sistemas de Gauss/Cramer y límites).
+- 📊 **[Desmos](https://www.desmos.com/calculator?lang=es)** — Calculadora gráfica rápida para funciones de una variable (costes, ingresos y puntos de equilibrio).
+
+---
+
 ## 🔗 Recursos de Interés
 
 - [Aula Virtual UM](https://aulavirtual.um.es/)

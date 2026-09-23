@@ -110,15 +110,31 @@ Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos 
 
 ## 🗂️ Estructura Estándar por Asignatura
 
-Cada carpeta de asignatura dispone de la siguiente organización interna:
+Cada asignatura se organiza de manera modular por bloques temáticos numerados:
 
 ```text
 Nombre_Asignatura/
-├── README.md         # Ficha técnica, profesorado, horario de clases, temario y evaluación
-├── Apuntes/          # Resúmenes, formularios, esquemas y notas de clase
-├── Prácticas/        # Casos prácticos resueltos, entregas y ejercicios
-└── Exámenes/         # Exámenes de convocatorias anteriores y autoevaluaciones
+├── README.md                 # Ficha técnica, profesorado, horario de clases, temario e índice
+├── 0 - Teoria Basica/        # Repaso y nivelación previa
+│   ├── Apuntes/              # Guías teóricas explicadas paso a paso y PDFs oficiales
+│   └── Prácticas/            # Boletines y supuestos prácticos
+├── 1 - Nombre del Tema/      # Bloques de contenidos oficiales
+│   ├── Apuntes/
+│   └── Prácticas/
+└── Exámenes/                 # Exámenes parciales, finales y autoevaluaciones globales
 ```
+
+---
+
+## 🛠️ Herramientas Digitales de Estudio (Lienzos y Cálculo)
+
+Recursos clave para trabajar y operar cómodamente desde Mac o PC de sobremesa:
+
+- 🎨 **[tldraw](https://tldraw.com)** — **Lienzo Digital Principal:** Pizarra infinita con suavizado de trazo (*perfect-freehand*). Permite dibujar operaciones a mano alzada con el ratón o trackpad con total fluidez, pegar capturas de los ejercicios de clase con `Ctrl+V` / `Cmd+V` y resolverlos directamente encima con rotulador y colores.
+- 📐 **[GeoGebra Calculadora](https://www.geogebra.org/calculator)** / **[GeoGebra 3D](https://www.geogebra.org/3d)** — Software interactivo para graficar funciones polinómicas, rectas presupuestarias, curvas de nivel 3D e isocuantas de producción.
+- 🧮 **[Symbolab](https://es.symbolab.com/)** — Solucionador paso a paso para verificar operaciones de matrices, determinantes, sistemas de ecuaciones lineales y derivadas.
+- 📊 **[Desmos](https://www.desmos.com/calculator?lang=es)** — Graficadora rápida en 2D para modelos económicos (equilibrio de mercado, costes y beneficios).
+- 📝 **[Obsidian](https://obsidian.md/)** — Gestor de conocimiento en Markdown que permite abrir este repositorio como bóveda y utilizar **Obsidian Canvas** para conectar apuntes y PDFs visualmente.
 
 ---
 
