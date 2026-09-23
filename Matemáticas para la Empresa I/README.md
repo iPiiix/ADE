@@ -62,7 +62,11 @@ Aporta el instrumental matemático esencial de álgebra lineal, cálculo diferen
 
 - [📁 Apuntes](./Apuntes) — Formularios de álgebra, hessianas orladas y resúmenes teóricos.
   - 📄 **[Tema 0: Conjuntos Numéricos y Operaciones Básicas](./Apuntes/Tema_00_Conjuntos_Numericos.md)** — Apunte estructurado de nivelación ($\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$, divisibilidad, aritmética de fracciones, factor común y jerarquía).
-  - 📕 **[Presentación Oficial UMU (PDF)](./Apuntes/Conjuntos_presentacion+def.pdf)** — Diapositivas oficiales del Proyecto de Innovación Educativa (Facultad de Economía y Empresa).
+  - 📕 **[Presentación Tema 0 UMU (PDF)](./Apuntes/Conjuntos_presentacion+def.pdf)** — Diapositivas oficiales del Proyecto de Innovación Educativa (Facultad de Economía y Empresa).
+  - 📄 **[Tema 1: Funciones Reales de una Variable](./Apuntes/Tema_01_Funciones_de_Una_Variable.md)** — Concepto de función, cálculo de dominios, catálogo de funciones elementales, funciones económicas (costes, ingresos, beneficios, oferta y demanda), límites e indeterminaciones y continuidad.
+  - 📕 **[Presentación Tema 1 Oficial UMU (PDF)](./Apuntes/Tema_01_Presentacion_Oficial.pdf)** — Diapositivas originales de clase de la Prof. Matilde Lafuente Lechuga (Grupos 1 y 5).
+  - 📄 **[Tema 2: Funciones de Varias Variables, Límite y Continuidad](./Apuntes/Tema_02_Funciones_de_Varias_Variables_Limites_y_Continuidad.md)** — Vectores, matrices, dominio, funciones económicas (Cobb-Douglas, costes, beneficios), curvas de nivel (isocuantas e indiferencia), límites y continuidad explicados paso a paso.
+  - 📕 **[Presentación Tema 2 Oficial UMU (PDF)](./Apuntes/Tema_02_Presentacion_Oficial.pdf)** — Diapositivas originales de clase de la Prof. Matilde Lafuente Lechuga (Grupos 1 y 5).
 - [📁 Prácticas](./Prácticas) — Boletines de problemas resueltos y modelos de optimización.
 - [📁 Exámenes](./Exámenes) — Exámenes oficiales de cursos pasados y autoevaluaciones.
 
