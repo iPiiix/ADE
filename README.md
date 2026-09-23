@@ -11,8 +11,6 @@ Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos 
 | :--- | :--- |
 | **Estudiante** | **Santiago Pérez Guerrero** |
 | **Correo UMU** | [s.perezguerrero@um.es](mailto:s.perezguerrero@um.es) |
-| **DNI** | `21068132V` |
-| **N.º Expediente** | `13745` |
 | **Titulación** | **(231) Grado en Administración y Dirección de Empresas** (Plan 2009) |
 | **Centro** | Facultad de Economía y Empresa (Campus de Espinardo) |
 | **Rama de Conocimiento** | Ciencias Sociales y Jurídicas |
@@ -22,7 +20,7 @@ Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos 
 | **Aulas de Docencia** | **Aula A412** (Teoría M, J, V) · **Aula A411P** (Prácticas Subgrupo B en L/X) |
 | **Coordinadora de Grupo** | **Matilde Lafuente Lechuga** ([mati@um.es](mailto:mati@um.es)) |
 | **Régimen de Dedicación** | Tiempo Completo (**60 ECTS** matriculados) |
-| **Estado Matrícula** | Formalizada (Régimen Becario — 21/09/2026) |
+| **Estado Matrícula** | Formalizada |
 
 ---
 
