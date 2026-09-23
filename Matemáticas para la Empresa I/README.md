@@ -58,17 +58,29 @@ Aporta el instrumental matemático esencial de álgebra lineal, cálculo diferen
 
 ---
 
-## 🗂️ Estructura de la Carpeta
+## 🗂️ Estructura por Temas de la Asignatura
 
-- [📁 Apuntes](./Apuntes) — Formularios de álgebra, hessianas orladas y resúmenes teóricos.
-  - 📄 **[Tema 0: Conjuntos Numéricos y Operaciones Básicas](./Apuntes/Tema_00_Conjuntos_Numericos.md)** — Apunte estructurado de nivelación ($\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$, divisibilidad, aritmética de fracciones, factor común y jerarquía).
-  - 📕 **[Presentación Tema 0 UMU (PDF)](./Apuntes/Conjuntos_presentacion+def.pdf)** — Diapositivas oficiales del Proyecto de Innovación Educativa (Facultad de Economía y Empresa).
-  - 📄 **[Tema 1: Funciones Reales de una Variable](./Apuntes/Tema_01_Funciones_de_Una_Variable.md)** — Concepto de función, cálculo de dominios, catálogo de funciones elementales, funciones económicas (costes, ingresos, beneficios, oferta y demanda), límites e indeterminaciones y continuidad.
-  - 📕 **[Presentación Tema 1 Oficial UMU (PDF)](./Apuntes/Tema_01_Presentacion_Oficial.pdf)** — Diapositivas originales de clase de la Prof. Matilde Lafuente Lechuga (Grupos 1 y 5).
-  - 📄 **[Tema 2: Funciones de Varias Variables, Límite y Continuidad](./Apuntes/Tema_02_Funciones_de_Varias_Variables_Limites_y_Continuidad.md)** — Vectores, matrices, dominio, funciones económicas (Cobb-Douglas, costes, beneficios), curvas de nivel (isocuantas e indiferencia), límites y continuidad explicados paso a paso.
-  - 📕 **[Presentación Tema 2 Oficial UMU (PDF)](./Apuntes/Tema_02_Presentacion_Oficial.pdf)** — Diapositivas originales de clase de la Prof. Matilde Lafuente Lechuga (Grupos 1 y 5).
-- [📁 Prácticas](./Prácticas) — Boletines de problemas resueltos y modelos de optimización.
-- [📁 Exámenes](./Exámenes) — Exámenes oficiales de cursos pasados y autoevaluaciones.
+La asignatura está organizada por temas individuales. Dentro de cada tema encontrarás su carpeta de **Apuntes** (guías teóricas explicadas paso a paso y presentaciones oficiales de clase) y de **Prácticas** (boletines y supuestos aplicados):
+
+- 📁 **[0 - Teoria Basica](./0%20-%20Teoria%20Basica)**
+  - [📁 Apuntes](./0%20-%20Teoria%20Basica/Apuntes)
+    - 📄 **[Tema 0: Conjuntos Numéricos y Operaciones Básicas](./0%20-%20Teoria%20Basica/Apuntes/Tema_00_Conjuntos_Numericos.md)** — Nivelación ($\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$, divisibilidad, fracciones, factor común y jerarquía).
+    - 📕 **[Presentación Oficial Tema 0 UMU (PDF)](./0%20-%20Teoria%20Basica/Apuntes/Conjuntos_presentacion+def.pdf)**
+  - [📁 Prácticas](./0%20-%20Teoria%20Basica/Prácticas) — Ejercicios de aritmética y nivelación básica.
+
+- 📁 **[1 - Funciones de una Variable](./1%20-%20Funciones%20de%20una%20Variable)**
+  - [📁 Apuntes](./1%20-%20Funciones%20de%20una%20Variable/Apuntes)
+    - 📄 **[Tema 1: Funciones Reales de una Variable](./1%20-%20Funciones%20de%20una%20Variable/Apuntes/Tema_01_Funciones_de_Una_Variable.md)** — Concepto de función, dominios, gráficas elementales, funciones económicas (costes, ingresos, beneficios, oferta y demanda), límites e indeterminaciones y continuidad.
+    - 📕 **[Presentación Oficial Tema 1 UMU (PDF)](./1%20-%20Funciones%20de%20una%20Variable/Apuntes/Tema_01_Presentacion_Oficial.pdf)**
+  - [📁 Prácticas](./1%20-%20Funciones%20de%20una%20Variable/Prácticas) — Problemas resueltos de dominios, límites y modelos económicos de una variable.
+
+- 📁 **[2 - Funciones de Varias Variables](./2%20-%20Funciones%20de%20Varias%20Variables)**
+  - [📁 Apuntes](./2%20-%20Funciones%20de%20Varias%20Variables/Apuntes)
+    - 📄 **[Tema 2: Funciones de Varias Variables, Límite y Continuidad](./2%20-%20Funciones%20de%20Varias%20Variables/Apuntes/Tema_02_Funciones_de_Varias_Variables_Limites_y_Continuidad.md)** — Vectores, matrices (algoritmo fila por columna), Cobb-Douglas, curvas de nivel (isocuantas e indiferencia), límites dobles y continuidad.
+    - 📕 **[Presentación Oficial Tema 2 UMU (PDF)](./2%20-%20Funciones%20de%20Varias%20Variables/Apuntes/Tema_02_Presentacion_Oficial.pdf)**
+  - [📁 Prácticas](./2%20-%20Funciones%20de%20Varias%20Variables/Prácticas) — Casos prácticos de isocuantas, operaciones matriciales y límites dobles.
+
+- [📁 Exámenes](./Exámenes) — Exámenes oficiales de convocatorias anteriores, modelos de examen y pruebas de autoevaluación.
 
 ---
 

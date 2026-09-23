@@ -49,12 +49,16 @@ Asignatura fundamental que introduce al estudiante en la técnica contable y el 
 
 ---
 
-## 🗂️ Estructura de la Carpeta
+## 🗂️ Estructura por Temas de la Asignatura
 
-- [📁 Apuntes](./Apuntes) — Guías teóricas, esquemas de cuentas del PGC y resúmenes.
-  - 📄 **[Tema 2: El Patrimonio y la Ecuación Fundamental](./Apuntes/Tema_02_El_Patrimonio_y_la_Ecuacion_Fundamental.md)** — Masas patrimoniales (Activo, Pasivo, Neto), balance en T y supuestos resueltos paso a paso (furgoneta, ordenador y préstamos).
-- [📁 Prácticas](./Prácticas) — Casos prácticos de balances, diarios contables y ejercicios resueltos.
-- [📁 Exámenes](./Exámenes) — Exámenes de cursos anteriores y modelos de prueba.
+La asignatura está organizada por temas individuales. Dentro de cada tema se encuentran sus carpetas de **Apuntes** (guías teóricas y esquemas PGC) y de **Prácticas** (balances y supuestos resueltos):
+
+- 📁 **[2 - El Patrimonio y la Ecuación Fundamental](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental)**
+  - [📁 Apuntes](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental/Apuntes)
+    - 📄 **[Tema 2: El Patrimonio y la Ecuación Fundamental](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental/Apuntes/Tema_02_El_Patrimonio_y_la_Ecuacion_Fundamental.md)** — Masas patrimoniales (Activo, Pasivo, Neto), balance en T y supuestos resueltos paso a paso (furgoneta, ordenador y préstamos).
+  - [📁 Prácticas](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental/Prácticas) — Casos prácticos de balances, diarios contables y ejercicios resueltos.
+
+- [📁 Exámenes](./Exámenes) — Exámenes de cursos anteriores, modelos de examen y pruebas de ciclo contable completo.
 
 ---
 
