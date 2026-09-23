@@ -52,6 +52,7 @@ Asignatura fundamental que introduce al estudiante en la técnica contable y el 
 ## 🗂️ Estructura de la Carpeta
 
 - [📁 Apuntes](./Apuntes) — Guías teóricas, esquemas de cuentas del PGC y resúmenes.
+  - 📄 **[Tema 2: El Patrimonio y la Ecuación Fundamental](./Apuntes/Tema_02_El_Patrimonio_y_la_Ecuacion_Fundamental.md)** — Masas patrimoniales (Activo, Pasivo, Neto), balance en T y supuestos resueltos paso a paso (furgoneta, ordenador y préstamos).
 - [📁 Prácticas](./Prácticas) — Casos prácticos de balances, diarios contables y ejercicios resueltos.
 - [📁 Exámenes](./Exámenes) — Exámenes de cursos anteriores y modelos de prueba.
 
