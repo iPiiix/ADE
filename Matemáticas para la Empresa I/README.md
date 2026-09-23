@@ -61,6 +61,8 @@ Aporta el instrumental matemático esencial de álgebra lineal, cálculo diferen
 ## 🗂️ Estructura de la Carpeta
 
 - [📁 Apuntes](./Apuntes) — Formularios de álgebra, hessianas orladas y resúmenes teóricos.
+  - 📄 **[Tema 0: Conjuntos Numéricos y Operaciones Básicas](./Apuntes/Tema_00_Conjuntos_Numericos.md)** — Apunte estructurado de nivelación ($\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$, divisibilidad, aritmética de fracciones, factor común y jerarquía).
+  - 📕 **[Presentación Oficial UMU (PDF)](./Apuntes/Conjuntos_presentacion+def.pdf)** — Diapositivas oficiales del Proyecto de Innovación Educativa (Facultad de Economía y Empresa).
 - [📁 Prácticas](./Prácticas) — Boletines de problemas resueltos y modelos de optimización.
 - [📁 Exámenes](./Exámenes) — Exámenes oficiales de cursos pasados y autoevaluaciones.
 
