@@ -28,40 +28,6 @@ Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos 
 
 ![Horario Completo y Visual — Grupo 5 Grado en ADE (1.er Cuatrimestre 2026/2027)](./assets/horario_completo_grupo_5.png)
 
-> 📍 **Aulas de Referencia:**  
-> - **Martes, Jueves y Viernes:** Aula **A412** (Grupo completo).  
-> - **Lunes y Miércoles (Desdobles Prácticos):** **Aula A412** (Subgrupo A) y **Aula A411P** (Subgrupo B).
-
-| Franja | LUNES (Desdoble)** | MARTES (Teoría)* | MIÉRCOLES (Desdoble)** | JUEVES (Teoría)* | VIERNES* (Rotativo) |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| **15:00 – 15:30** | *ZDC* | **Matemáticas I** *(15:00–16:30)* | **A:** Matemáticas I *(15:00–16:00)* | *ZDC* | *(Según Cronograma)*<br>**Semanas I y III:**<br>Asig. 1 *(15:00–16:30)* |
-| **15:30 – 16:00** | *ZDC* | **Matemáticas I** | **A:** Matemáticas I | *ZDC* | Asig. 1 *(15:00–16:30)* |
-| **16:00 – 16:30** | **A:** MOF<br>**B:** Administración | **Contabilidad I** *(16:30–18:30)* | **A:** Contabilidad I *(16:00–17:30)* | **MOF** *(16:00–18:00)* | Asig. 1 / Asig. 2 |
-| **16:30 – 17:00** | **A:** MOF<br>**B:** Administración | **Contabilidad I** | **A:** Contabilidad I<br>**B:** Matemáticas I *(16:30–17:30)* | **MOF** | **Semanas I a IV:**<br>Asig. 2 / Asig. 4 *(16:30–18:00)* |
-| **17:00 – 17:30** | **A:** MOF *(hasta 17:30)*<br>**B:** Administración | **Contabilidad I** | **A:** Contabilidad I *(hasta 17:30)*<br>**B:** Matemáticas I | **MOF** | Asig. 2 / Asig. 4 |
-| **17:30 – 18:00** | **A:** Administración *(17:30–19:00)*<br>**B:** MOF *(17:30–19:00)* | **Contabilidad I** *(hasta 18:30)* | **A:** Economía I *(17:30–19:00)*<br>**B:** Contabilidad I *(17:30–19:00)* | **MOF** *(hasta 18:00)* | Asig. 2 / Asig. 4 |
-| **18:00 – 18:30** | **A:** Administración<br>**B:** MOF | **Contabilidad I** / **Administración** | **A:** Economía I<br>**B:** Contabilidad I | **Economía I** *(18:00–20:00)* | **Semanas I a IV:**<br>Asig. 3 / Asig. 5 *(18:00–19:30)* |
-| **18:30 – 19:00** | **A:** Administración<br>**B:** MOF | **Administración** *(18:30–20:30)* | **A:** Economía I<br>**B:** Contabilidad I | **Economía I** | Asig. 3 / Asig. 5 |
-| **19:00 – 19:30** | *ZDC* | **Administración** | **B:** Economía I *(19:00–20:30)* | **Economía I** | *Fin de docencia* |
-| **19:30 – 20:00** | *ZDC* | **Administración** | **B:** Economía I | **Economía I** *(hasta 20:00)* | — |
-| **20:00 – 20:30** | *ZDC* | **Administración** *(hasta 20:30)* | **B:** Economía I *(hasta 20:30)* | *ZDC* | — |
-| **20:30 – 21:00** | — | — | — | *ZDC* | — |
-
-* **(\*) Horas Adicionales de Viernes (+3h):** A partir de la 2.ª semana del cuatrimestre, habrá 4 viernes lectivos donde las 5 asignaturas rotarán dos veces en bloques de 1,5 h para sumar 3 horas de clases adicionales (ver cronograma específico en Aula Virtual).
-* **(\*\*) Zona Docente Compartida — ZDC (+2h):** Franjas reservadas para conferencias del PAO (Plan Anual de Orientación), seminarios o recuperación docente programada.
-
----
-
-### 🎯 Horario Personal Oficial — Santiago (Subgrupo 5B · Confirmado en MiCampus)
-
-| Día | Franja Horaria | Asignatura | Tipo | Aula |
-| :--- | :---: | :--- | :---: | :---: |
-| **Lunes** | 16:00 – 17:30<br>17:30 – 19:00 | **Administración de Empresas**<br>**Matemática de las Operaciones Financieras** | Seminario / Prácticas<br>Seminario / Prácticas | Aula A411P<br>Aula A411P |
-| **Martes** | 15:00 – 16:30<br>16:30 – 18:30<br>18:30 – 20:30 | **Matemáticas para la Empresa I**<br>**Contabilidad Financiera I**<br>**Administración de Empresas** | Clase Teórica<br>Clase Teórica<br>Clase Teórica | Aula A412<br>Aula A412<br>Aula A412 |
-| **Miércoles** | 16:30 – 17:30<br>17:30 – 19:00<br>19:00 – 20:30 | **Matemáticas para la Empresa I**<br>**Contabilidad Financiera I**<br>**Introducción a la Economía I** | Seminario / Prácticas<br>Seminario / Prácticas<br>Seminario / Prácticas | Aula A411P<br>Aula A411P<br>Aula A411P |
-| **Jueves** | 16:00 – 18:00<br>18:00 – 20:00 | **Matemática de las Operaciones Financieras**<br>**Introducción a la Economía I** | Clase Teórica<br>Clase Teórica | Aula A412<br>Aula A412 |
-| **Viernes** | *(Según rotación)* | Sesiones adicionales de refuerzo programadas | Rotativo | Aula A412 |
-
 > ⚠️ **Aviso de Festivos / No lectivos:**  
 > - **Jueves 24 de septiembre:** **NO HAY CLASE** por el *Acto de Apertura del Curso Académico*.  
 > - **Lunes 5 de octubre:** Festivo (*Día del Patrón de Veterinaria*).  
