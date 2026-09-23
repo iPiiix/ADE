@@ -1,0 +1,12 @@
+# ==========================================
+# 🔒 Archivos y Carpetas Privadas (NO SUBIR)
+# ==========================================
+Personal/
+personal/
+*.private.*
+.env
+
+# Archivos de sistema operativo (Windows / macOS)
+.DS_Store
+Thumbs.db
+desktop.ini
