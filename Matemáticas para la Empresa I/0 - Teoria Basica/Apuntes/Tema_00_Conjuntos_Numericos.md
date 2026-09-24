@@ -93,6 +93,25 @@ graph TD
   - **Decimal exacto:** La cuenta se acaba (ejemplo: $\frac{1}{5} = 0{,}2$).
   - **Decimal periódico:** Los decimales se repiten en bucle (ejemplo: $\frac{7}{3} = 2{,}33333\dots = 2{,}\widehat{3}$).
 
+#### 🏢 Fracciones, Ratios y Porcentajes en la Empresa (Diapositivas UMU)
+Las fracciones no son números abstractos; en ADE son el pan de cada día para medir cuotas de mercado, proporciones de plantilla y rentabilidades:
+* **Fracción como proporción:**
+  - *Ejemplo de la plantilla:* De $40$ empleados en una empresa, $5$ son vegetarianos $\implies$ Fracción: $\frac{5}{40} = \frac{1}{8} = 0{,}125 \implies \mathbf{12{,}5\%}$.
+  - *Ejemplo de clase:* De $24$ alumnos en un grupo, $6$ son chicos $\implies \frac{6}{24} = \frac{1}{4} = 0{,}25 \implies \mathbf{25\%}$.
+* **3 Mitos falsos muy frecuentes que debes desterrar:**
+  1. ❌ *"Cuanto más grande el número de abajo (denominador), mayor es la fracción"*:  
+     ¡Falso! Al revés: si divides una tarta entre más personas, a cada una le toca un trozo más pequeño ($\frac{1}{8} < \frac{1}{2}$).
+  2. ❌ *"Tener más cifras decimales significa ser más grande"*:  
+     ¡Falso! $0{,}2$ es mayor que $0{,}19995$.
+  3. ❌ *"Un porcentaje nunca puede ser mayor del 100%"*:  
+     ¡Falso! Una empresa puede incrementar sus beneficios un $125\%$, o el precio final de venta con IVA es el $121\%$ de la base.
+* 💡 **Truco de ADE de las diapositivas: Cálculo del 21% de IVA sin calculadora:**
+  - Para calcular el $21\%$ de cualquier precio base (ej: $400$ €):
+    1. Sacas el $10\%$ (mueves la coma $1$ lugar a la izquierda): $10\% \text{ de } 400 = 40$ €.
+    2. Duplicas para tener el $20\%$: $2 \cdot 40 = 80$ €.
+    3. Sacas el $1\%$ (mueves la coma $2$ lugares a la izquierda): $1\% \text{ de } 400 = 4$ €.
+    4. Sumas $20\% + 1\% = 80 + 4 = \mathbf{84\text{ € de IVA}}$ $\implies$ Total factura $= 484$ €.
+
 #### ⚖️ Fracciones Equivalentes y Simplificar
 * **Equivalentes:** Representan la misma cantidad de tarta aunque tengan números distintos.  
   Se comprueba multiplicando en cruz:
@@ -257,3 +276,105 @@ $$\left(\frac{4}{5} + \frac{7}{2}\right) \cdot \frac{4}{3}$$
    El inverso de $(a + b)$ es $\frac{1}{a + b}$, jamás $\frac{1}{a} + \frac{1}{b}$.
 4. **Dividir entre cero:**  
    Cualquier expresión donde el denominador sea $0$ ($\frac{5}{0}$) **no existe**. En optimización y funciones de ADE esto marcará asíntotas y puntos fuera de dominio.
+
+---
+
+## 🎯 Taller Práctico con tldraw: Los 6 Retos de las Diapositivas UMU
+
+Abre [tldraw.com](https://tldraw.com), coge el lápiz y resuelve estos 6 ejercicios a mano alzada. Cuando termines cada uno, despliega la solución para verificar tu razonamiento.
+
+### Reto 1: Descomposición factorial y $\text{m.c.m.}$
+> **Enunciado:** Descompón en factores primos los números $18$ y $10$, y calcula su $\text{m.c.m.}$.  
+> <details>
+> <summary><b>👁️ Ver Solución Paso a Paso</b></summary>
+> 
+> 1. Descomposición:
+>    - $18 = 2 \cdot 9 = 2 \cdot 3^2$
+>    - $10 = 2 \cdot 5$
+> 2. Regla: Factores comunes y no comunes con el mayor exponente:
+>    - Tomamos: $2^1$, $3^2$, $5^1$.
+> 3. Cálculo:
+>    $$\text{m.c.m.}(18, 10) = 2 \cdot 9 \cdot 5 = \mathbf{90}$$
+> </details>
+
+---
+
+### Reto 2: Fracciones equivalentes y simplificación
+> **Enunciado:** Comprueba mediante el producto cruzado si $\frac{4}{5}$ y $\frac{8}{10}$ son equivalentes. Luego, simplifica al máximo la fracción $\frac{25}{10}$.  
+> <details>
+> <summary><b>👁️ Ver Solución Paso a Paso</b></summary>
+> 
+> 1. Comprobación de equivalencia:
+>    $$\frac{4}{5} = \frac{8}{10} \iff 4 \cdot 10 = 5 \cdot 8 \iff 40 = 40 \quad \checkmark \text{ Son equivalentes}$$
+> 2. Simplificación:
+>    - Dividimos numerador y denominador entre su máximo común divisor ($5$):
+>    $$\frac{25 : 5}{10 : 5} = \mathbf{\frac{5}{2}}$$
+> </details>
+
+---
+
+### Reto 3: Ordenación con números negativos
+> **Enunciado:** Ordena de menor a mayor los racionales: $-\frac{4}{5},\; -\frac{7}{3},\; \frac{3}{7},\; \frac{20}{7}$.  
+> <details>
+> <summary><b>👁️ Ver Solución Paso a Paso</b></summary>
+> 
+> 1. Positivos (mismo denominador $7$): $\frac{3}{7} < \frac{20}{7}$.
+> 2. Negativos (denominadores $5$ y $3 \implies \text{m.c.m.} = 15$):
+>    - $-\frac{4}{5} = -\frac{12}{15}$
+>    - $-\frac{7}{3} = -\frac{35}{15}$
+>    Como $-35 < -12 \implies -\frac{7}{3} < -\frac{4}{5}$.
+> 3. Orden definitivo:
+>    $$\mathbf{-\frac{7}{3} < -\frac{4}{5} < \frac{3}{7} < \frac{20}{7}}$$
+> </details>
+
+---
+
+### Reto 4: Sacar factor común (Álgebra básica)
+> **Enunciado:** Extrae factor común y simplifica la expresión: $-\frac{2}{7}x + 5x$.  
+> <details>
+> <summary><b>👁️ Ver Solución Paso a Paso</b></summary>
+> 
+> 1. Extraemos la $x$ como factor común:
+>    $$\left(-\frac{2}{7} + 5\right) \cdot x$$
+> 2. Convertimos el $5$ a séptimos: $5 = \frac{35}{7}$.
+> 3. Operamos el paréntesis:
+>    $$\left(\frac{-2 + 35}{7}\right) \cdot x = \mathbf{\frac{33}{7}x}$$
+> </details>
+
+---
+
+### Reto 5: Suma con distinto denominador
+> **Enunciado:** Calcula la suma de fracciones: $-\frac{3}{2} + \frac{7}{5}$.  
+> <details>
+> <summary><b>👁️ Ver Solución Paso a Paso</b></summary>
+> 
+> 1. $\text{m.c.m.}(2, 5) = 10$.
+> 2. Fracciones equivalentes:
+>    - $-\frac{3}{2} = -\frac{15}{10}$
+>    - $\frac{7}{5} = \frac{14}{10}$
+> 3. Suma:
+>    $$-\frac{15}{10} + \frac{14}{10} = \frac{-15 + 14}{10} = \mathbf{-\frac{1}{10}}$$
+> </details>
+
+---
+
+### Reto 6: Duelo de Jerarquía (Sin vs Con paréntesis)
+> **Enunciado:** Resuelve:  
+> a) $\frac{4}{5} + \frac{7}{2} \cdot \frac{4}{3}$  
+> b) $\left(\frac{4}{5} + \frac{7}{2}\right) \cdot \frac{4}{3}$  
+> <details>
+> <summary><b>👁️ Ver Solución Paso a Paso</b></summary>
+> 
+> **Apartado a) Sin paréntesis (manda la multiplicación):**
+> 1. Producto primero: $\frac{7}{2} \cdot \frac{4}{3} = \frac{28}{6} = \frac{14}{3}$.
+> 2. Suma con $\text{m.c.m.}(5, 3) = 15$:
+>    $$\frac{4}{5} + \frac{14}{3} = \frac{12}{15} + \frac{70}{15} = \mathbf{\frac{82}{15}}$$
+> 
+> **Apartado b) Con paréntesis (manda el interior del paréntesis):**
+> 1. Paréntesis primero: $\frac{4}{5} + \frac{7}{2} = \frac{8}{10} + \frac{35}{10} = \frac{43}{10}$.
+> 2. Multiplicación exterior:
+>    $$\frac{43}{10} \cdot \frac{4}{3} = \frac{172}{30} \xrightarrow{\text{dividido entre } 2} \mathbf{\frac{86}{15}}$$
+> 
+> *Fíjate cómo el paréntesis cambia el resultado de $\frac{82}{15} \approx 5{,}46$ a $\frac{86}{15} \approx 5{,}73$*.
+> </details>
+
