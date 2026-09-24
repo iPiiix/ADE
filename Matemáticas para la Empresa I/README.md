@@ -62,14 +62,12 @@ Aporta el instrumental matemático esencial de álgebra lineal, cálculo diferen
 
 La asignatura está organizada por temas individuales. Dentro de cada tema encontrarás su carpeta de **Apuntes** (guías teóricas explicadas paso a paso y presentaciones oficiales de clase) y de **Prácticas** (boletines y supuestos aplicados):
 
-- 📁 **[0 - Teoria Basica](./0%20-%20Teoria%20Basica)** — *Curso Cero / Nivelación Matemática (Nivel 0 a Universidad)*
-  - 📄 **[Guía y Mapa de Ruta del Curso Cero](./0%20-%20Teoria%20Basica/README.md)**
-  - [📁 Apuntes](./0%20-%20Teoria%20Basica/Apuntes)
-    - 📄 **[Tema 0.1: Conjuntos Numéricos y Fracciones](./0%20-%20Teoria%20Basica/Apuntes/Tema_00_Conjuntos_Numericos.md)** — ($\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$, divisibilidad, m.c.m., fracciones, factor común, jerarquía y cálculo mental de IVA).
-    - 📄 **[Tema 0.2: Potencias y Logaritmos](./0%20-%20Teoria%20Basica/Apuntes/Tema_00_Potencias_y_Logaritmos.md)** — (Propiedades de exponentes, raíces, definición y ecuaciones logarítmicas).
-    - 📄 **[Tema 0.3: Álgebra, Polinomios y Ecuaciones](./0%20-%20Teoria%20Basica/Apuntes/Tema_00_Algebra_Polinomios_y_Ecuaciones.md)** — (Identidades notables, Ruffini, ecuaciones lineales, cuadráticas y sistemas).
-    - 📄 **[Tema 0.4: Desigualdades, Rectas y Parábolas](./0%20-%20Teoria%20Basica/Apuntes/Tema_00_Desigualdades_y_Geometria_Analitica.md)** — (Intervalos, inecuaciones, rectas, pendientes y vértices de parábolas).
-    - 📄 **[Tema 0.5: Sumatorias, Progresiones y Áreas](./0%20-%20Teoria%20Basica/Apuntes/Tema_00_Progresiones_y_Sumatorias.md)** — (Notación $\sum$, P.A., P.G., rentas perpetuas y áreas).
+- 📁 **[0 - Teoria Basica](./0%20-%20Teoria%20Basica)** — *Conceptos Básicos de Matemáticas (UMU - Nivel 0 a Universidad)*
+  - 📄 **[Guía y Mapa de Ruta del Aula Virtual](./0%20-%20Teoria%20Basica/README.md)**
+  - [📁 Apuntes](./0%20-%20Teoria%20Basica/Apuntes) *(Orden Oficial de la Profesora Matilde Lafuente)*:
+    - **PARTE 1:** 📄 **[01. Conjuntos numéricos](./0%20-%20Teoria%20Basica/Apuntes/01_Conjuntos_Numericos.md)** · 📄 **[02. Potencias](./0%20-%20Teoria%20Basica/Apuntes/02_Potencias.md)** · 📄 **[03. Logaritmos](./0%20-%20Teoria%20Basica/Apuntes/03_Logaritmos.md)** · 📄 **[04. Expresiones algebraicas](./0%20-%20Teoria%20Basica/Apuntes/04_Expresiones_Algebraicas.md)**
+    - **PARTE 2:** 📄 **[05. Polinomios](./0%20-%20Teoria%20Basica/Apuntes/05_Polinomios.md)** · 📄 **[06. Ecuaciones](./0%20-%20Teoria%20Basica/Apuntes/06_Ecuaciones.md)** · 📄 **[07. Inecuaciones](./0%20-%20Teoria%20Basica/Apuntes/07_Inecuaciones.md)** · 📄 **[08. Rectas y parábolas](./0%20-%20Teoria%20Basica/Apuntes/08_Rectas_y_Parabolas.md)**
+    - **PARTE 3:** 📄 **[09. Áreas](./0%20-%20Teoria%20Basica/Apuntes/09_Areas.md)** · 📄 **[10. Proporciones](./0%20-%20Teoria%20Basica/Apuntes/10_Proporciones.md)** · 📄 **[11. Sumas y progresiones](./0%20-%20Teoria%20Basica/Apuntes/11_Sumas_y_Progresiones.md)**
   - [📁 Prácticas](./0%20-%20Teoria%20Basica/Prácticas) — Ejercicios de aritmética y nivelación básica.
 
 - 📁 **[1 - Funciones de una Variable](./1%20-%20Funciones%20de%20una%20Variable)**

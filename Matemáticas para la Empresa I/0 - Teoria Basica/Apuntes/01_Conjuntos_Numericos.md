@@ -1,7 +1,8 @@
-# 📖 Matemáticas para la Empresa I — Tema 0: Conjuntos Numéricos y Operaciones Básicas
+# 📖 Conceptos Básicos UMU — 01: Conjuntos Numéricos
 
 - **Asignatura:** Matemáticas para la Empresa I (Cód. 2350)
 - **Titulación:** Grado en ADE — Facultad de Economía y Empresa (Universidad de Murcia)
+- **Bloque Aula Virtual:** **PARTE 1 — Tema 1: Conjuntos numéricos**
 - **Documento fuente:** *Conjuntos numéricos* (Proyecto de Innovación Educativa, UMU)
 - **Archivo original:** [Conjuntos_presentacion+def.pdf](./Conjuntos_presentacion+def.pdf)
 - **Enfoque de este apunte:** Explicación desde cero, paso a paso y sin jerga incomprensible, ideal si llevas tiempo sin estudiar matemáticas.
@@ -65,10 +66,10 @@ graph TD
   - Siguen siendo números "enteros", aquí no hay comas ni trozos.
 
 #### 🔍 Divisibilidad y Mínimo Común Múltiplo (Sin misterios)
-1. **¿Qué es ser divisible?:** Decimos que $a$ es divisible por $b$ si la división da un resultado exacto, sin decimales ni restos.  
-   *Ejemplo:* $20$ es divisible por $5$ porque $20 = 5 \cdot 4$ (da $4$ clavado).
+1. **¿Qué es ser divisible?:** Decimos que $a$ es divisible por $b$ si existe un número $c \in \mathbb{Z}$ tal que $a = b \cdot c$ (da exacto, sin resto).  
+   *Ejemplo:* $20$ es divisible por $5$ porque $20 = 5 \cdot 4$.
 2. **Número Primo:** Aquel que solo se puede dividir de forma exacta entre sí mismo y entre el $1$ (ejemplos: $2, 3, 5, 7, 11, 13\dots$). El $2$ es el único primo par.
-3. **Número Compuesto:** El que se puede fabricar multiplicando números primos (como piezas de Lego).  
+3. **Número Compuesto:** El que se puede fabricar multiplicando números primos:  
    *Ejemplo con el $20$:*
    $$\text{Divisores de } 20 = \{1, 2, 4, 5, 10, 20\}$$
    $$\text{Sus primos son solo } 2 \text{ y } 5 \implies \text{Descomposición: } 20 = 2^2 \cdot 5$$
@@ -92,25 +93,6 @@ graph TD
 * **Tipos de decimales que son racionales:**
   - **Decimal exacto:** La cuenta se acaba (ejemplo: $\frac{1}{5} = 0{,}2$).
   - **Decimal periódico:** Los decimales se repiten en bucle (ejemplo: $\frac{7}{3} = 2{,}33333\dots = 2{,}\widehat{3}$).
-
-#### 🏢 Fracciones, Ratios y Porcentajes en la Empresa (Diapositivas UMU)
-Las fracciones no son números abstractos; en ADE son el pan de cada día para medir cuotas de mercado, proporciones de plantilla y rentabilidades:
-* **Fracción como proporción:**
-  - *Ejemplo de la plantilla:* De $40$ empleados en una empresa, $5$ son vegetarianos $\implies$ Fracción: $\frac{5}{40} = \frac{1}{8} = 0{,}125 \implies \mathbf{12{,}5\%}$.
-  - *Ejemplo de clase:* De $24$ alumnos en un grupo, $6$ son chicos $\implies \frac{6}{24} = \frac{1}{4} = 0{,}25 \implies \mathbf{25\%}$.
-* **3 Mitos falsos muy frecuentes que debes desterrar:**
-  1. ❌ *"Cuanto más grande el número de abajo (denominador), mayor es la fracción"*:  
-     ¡Falso! Al revés: si divides una tarta entre más personas, a cada una le toca un trozo más pequeño ($\frac{1}{8} < \frac{1}{2}$).
-  2. ❌ *"Tener más cifras decimales significa ser más grande"*:  
-     ¡Falso! $0{,}2$ es mayor que $0{,}19995$.
-  3. ❌ *"Un porcentaje nunca puede ser mayor del 100%"*:  
-     ¡Falso! Una empresa puede incrementar sus beneficios un $125\%$, o el precio final de venta con IVA es el $121\%$ de la base.
-* 💡 **Truco de ADE de las diapositivas: Cálculo del 21% de IVA sin calculadora:**
-  - Para calcular el $21\%$ de cualquier precio base (ej: $400$ €):
-    1. Sacas el $10\%$ (mueves la coma $1$ lugar a la izquierda): $10\% \text{ de } 400 = 40$ €.
-    2. Duplicas para tener el $20\%$: $2 \cdot 40 = 80$ €.
-    3. Sacas el $1\%$ (mueves la coma $2$ lugares a la izquierda): $1\% \text{ de } 400 = 4$ €.
-    4. Sumas $20\% + 1\% = 80 + 4 = \mathbf{84\text{ € de IVA}}$ $\implies$ Total factura $= 484$ €.
 
 #### ⚖️ Fracciones Equivalentes y Simplificar
 * **Equivalentes:** Representan la misma cantidad de tarta aunque tengan números distintos.  
@@ -152,7 +134,8 @@ Las fracciones no son números abstractos; en ADE son el pan de cada día para m
   *Ejemplos:* $\sqrt{2} \approx 1{,}4142\dots$, $\pi \approx 3{,}14159\dots$, $e \approx 2{,}71828\dots$
 * **Reales ($\mathbb{R}$):** Es juntar todos los anteriores en una sola bolsa:
   $$\mathbb{R} = \mathbb{Q} \cup \mathbb{I}$$
-* **La Recta Real:** Imagina una regla continua infinita donde no queda ningún hueco libre. Cada punto de esa línea recta es un número real.
+* **La Recta Real:** Imagina una regla continua infinita donde no queda ningún hueco libre. Cada punto de esa línea recta es un número real:
+  $$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$$
 
 ---
 
@@ -163,34 +146,30 @@ En $\mathbb{R}$ tenemos dos operaciones reinas: la **Suma ($+$)** y la **Multipl
 ### 2.1. Propiedades que debes recordar
 1. **Conmutativa:** El orden no importa:
    $$a + b = b + a \qquad \text{y} \qquad a \cdot b = b \cdot a$$
-   *(Ej: $3 + 5 = 5 + 3 = 8$; $4 \cdot 6 = 6 \cdot 4 = 24$)*.
 2. **Asociativa:** Agrupar con paréntesis da lo mismo:
    $$(a + b) + c = a + (b + c) \qquad \text{y} \qquad (a \cdot b) \cdot c = a \cdot (b \cdot c)$$
 3. **Elemento Neutro (El que no cambia nada):**
-   - En la suma es el **$0$**: $a + 0 = a$ *(si tienes 10€ y te dan 0€, sigues teniendo 10€)*.
-   - En la multiplicación es el **$1$**: $a \cdot 1 = a$ *(si compras 1 unidad a 10€, pagas 10€)*.
+   - En la suma es el **$0$**: $a + 0 = a$.
+   - En la multiplicación es el **$1$**: $a \cdot 1 = a$.
 4. **Opuesto vs Inverso (Muy importante diferenciarlos):**
    - **Opuesto (para la suma):** Cambiar de signo. Sumar un número con su opuesto da $0$:
      $$a + (-a) = 0 \quad (\text{ej: } 7 + (-7) = 0)$$
    - **Inverso (para el producto):** Darle la vuelta. Multiplicar un número por su inverso da $1$:
      $$a \cdot \frac{1}{a} = 1 \quad (\text{ej: } 5 \cdot \frac{1}{5} = \frac{5}{5} = 1)$$
-     *En fracciones:* el inverso de $\frac{2}{3}$ es $\frac{3}{2}$, porque $\frac{2}{3} \cdot \frac{3}{2} = \frac{6}{6} = 1$.
+     *En fracciones:* el inverso de $\frac{2}{3}$ es $\frac{3}{2}$, porque $\frac{2}{3} \cdot \frac{3}{2} = 1$.
+   - ⚠️ **Observación oficial del PDF:** *Los números de $\mathbb{Z}$ no tienen inverso en $\mathbb{Z}$* (salvo $\pm 1$). Por ejemplo, el inverso de $2$ es $\frac{1}{2}$, que ya no es un número entero, sino racional.
 
 ---
 
 ### 2.2. La Regla de los Signos (Para multiplicar y dividir)
-
-Un truco mnemotécnico clásico para no dudar nunca:
-* *"Los amigos ($+$) de mis amigos ($+$) son mis amigos ($+$)":* $(+) \cdot (+) = (+)$
-* *"Los enemigos ($-$) de mis enemigos ($-$) son mis amigos ($+$)":* $(-) \cdot (-) = (+)$
-* *"Los amigos ($+$) de mis enemigos ($-$) son mis enemigos ($-$)":* $(+) \cdot (-) = (-)$
-* *"Los enemigos ($-$) de mis amigos ($+$) son mis enemigos ($-$)":* $(-) \cdot (+) = (-)$
+* $(+) \cdot (+) = (+)$
+* $(-) \cdot (-) = (+)$
+* $(+) \cdot (-) = (-)$
+* $(-) \cdot (+) = (-)$
 
 ---
 
-### 2.3. Propiedad Distributiva y Sacar Factor Común
-
-Esta es, con diferencia, **la técnica algebraica que más vas a usar en ADE** (para calcular costes, ingresos, derivadas y matrices).
+### 2.3. Propiedad Distributiva y Sacar Factor Común (MUY IMPORTANTE)
 
 * **Hacia adelante (Distribuir / Multiplicar paréntesis):**
   $$a \cdot (b + c) = a \cdot b + a \cdot c$$
@@ -209,27 +188,24 @@ Esta es, con diferencia, **la técnica algebraica que más vas a usar en ADE** (
 ## 3. Guía Rápida para Operar con Fracciones
 
 ### 3.1. Sumar o Restar Fracciones
-* **Caso fácil (mismo número abajo):** Se suman o restan los números de arriba y se deja el de abajo intacto:
+* **Caso fácil (mismo número abajo):** Se suman o restan los numeradores y se deja el denominador:
   $$-\frac{2}{7} + \frac{4}{7} = \frac{-2 + 4}{7} = \mathbf{\frac{2}{7}}$$
 * **Caso general (distinto número abajo):**
   $$-\frac{3}{2} + \frac{7}{5}$$
   1. Hallas el $\text{m.c.m.}(2, 5) = 10$.
   2. Ajustas los numeradores:
-     - Para la primera: $10 : 2 = 5 \implies -3 \cdot 5 = -15 \implies -\frac{15}{10}$
-     - Para la segunda: $10 : 5 = 2 \implies 7 \cdot 2 = 14 \implies \frac{14}{10}$
-  3. Sumas los de arriba:
+     - $-\frac{3}{2} = -\frac{15}{10}$
+     - $\frac{7}{5} = \frac{14}{10}$
+  3. Sumas los numeradores:
      $$-\frac{15}{10} + \frac{14}{10} = \frac{-15 + 14}{10} = \mathbf{-\frac{1}{10}}$$
 
 ### 3.2. Multiplicar Fracciones
-¡Es lo más fácil! Se multiplica en línea recta (el de arriba con el de arriba, el de abajo con el de abajo):
+Se multiplica en línea recta (numerador por numerador, denominador por denominador):
 $$\frac{a}{b} \cdot \frac{c}{d} = \frac{a \cdot c}{b \cdot d} \qquad \text{Ejemplo: } \frac{7}{2} \cdot \frac{4}{3} = \frac{7 \cdot 4}{2 \cdot 3} = \frac{28}{6} = \mathbf{\frac{14}{3}}$$
 
 ---
 
 ## 4. Jerarquía de Operaciones (El Orden Sagrado)
-
-> [!CAUTION]
-> En la universidad, el 80% de los fallos en exámenes de matemáticas no son de teoría difícil, sino de equivocarse en el orden de las cuentas básicas.
 
 ### Caso 1: Expresión SIN Paréntesis
 El orden estricto de izquierda a derecha es:
@@ -240,61 +216,35 @@ El orden estricto de izquierda a derecha es:
 Veamos el ejemplo de la presentación:
 $$\frac{4}{5} + \frac{7}{2} \cdot \frac{4}{3}$$
 
-* ❌ **EL ERROR TÍPICO QUE SUSPENDE:**  
-  Sumar primero $\frac{4}{5} + \frac{7}{2}$ y luego multiplicar por $\frac{4}{3}$. ¡ESTÁ MUY MAL! La multiplicación tiene prioridad absoluta.
+* ❌ **EL ERROR TÍPICO QUE SUSPENDE:** Sumar primero $\frac{4}{5} + \frac{7}{2}$ y luego multiplicar por $\frac{4}{3}$. ¡ESTÁ MUY MAL!
 * ✔️ **EL PROCEDIMIENTO CORRECTO:**
-  1. **Primero calculas la multiplicación:**
-     $$\frac{7}{2} \cdot \frac{4}{3} = \frac{28}{6} = \frac{14}{3}$$
-  2. **Ahora realizas la suma pendiente:**
-     $$\frac{4}{5} + \frac{14}{3} \implies \text{m.c.m.}(5, 3) = 15$$
-     $$\frac{4 \cdot 3}{15} + \frac{14 \cdot 5}{15} = \frac{12}{15} + \frac{70}{15} = \mathbf{\frac{82}{15}}$$
+  1. **Primero la multiplicación:** $\frac{7}{2} \cdot \frac{4}{3} = \frac{28}{6} = \frac{14}{3}$.
+  2. **Ahora la suma:** $\frac{4}{5} + \frac{14}{3} = \frac{12}{15} + \frac{70}{15} = \mathbf{\frac{82}{15}}$.
 
 ---
 
 ### Caso 2: Expresión CON Paréntesis
-El paréntesis es una "caja acorazada": manda sobre todo lo demás. Tienes que resolver **todo lo de dentro** antes de tocar lo que está fuera.
+El paréntesis manda sobre todo. Tienes que resolver **todo lo de dentro** antes de tocar lo exterior.
 
 Veamos el ejemplo modificado:
 $$\left(\frac{4}{5} + \frac{7}{2}\right) \cdot \frac{4}{3}$$
 
-1. **Primero se resuelve la suma que está atrapada en el paréntesis:**
-   $$\frac{4}{5} + \frac{7}{2} \implies \text{m.c.m.}(5, 2) = 10$$
-   $$\frac{8}{10} + \frac{35}{10} = \frac{43}{10}$$
-2. **Ahora multiplicas el resultado por el factor exterior:**
-   $$\frac{43}{10} \cdot \frac{4}{3} = \frac{43 \cdot 4}{10 \cdot 3} = \frac{172}{30} \xrightarrow{\text{simplificamos entre } 2} \mathbf{\frac{86}{15}}$$
-
----
-
-## 🛑 Las 4 "Trampas Mortales" que debes esquivar en ADE
-
-1. **Tachar cosas que están sumando:**  
-   $$\frac{x + 5}{x} \ne 5$$  
-   *(Solo puedes tachar o simplificar si la $x$ está **multiplicando a todo el numerador**, no si está sumando)*.
-2. **Confundir el signo de una fracción:**  
-   $$-\frac{3}{4} = \frac{-3}{4} = \frac{3}{-4} \qquad \text{pero NUNCA es igual a } \frac{-3}{-4} \text{ (ya que } \frac{-}{-} = + \text{)}$$
-3. **Invertir una suma alocadamente:**  
-   El inverso de $(a + b)$ es $\frac{1}{a + b}$, jamás $\frac{1}{a} + \frac{1}{b}$.
-4. **Dividir entre cero:**  
-   Cualquier expresión donde el denominador sea $0$ ($\frac{5}{0}$) **no existe**. En optimización y funciones de ADE esto marcará asíntotas y puntos fuera de dominio.
+1. **Primero resolvemos el paréntesis:** $\frac{4}{5} + \frac{7}{2} = \frac{8}{10} + \frac{35}{10} = \frac{43}{10}$.
+2. **Ahora multiplicamos por el factor exterior:** $\frac{43}{10} \cdot \frac{4}{3} = \frac{172}{30} = \mathbf{\frac{86}{15}}$.
 
 ---
 
 ## 🎯 Taller Práctico con tldraw: Los 6 Retos de las Diapositivas UMU
 
-Abre [tldraw.com](https://tldraw.com), coge el lápiz y resuelve estos 6 ejercicios a mano alzada. Cuando termines cada uno, despliega la solución para verificar tu razonamiento.
+Abre [tldraw.com](https://tldraw.com), coge el lápiz y resuelve estos 6 ejercicios a mano alzada:
 
 ### Reto 1: Descomposición factorial y $\text{m.c.m.}$
 > **Enunciado:** Descompón en factores primos los números $18$ y $10$, y calcula su $\text{m.c.m.}$.  
 > <details>
 > <summary><b>👁️ Ver Solución Paso a Paso</b></summary>
 > 
-> 1. Descomposición:
->    - $18 = 2 \cdot 9 = 2 \cdot 3^2$
->    - $10 = 2 \cdot 5$
-> 2. Regla: Factores comunes y no comunes con el mayor exponente:
->    - Tomamos: $2^1$, $3^2$, $5^1$.
-> 3. Cálculo:
->    $$\text{m.c.m.}(18, 10) = 2 \cdot 9 \cdot 5 = \mathbf{90}$$
+> - $18 = 2 \cdot 3^2$ y $10 = 2 \cdot 5$
+> - $\text{m.c.m.}(18, 10) = 2 \cdot 3^2 \cdot 5 = \mathbf{90}$
 > </details>
 
 ---
@@ -304,11 +254,8 @@ Abre [tldraw.com](https://tldraw.com), coge el lápiz y resuelve estos 6 ejercic
 > <details>
 > <summary><b>👁️ Ver Solución Paso a Paso</b></summary>
 > 
-> 1. Comprobación de equivalencia:
->    $$\frac{4}{5} = \frac{8}{10} \iff 4 \cdot 10 = 5 \cdot 8 \iff 40 = 40 \quad \checkmark \text{ Son equivalentes}$$
-> 2. Simplificación:
->    - Dividimos numerador y denominador entre su máximo común divisor ($5$):
->    $$\frac{25 : 5}{10 : 5} = \mathbf{\frac{5}{2}}$$
+> - Equivalencia: $4 \cdot 10 = 40$ y $5 \cdot 8 = 40 \implies$ Sí son equivalentes.
+> - Simplificación: $\frac{25 : 5}{10 : 5} = \mathbf{\frac{5}{2}}$.
 > </details>
 
 ---
@@ -318,27 +265,19 @@ Abre [tldraw.com](https://tldraw.com), coge el lápiz y resuelve estos 6 ejercic
 > <details>
 > <summary><b>👁️ Ver Solución Paso a Paso</b></summary>
 > 
-> 1. Positivos (mismo denominador $7$): $\frac{3}{7} < \frac{20}{7}$.
-> 2. Negativos (denominadores $5$ y $3 \implies \text{m.c.m.} = 15$):
->    - $-\frac{4}{5} = -\frac{12}{15}$
->    - $-\frac{7}{3} = -\frac{35}{15}$
->    Como $-35 < -12 \implies -\frac{7}{3} < -\frac{4}{5}$.
-> 3. Orden definitivo:
->    $$\mathbf{-\frac{7}{3} < -\frac{4}{5} < \frac{3}{7} < \frac{20}{7}}$$
+> - Positivos: $\frac{3}{7} < \frac{20}{7}$.
+> - Negativos: $-\frac{4}{5} = -\frac{12}{15}$ y $-\frac{7}{3} = -\frac{35}{15} \implies -\frac{7}{3} < -\frac{4}{5}$.
+> - Orden final: $\mathbf{-\frac{7}{3} < -\frac{4}{5} < \frac{3}{7} < \frac{20}{7}}$.
 > </details>
 
 ---
 
-### Reto 4: Sacar factor común (Álgebra básica)
+### Reto 4: Sacar factor común
 > **Enunciado:** Extrae factor común y simplifica la expresión: $-\frac{2}{7}x + 5x$.  
 > <details>
 > <summary><b>👁️ Ver Solución Paso a Paso</b></summary>
 > 
-> 1. Extraemos la $x$ como factor común:
->    $$\left(-\frac{2}{7} + 5\right) \cdot x$$
-> 2. Convertimos el $5$ a séptimos: $5 = \frac{35}{7}$.
-> 3. Operamos el paréntesis:
->    $$\left(\frac{-2 + 35}{7}\right) \cdot x = \mathbf{\frac{33}{7}x}$$
+> - $(-\frac{2}{7} + 5) \cdot x = (\frac{-2 + 35}{7}) \cdot x = \mathbf{\frac{33}{7}x}$.
 > </details>
 
 ---
@@ -348,33 +287,16 @@ Abre [tldraw.com](https://tldraw.com), coge el lápiz y resuelve estos 6 ejercic
 > <details>
 > <summary><b>👁️ Ver Solución Paso a Paso</b></summary>
 > 
-> 1. $\text{m.c.m.}(2, 5) = 10$.
-> 2. Fracciones equivalentes:
->    - $-\frac{3}{2} = -\frac{15}{10}$
->    - $\frac{7}{5} = \frac{14}{10}$
-> 3. Suma:
->    $$-\frac{15}{10} + \frac{14}{10} = \frac{-15 + 14}{10} = \mathbf{-\frac{1}{10}}$$
+> - $-\frac{15}{10} + \frac{14}{10} = \mathbf{-\frac{1}{10}}$.
 > </details>
 
 ---
 
-### Reto 6: Duelo de Jerarquía (Sin vs Con paréntesis)
-> **Enunciado:** Resuelve:  
-> a) $\frac{4}{5} + \frac{7}{2} \cdot \frac{4}{3}$  
-> b) $\left(\frac{4}{5} + \frac{7}{2}\right) \cdot \frac{4}{3}$  
+### Reto 6: Duelo de Jerarquía
+> **Enunciado:** Resuelve: a) $\frac{4}{5} + \frac{7}{2} \cdot \frac{4}{3}$ y b) $\left(\frac{4}{5} + \frac{7}{2}\right) \cdot \frac{4}{3}$.  
 > <details>
 > <summary><b>👁️ Ver Solución Paso a Paso</b></summary>
 > 
-> **Apartado a) Sin paréntesis (manda la multiplicación):**
-> 1. Producto primero: $\frac{7}{2} \cdot \frac{4}{3} = \frac{28}{6} = \frac{14}{3}$.
-> 2. Suma con $\text{m.c.m.}(5, 3) = 15$:
->    $$\frac{4}{5} + \frac{14}{3} = \frac{12}{15} + \frac{70}{15} = \mathbf{\frac{82}{15}}$$
-> 
-> **Apartado b) Con paréntesis (manda el interior del paréntesis):**
-> 1. Paréntesis primero: $\frac{4}{5} + \frac{7}{2} = \frac{8}{10} + \frac{35}{10} = \frac{43}{10}$.
-> 2. Multiplicación exterior:
->    $$\frac{43}{10} \cdot \frac{4}{3} = \frac{172}{30} \xrightarrow{\text{dividido entre } 2} \mathbf{\frac{86}{15}}$$
-> 
-> *Fíjate cómo el paréntesis cambia el resultado de $\frac{82}{15} \approx 5{,}46$ a $\frac{86}{15} \approx 5{,}73$*.
+> - a) Sin paréntesis: $\frac{4}{5} + \frac{14}{3} = \mathbf{\frac{82}{15}}$.
+> - b) Con paréntesis: $\frac{43}{10} \cdot \frac{4}{3} = \frac{172}{30} = \mathbf{\frac{86}{15}}$.
 > </details>
-

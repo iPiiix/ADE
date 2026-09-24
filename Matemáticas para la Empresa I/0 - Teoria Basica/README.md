@@ -1,42 +1,73 @@
-# 🧮 0 - Teoría Básica (Curso Cero / Nivelación Matemática para ADE)
+# 🧮 0 - Teoría Básica: Conceptos Básicos de Matemáticas (UMU)
 
 - **Asignatura:** Matemáticas para la Empresa I (Cód. 2350)
 - **Titulación:** Grado en ADE — Facultad de Economía y Empresa (Universidad de Murcia)
-- **Objetivo de este módulo:** Proporcionar una base matemática sólida desde **Nivel 0 absoluto**. Si llevas años sin tocar una ecuación o suspendiste matemáticas en el instituto, este bloque reconstruye tus cimientos paso a paso, sin tecnicismos innecesarios, para que entres a **Tema 1 (Funciones)** y **Tema 2 (Varias Variables)** con total seguridad.
+- **Profesora:** Lafuente Lechuga, Matilde
+- **Fuente Oficial:** Aula Virtual UMU $\to$ *Conceptos Básicos de Matemáticas* (Proyecto de Innovación Educativa)
+- **Objetivo de este módulo:** Proporcionar una base matemática sólida desde **Nivel 0 absoluto**. Estos materiales ayudan a recordar conceptos y técnicas esenciales que tendrás que usar con frecuencia en la carrera.
 
 ---
 
-## 🗺️ Mapa de Ruta del Curso Cero (De Nivel 0 a Universidad)
-
-Los documentos oficiales de la Universidad de Murcia (*Proyecto de Innovación Educativa*) han sido organizados en **5 bloques lógicos** de estudio. Cada bloque cuenta con su documento original oficial (.pdf o .pptx) y su **guía de estudio en Markdown** redactada con explicaciones claras, trucos mnemotécnicos y soluciones paso a paso:
+## 📋 Índice Oficial del Aula Virtual (Orden de la Profesora)
 
 ```mermaid
-graph TD
-    B1["Bloque 1: Aritmética y Fracciones<br/>(Conjuntos ℝ, m.c.m., fracciones, jerarquía)"] --> B2["Bloque 2: Potencias y Logaritmos<br/>(Reglas de exponentes, raíces, definición y propiedades de log/ln)"]
-    B2 --> B3["Bloque 3: Álgebra, Polinomios y Ecuaciones<br/>(Factor común, identidades notables, Ruffini, despejes)"]
-    B3 --> B4["Bloque 4: Desigualdades y Geometría Analítica<br/>(Intervalos, inecuaciones, rectas y parábolas)"]
-    B4 --> B5["Bloque 5: Sumatorias y Progresiones<br/>(Notación ∑, progresiones aritméticas y geométricas)"]
-    B5 ==> T1["🚀 TEMA 1: Funciones de una Variable Real<br/>(Dominios, límites y modelos económicos)"]
+graph LR
+    subgraph P1["PARTE 1: Fundamentos y Álgebra Básica"]
+        direction TB
+        T1["01. Conjuntos numéricos"] --> T2["02. Potencias"]
+        T2 --> T3["03. Logaritmos"]
+        T3 --> T4["04. Expresiones algebraicas"]
+    end
+    subgraph P2["PARTE 2: Polinomios y Geometría"]
+        direction TB
+        T5["05. Polinomios"] --> T6["06. Ecuaciones"]
+        T6 --> T7["07. Inecuaciones"]
+        T7 --> T8["08. Rectas y parábolas"]
+    end
+    subgraph P3["PARTE 3: Aplicaciones Cuantitativas"]
+        direction TB
+        T9["09. Áreas"] --> T10["10. Proporciones"]
+        T10 --> T11["11. Sumas y progresiones"]
+    end
+    P1 ==> P2
+    P2 ==> P3
+    P3 ==> TEMA1["🚀 TEMA 1: Funciones de una Variable"]
 ```
 
 ---
 
-## 📚 Índice de Módulos y Documentos de Estudio
+### 🟢 PARTE 1
+| Nº | Tema Oficial | Guía de Estudio Explicada (Markdown) | Presentación Original UMU |
+| :---: | :--- | :--- | :--- |
+| **01** | **Conjuntos numéricos** | 📄 **[01_Conjuntos_Numericos.md](./Apuntes/01_Conjuntos_Numericos.md)** | 📕 [Conjuntos_presentacion+def.pdf](./Apuntes/Conjuntos_presentacion+def.pdf) |
+| **02** | **Potencias** | 📄 **[02_Potencias.md](./Apuntes/02_Potencias.md)** | 📕 [Presentación_potencias.pdf](./Apuntes/Presentación_potencias.pdf) |
+| **03** | **Logaritmos** | 📄 **[03_Logaritmos.md](./Apuntes/03_Logaritmos.md)** | 📕 [Presentación_logaritmos.pdf](./Apuntes/Presentación_logaritmos.pdf) |
+| **04** | **Expresiones algebraicas** | 📄 **[04_Expresiones_Algebraicas.md](./Apuntes/04_Expresiones_Algebraicas.md)** | 📕 [Presentación_Expresiones+algebraicas.pdf](./Apuntes/Presentación_Expresiones+algebraicas.pdf) |
 
-| Módulo | Documentos Oficiales UMU | Guía de Estudio Explicada (Markdown) | Estado |
-| :--- | :--- | :--- | :---: |
-| **1. Conjuntos y Fracciones** | 📕 [Conjuntos_presentacion+def.pdf](./Apuntes/Conjuntos_presentacion+def.pdf)<br/>📊 [Fracciones.pptx](./Apuntes/Fracciones.pptx) | 📄 **[Tema 0: Conjuntos Numéricos y Operaciones](./Apuntes/Tema_00_Conjuntos_Numericos.md)** | ✅ **Listo para estudiar** |
-| **2. Potencias y Logaritmos** | 📕 [Presentación_potencias.pdf](./Apuntes/Presentación_potencias.pdf)<br/>📕 [Presentación_logaritmos.pdf](./Apuntes/Presentación_logaritmos.pdf) | 📄 **[Tema 0.2: Potencias y Logaritmos](./Apuntes/Tema_00_Potencias_y_Logaritmos.md)** | ✅ **Listo para estudiar** |
-| **3. Álgebra y Ecuaciones** | 📕 [Presentación_Expresiones+algebraicas.pdf](./Apuntes/Presentación_Expresiones+algebraicas.pdf)<br/>📕 [Presentación_Polinomios.pdf](./Apuntes/Presentación_Polinomios.pdf)<br/>📕 [Presentacion+Ecuaciones.pdf](./Apuntes/Presentacion+Ecuaciones.pdf) | 📄 **[Tema 0.3: Álgebra, Polinomios y Ecuaciones](./Apuntes/Tema_00_Algebra_Polinomios_y_Ecuaciones.md)** | ✅ **Listo para estudiar** |
-| **4. Inecuaciones y Gráficas** | 📕 [desigualdades_presentacion.pdf](./Apuntes/desigualdades_presentacion.pdf)<br/>📕 [Rectas+y+parabolas_presentacion.pdf](./Apuntes/Rectas+y+parabolas_presentacion.pdf) | 📄 **[Tema 0.4: Desigualdades, Rectas y Parábolas](./Apuntes/Tema_00_Desigualdades_y_Geometria_Analitica.md)** | ✅ **Listo para estudiar** |
-| **5. Progresiones y Áreas** | 📊 [Sumas+y+progresiones.pptx](./Apuntes/Sumas+y+progresiones.pptx)<br/>📊 [Area_triangulo_rectangulo.pptx](./Apuntes/Area_triangulo_rectangulo.pptx) | 📄 **[Tema 0.5: Sumatorias, Progresiones y Áreas](./Apuntes/Tema_00_Progresiones_y_Sumatorias.md)** | ✅ **Listo para estudiar** |
+---
+
+### 🟡 PARTE 2
+| Nº | Tema Oficial | Guía de Estudio Explicada (Markdown) | Presentación Original UMU |
+| :---: | :--- | :--- | :--- |
+| **05** | **Polinomios** | 📄 **[05_Polinomios.md](./Apuntes/05_Polinomios.md)** | 📕 [Presentación_Polinomios.pdf](./Apuntes/Presentación_Polinomios.pdf) |
+| **06** | **Ecuaciones** | 📄 **[06_Ecuaciones.md](./Apuntes/06_Ecuaciones.md)** | 📕 [Presentacion+Ecuaciones.pdf](./Apuntes/Presentacion+Ecuaciones.pdf) |
+| **07** | **Inecuaciones** | 📄 **[07_Inecuaciones.md](./Apuntes/07_Inecuaciones.md)** | 📕 [desigualdades_presentacion.pdf](./Apuntes/desigualdades_presentacion.pdf) |
+| **08** | **Rectas y parábolas** | 📄 **[08_Rectas_y_Parabolas.md](./Apuntes/08_Rectas_y_Parabolas.md)** | 📕 [Rectas+y+parabolas_presentacion.pdf](./Apuntes/Rectas+y+parabolas_presentacion.pdf) |
+
+---
+
+### 🔵 PARTE 3
+| Nº | Tema Oficial | Guía de Estudio Explicada (Markdown) | Presentación Original UMU |
+| :---: | :--- | :--- | :--- |
+| **09** | **Áreas** | 📄 **[09_Areas.md](./Apuntes/09_Areas.md)** | 📊 [Area_triangulo_rectangulo.pptx](./Apuntes/Area_triangulo_rectangulo.pptx) |
+| **10** | **Proporciones** | 📄 **[10_Proporciones.md](./Apuntes/10_Proporciones.md)** | 📊 [Fracciones.pptx](./Apuntes/Fracciones.pptx) |
+| **11** | **Sumas y progresiones** | 📄 **[11_Sumas_y_Progresiones.md](./Apuntes/11_Sumas_y_Progresiones.md)** | 📊 [Sumas+y+progresiones.pptx](./Apuntes/Sumas+y+progresiones.pptx) |
 
 ---
 
 ## 🎨 Método de Estudio Recomendado: "Pizarra Activa con tldraw"
 
-No te limites a leer las fórmulas de forma pasiva; las matemáticas se aprenden con la mano:
-1. Abre **[tldraw.com](https://tldraw.com)** en una pestaña del navegador o en pantalla dividida.
-2. Lee cada sección del apunte en Markdown.
-3. Cuando llegues a un ejemplo o al **Taller Práctico**, copia el enunciado en tldraw y escribe los pasos con el ratón o trackpad.
-4. Despliega la solución para comparar tu resultado. Si te has equivocado, anota en tldraw con color rojo cuál fue el fallo (por ejemplo: *"multiplicar antes de sumar"* o *"olvidar el signo menos"*).
+1. Abre **[tldraw.com](https://tldraw.com)** en otra pestaña de tu navegador.
+2. Lee cada apunte en Markdown (empieza por `01_Conjuntos_Numericos.md`).
+3. Resuelve los ejercicios y retos a mano alzada en tldraw antes de desplegar las soluciones.
+4. Anota tus fallos en rojo para afianzar cada concepto antes de avanzar al siguiente número.
