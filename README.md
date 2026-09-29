@@ -65,7 +65,7 @@ Estas son las **5 asignaturas en las que estás matriculado y cursando actualmen
 > Consulta el calendario completo con fechas, horarios oficiales de 09:00 a 12:00 h y aulas en: **[Calendario Oficial de Exámenes 2026/2027](./CALENDARIO_EXAMENES_OFICIALES_2026_2027.md)**.
 
 > 🚀 **Estrategia para recuperar el mes de retraso:**  
-> 1. **Asegurar los puntos fuertes (Administración y Contabilidad):** Llevar al día los apuntes y supuestos resueltos (Temas 1, 2 y 3 ya implementados).  
+> 1. **Asegurar los puntos fuertes (Economía, Administración y Contabilidad):** Llevar al día los apuntes y supuestos resueltos (Temas 1, 2 y 3 ya implementados con soluciones completas en las tres asignaturas).  
 > 2. **Base matemática sólida sin agobios:** Empezar por la carpeta `Matemáticas para la Empresa I/0 - Teoria Basica` para dominar fracciones, potencias y ecuaciones antes de pasar a derivadas y funciones.  
 > 3. **Práctica constante guiada:** Resolver los supuestos oficiales paso a paso con las soluciones explicadas en cada tema.
 

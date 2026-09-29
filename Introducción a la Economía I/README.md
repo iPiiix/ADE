@@ -21,44 +21,45 @@
 | **Miércoles** | 19:00 – 20:30 | Prácticas (Desdoble) | **Grupo B** | **Aula A411P** |
 | **Viernes** | *(Rotativo s/ Cronograma)* | Sesiones adicionales (+3h) | Grupo 5 | **Aula A412** |
 
-> 📅 *Consulta el [Horario completo y visual del Grupo 5](../README.md#🕒-horario-semanal--grupo-5-turno-tarde--1er-cuatrimestre) con todas las asignaturas y desdobles.*
+> 📅 *Consulta el [Horario completo y visual del Grupo 5](../README.md#🕒-horario-semanal--grupo-5-turno-tarde--1er-cuatrimestre) con todas las asignaturas y desdobles.*  
+> 🗓️ *Examen Oficial Convocatoria Ordinaria:* **Miércoles, 16 de diciembre de 2026 (09:00 - 12:00 h)**. Consulta el [Calendario Oficial](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md).
 
 ---
 
-## 📌 Descripción y Objetivos
+## 📚 Temario y Materiales Digitalizados
 
-Asignatura centrada en los fundamentos del **análisis microeconómico**. Estudia cómo los agentes económicos individuales (consumidores, empresas y mercados) toman decisiones racionales bajo condiciones de escasez y cómo interactúan en los diferentes tipos de estructuras de mercado.
+### 🟢 Tema 1: Aspectos Básicos de una Ciencia Social
+*El problema económico, escasez, coste de oportunidad, la mano invisible de Adam Smith, sistemas económicos, eficiencia vs equidad y la Frontera de Posibilidades de Producción (FPP).*
+* 📖 **Apuntes Teóricos:** [Tema_01_Principios_Basicos_de_la_Economia.md](./1%20-%20Principios%20Básicos%20de%20la%20Economía/Apuntes/Tema_01_Principios_Basicos_de_la_Economia.md)
+* 📄 **Diapositivas Oficiales:** [ECONOMIA_TEMA_1_Teoria.pdf](./1%20-%20Principios%20Básicos%20de%20la%20Economía/Apuntes/ECONOMIA_TEMA_1_Teoria.pdf)
+* ✍️ **Prácticas Resueltas:** [Practicas_Tema_01_Resueltas.md](./1%20-%20Principios%20Básicos%20de%20la%20Economía/Prácticas/Practicas_Tema_01_Resueltas.md) *(Textos de Krugman y Borges, 7 Cuestiones detalladas y 20 preguntas test resueltas)*
+* 📄 **Boletín Oficial:** [ECONOMIA_TEMA_1_Practicas.pdf](./1%20-%20Principios%20Básicos%20de%20la%20Economía/Prácticas/ECONOMIA_TEMA_1_Practicas.pdf)
 
-### 📚 Bloques Temáticos Principales
+### 🔵 Tema 2: Las Fuerzas de Mercado de la Oferta y la Demanda
+*Mercados competitivos, ley de la demanda, ley de la oferta, desplazamientos de la curva vs movimientos a lo largo de la curva, equilibrio de mercado y análisis estático comparativo en 3 pasos.*
+* 📖 **Apuntes Teóricos:** [Tema_02_Las_Fuerzas_de_Mercado_Oferta_y_Demanda.md](./2%20-%20Las%20Fuerzas%20de%20Mercado%20-%20Oferta%20y%20Demanda/Apuntes/Tema_02_Las_Fuerzas_de_Mercado_Oferta_y_Demanda.md)
+* 📄 **Diapositivas Oficiales:** [ECONOMIA_TEMA_2_Teoria.pdf](./2%20-%20Las%20Fuerzas%20de%20Mercado%20-%20Oferta%20y%20Demanda/Apuntes/ECONOMIA_TEMA_2_Teoria.pdf)
+* ✍️ **Prácticas Resueltas:** [Practicas_Tema_02_Resueltas.md](./2%20-%20Las%20Fuerzas%20de%20Mercado%20-%20Oferta%20y%20Demanda/Prácticas/Practicas_Tema_02_Resueltas.md) *(Guerra de Ucrania, COVID, crisis del gas, short-selling de Sala i Martín, 10 cuestiones, 7 ejercicios numéricos y 24 preguntas test)*
+* 📄 **Boletín Oficial:** [ECONOMIA_TEMA_2_Practicas.pdf](./2%20-%20Las%20Fuerzas%20de%20Mercado%20-%20Oferta%20y%20Demanda/Prácticas/ECONOMIA_TEMA_2_Practicas.pdf)
 
-1. **Principios Básicos de la Economía:** El problema económico: escasez, elección y coste de oportunidad. La frontera de posibilidades de producción (FPP).
-2. **El Mecanismo de Mercado: Oferta y Demanda:** Determinantes de la demanda y de la oferta. Equilibrio de mercado y dinámica de precios. Excedente del consumidor y del productor.
-3. **Elasticidad y sus Aplicaciones:** Elasticidad-precio de la demanda, elasticidad-renta y elasticidad cruzada. Elasticidad de la oferta e incidencia impositiva.
-4. **Comportamiento del Consumidor:** Preferencias, curvas de indiferencia, restricción presupuestaria y maximización de la utilidad. Curva de demanda individual y de mercado.
-5. **Producción y Costes en la Empresa:** Función de producción a corto y largo plazo (rendimientos marginales decrecientes y economías de escala). Costes fijos, variables, totales, medios y marginales.
-6. **Estructuras de Mercado:**
-   - **Competencia Perfecta:** Características, equilibrio a corto y largo plazo, curva de oferta.
-   - **Monopolio:** Barreras de entrada, maximización del beneficio con poder de mercado, coste social e ineficiencia.
-   - **Competencia Monopolística y Oligopolio:** Diferenciación de producto, interdependencia estratégica y nociones de teoría de juegos (Dilema del Prisionero y Equilibrio de Nash).
+### 🟣 Tema 3: La Elasticidad y sus Aplicaciones
+*Elasticidad-precio de la demanda, método del punto medio, relación clave entre elasticidad e ingresos totales ($IT = P \times Q$), elasticidad-renta (bienes normales, de lujo e inferiores), elasticidad cruzada (sustitutivos y complementarios) y elasticidad de la oferta.*
+* 📖 **Apuntes Teóricos:** [Tema_03_La_Elasticidad_y_sus_Aplicaciones.md](./3%20-%20La%20Elasticidad%20y%20sus%20Aplicaciones/Apuntes/Tema_03_La_Elasticidad_y_sus_Aplicaciones.md)
+* 📄 **Diapositivas Oficiales:** [ECONOMIA_TEMA_3_Teoria.pdf](./3%20-%20La%20Elasticidad%20y%20sus%20Aplicaciones/Apuntes/ECONOMIA_TEMA_3_Teoria.pdf)
+* ✍️ **Prácticas Resueltas:** [Practicas_Tema_03_Resueltas.md](./3%20-%20La%20Elasticidad%20y%20sus%20Aplicaciones/Prácticas/Practicas_Tema_03_Resueltas.md) *(Tabaco y alcohol, Fiesta del cine, tarifas de AVE, mantequilla y palma, bebidas azucaradas, cártel de petróleo, 4 ejercicios numéricos y 22 preguntas test)*
+* 📄 **Boletín Oficial:** [ECONOMIA_TEMA_3_Practicas.pdf](./3%20-%20La%20Elasticidad%20y%20sus%20Aplicaciones/Prácticas/ECONOMIA_TEMA_3_Practicas.pdf)
 
 ---
 
-## 📊 Sistema de Evaluación Orientativo
+## 📊 Sistema de Evaluación de la Asignatura
 
-- **Evaluación Continua (30% – 40%):** Prácticas de problemas numéricos y gráficos, resolución de casos, cuestionarios periódicos y participación en seminarios.
-- **Examen Final (60% – 70%):** Examen teórico y práctico que incluye desarrollo de modelos microeconómicos, análisis gráfico y resolución matemática de equilibrios de mercado y costes.
-
----
-
-## 🗂️ Estructura de la Carpeta
-
-- [📁 Apuntes](./Apuntes) — Fórmulas, gráficos de mercado y resúmenes teóricos.
-- [📁 Prácticas](./Prácticas) — Boletines de problemas resueltos de elasticidad, costes y equilibrios.
-- [📁 Exámenes](./Exámenes) — Exámenes de convocatorias pasadas y modelos de autoevaluación.
+- **Evaluación Continua (30% – 40%):** Prácticas de problemas numéricos y gráficos, resolución de casos, cuestionarios periódicos y participación en seminarios de los miércoles en A411P / A412.
+- **Examen Final Oficial (60% – 70%):** Examen teórico y práctico con modelos microeconómicos, análisis gráfico y resolución matemática de equilibrios de mercado y elasticidades.
 
 ---
 
 ## 🔗 Recursos de Interés
 
-- [Aula Virtual UM](https://aulavirtual.um.es/)
+- [Aula Virtual UM (Sakai)](https://aulavirtual.um.es/)
 - [Guía Docente Oficial UM — Cód. 2343](https://www.um.es/web/estudios/grados/ade/plan-guias)
+- [Calendario Oficial de Exámenes 2026/2027](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md)
