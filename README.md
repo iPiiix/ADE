@@ -61,6 +61,9 @@ Estas son las **5 asignaturas en las que estás matriculado y cursando actualmen
 | **2350** | **Matemáticas para la Empresa I** | 4,5 | Obligatoria | **Nivelación desde cero:** Bloque `0 - Teoría Básica` con explicaciones paso a paso. | [📁 Ver Asignatura](./Matemáticas%20para%20la%20Empresa%20I) |
 | **2346** | **Matemática de las Operaciones Financieras** | 6,0 | Formación Básica | Cálculo financiero aplicado a la empresa (préstamos, intereses simples y compuestos). | [📁 Ver Asignatura](./Matemática%20de%20las%20Operaciones%20Financieras) |
 
+> 🗓️ **Fechas de Exámenes Oficiales:**  
+> Consulta el calendario completo con fechas, horarios oficiales de 09:00 a 12:00 h y aulas en: **[Calendario Oficial de Exámenes 2026/2027](./CALENDARIO_EXAMENES_OFICIALES_2026_2027.md)**.
+
 > 🚀 **Estrategia para recuperar el mes de retraso:**  
 > 1. **Asegurar los puntos fuertes (Administración y Contabilidad):** Llevar al día los apuntes y supuestos resueltos (Temas 1, 2 y 3 ya implementados).  
 > 2. **Base matemática sólida sin agobios:** Empezar por la carpeta `Matemáticas para la Empresa I/0 - Teoria Basica` para dominar fracciones, potencias y ecuaciones antes de pasar a derivadas y funciones.  
