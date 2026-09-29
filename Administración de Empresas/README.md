@@ -29,12 +29,16 @@ Introducción integral al concepto de empresa como sistema socio-técnico abiert
 
 ### 📚 Bloques Temáticos Principales
 
-1. **La Empresa y su Entorno:** Concepto, naturaleza y objetivos de la empresa. Tipologías empresariales y análisis del entorno general y específico.
-2. **El Empresario y la Dirección Estratégica:** Funciones directivas (planificación, organización, dirección de personas y control). Proceso de toma de decisiones.
-3. **El Subsistema de Operaciones y Producción:** Capacidad, localización, procesos productivos y gestión de inventarios y calidad.
-4. **El Subsistema Comercial / Marketing:** Mercado, segmentación, análisis del consumidor y las variables del Marketing Mix.
-5. **El Subsistema Financiero:** Fuentes de financiación empresarial, estructura económica y financiera, criterios básicos de selección de inversiones.
-6. **Diseño Organizativo y Recursos Humanos:** Estructura organizativa, departamentalización, liderazgo, motivación y gestión del talento.
+1. **La Empresa:** Concepto, naturaleza y objetivos de la empresa. Tipologías empresariales, trámites de constitución y principios económicos. La empresa como sistema.
+2. **La Empresa y su Entorno:** Análisis del entorno general (PESTEL) y entorno específico del sector (5 Fuerzas de Porter). Responsabilidad Social Corporativa (RSC) y desarrollo sostenible.
+3. **Evolución del Pensamiento Administrativo:** Escuelas clásicas, relaciones humanas y enfoques contemporáneos.
+4. **La Administración de Empresas:** El proceso administrativo y funciones directivas básicas.
+5. **La Función de Planificación:** Metas, planes estratégicos y operativos.
+6. **La Toma de Decisiones:** Modelos, racionalidad y procesos de elección.
+7. **La Función de Organización:** Estructura organizativa y departamentalización.
+8. **La Función de Dirección: El Liderazgo:** Estilos de liderazgo y dirección de personas.
+9. **La Función de Dirección: Motivación y Comunicación:** Teorías motivacionales y canales informativos.
+10. **La Función de Control:** Medición de desviaciones y acciones correctoras.
 
 ---
 
@@ -45,11 +49,30 @@ Introducción integral al concepto de empresa como sistema socio-técnico abiert
 
 ---
 
-## 🗂️ Estructura de la Carpeta
+## 🗂️ Estructura por Temas de la Asignatura
 
-- [📁 Apuntes](./Apuntes) — Esquemas, resúmenes teóricos y notas de clase.
-- [📁 Prácticas](./Prácticas) — Casos prácticos, ejercicios resueltos y presentaciones.
-- [📁 Exámenes](./Exámenes) — Exámenes de convocatorias anteriores y autoevaluaciones.
+La asignatura se organiza de manera modular por bloques temáticos con sus apuntes teóricos completos, los documentos PDF oficiales del profesor y sus cuadernos de ejercicios prácticos:
+
+### 📁 [1 - La Empresa y su Entorno](./1%20-%20La%20Empresa%20y%20su%20Entorno)
+- **Apuntes:**
+  - 📄 **[Tema 1: La Empresa](./1%20-%20La%20Empresa%20y%20su%20Entorno/Apuntes/Tema_01_La_Empresa.md)** — Concepto (económico vs. administrativo), evolución histórica (de la empresa primitiva a la inteligente), elementos y capital intelectual (humano, estructural y relacional), funciones directas e indirectas, tipologías (clasificación UE por tamaño, formas jurídicas: autónomo, CB, SL y SA), trámites de constitución/puesta en marcha, principios de eficiencia (productividad factorial y global, rentabilidad ROA/ROE) y la empresa como sistema socio-técnico abierto.
+  - 📑 **[PDF Oficial: ADMINISTRACIÓN DE EMPRESA Tema 1 ADE](./1%20-%20La%20Empresa%20y%20su%20Entorno/Apuntes/ADMINISTRACION_DE_EMPRESA_Tema%201n%20ADE.pdf)**
+- **Prácticas:**
+  - 📝 **[Prácticas y Casos Resueltos Tema 1](./1%20-%20La%20Empresa%20y%20su%20Entorno/Pr%C3%A1cticas/README.md)** — Cálculo de productividad de la mano de obra, productividad global de factores y ratios de rentabilidad (ROA y ROE).
+
+---
+
+### 📁 [2 - El Empresario y la Dirección](./2%20-%20El%20Empresario%20y%20la%20Direcci%C3%B3n)
+- **Apuntes:**
+  - 📄 **[Tema 2: La Empresa y su Entorno](./2%20-%20El%20Empresario%20y%20la%20Direcci%C3%B3n/Apuntes/Tema_02_La_Empresa_y_su_Entorno.md)** — Concepto de entorno y dimensiones (dinamismo, complejidad, diversidad, hostilidad e incertidumbre), análisis del entorno general (modelo PESTEL por niveles territoriales), análisis del entorno específico (modelo de las 5 Fuerzas Competitivas de Michael Porter: rivalidad, competidores potenciales, sustitutivos, clientes, proveedores y acción de las AAPP), y Responsabilidad Social Corporativa (enfoques clásico vs. favorable, stakeholders y Agenda 2030 / ODS).
+  - 📑 **[PDF Oficial: ADMINISTRACION EMPRESA TEMA 2 ADE](./2%20-%20El%20Empresario%20y%20la%20Direcci%C3%B3n/Apuntes/ADMINISTARCION_EMPRESA_TEMA_2_ADE.pdf)**
+- **Prácticas:**
+  - 📝 **[Prácticas y Casos de Entorno Tema 2](./2%20-%20El%20Empresario%20y%20la%20Direcci%C3%B3n/Pr%C3%A1cticas/README.md)** — Aplicación práctica del modelo PESTEL (sector automóvil) y análisis de las 5 fuerzas de Porter (sector distribución y supermercados).
+
+---
+
+### 📁 [Exámenes](./Exámenes)
+- Exámenes parciales, pruebas teórico-prácticas tipo test y autoevaluaciones de la cátedra de Organización de Empresas.
 
 ---
 
@@ -57,3 +80,4 @@ Introducción integral al concepto de empresa como sistema socio-técnico abiert
 
 - [Aula Virtual UM](https://aulavirtual.um.es/)
 - [Guía Docente Oficial UM — Cód. 2345](https://www.um.es/web/estudios/grados/ade/plan-guias)
+- [Portal IPYME — Creación y Estadísticas de Empresas](https://plataformapyme.es/)
