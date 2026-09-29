@@ -1,55 +1,20 @@
-# ✍️ Prácticas y Ejercicios de Asientos — Tema 3: El Método Contable
+# ✍️ Prácticas y Supuestos Resueltos — Tema 3: El Método Contable
 
 - **Asignatura:** Contabilidad Financiera I (Cód. 2344)
 - **Tema:** Tema 3 — El Método Contable, La Partida Doble y el Cuadro de Cuentas
-- **Universidad de Murcia** — Grado en ADE
+- **Universidad de Murcia** — Grado en ADE (Facultad de Economía y Empresa)
 
 ---
 
-## 📌 Ejercicios Prácticos de Asientos y Libro Mayor
+## 📁 Materiales Disponibles
 
-### Ejercicio 1: Ciclo Básico de Constitución y Operaciones Iniciales
-Realizar los asientos en el Libro Diario y el reflejo en el Libro Mayor (en forma de "T") para las siguientes operaciones:
+1. 📄 **[Guía Completa de Supuestos Resueltos Paso a Paso (3.1 al 3.6)](./Supuestos_Tema_03_Resueltos.md)**:
+   - **Supuesto 3.1 ("Mister ONK"):** Compra de hornos con letras, préstamo bancario a 5 años, adquisición de local y motocicleta, compra de materias primas a plazo y amortización parcial. Ecuación contable, asientos en Diario, Mayor en T y balance final.
+   - **Supuesto 3.2 ("Computerizando S.L."):** Deducción analítica de hechos contables a partir de la evolución temporal del cuadro de elementos patrimoniales.
+   - **Supuesto 3.3 (Sociedad Cursos de Golf):** 11 operaciones completas con divisas extranjeras, préstamos sindicados, marca registrada, adquisición de activos, carritos y acciones, con libro Diario, libro Mayor y balance de situación final.
+   - **Supuesto 3.4 (Sociedades W, X, Y, Z):** Obtención de magnitudes patrimoniales desconocidas despejando la ecuación fundamental ($A = P + N$).
+   - **Supuesto 3.5 ("Bastet S.L."):** Clasificación técnica integral de 32 elementos patrimoniales con Grupo PGC, número de cuenta normalizado y masa patrimonial.
+   - **Supuesto 3.6:** Análisis del impacto patrimonial de 7 asientos (permutativos, reclasificaciones de deudas y capitalización de pasivo) y elaboración del balance de situación final.
 
-1. **01/02:** Se constituye una sociedad anónima con un capital de $50.000$ € íntegramente suscrito y desembolsado en la cuenta bancaria de la sociedad.
-   ```
-   50.000  (572) Bancos c/c
-               a  (100) Capital Social             50.000
-   ```
-2. **05/02:** Se retiran $2.000$ € del banco para dotar la caja en efectivo de la oficina.
-   ```
-    2.000  (570) Caja, euros
-               a  (572) Bancos c/c                  2.000
-   ```
-3. **10/02:** Se adquiere una furgoneta para repartos por $18.000$ €. Se pagan $3.000$ € mediante transferencia bancaria y el resto ($15.000$ €) queda aplazado a 2 años.
-   ```
-   18.000  (218) Elementos de transporte
-               a  (572) Bancos c/c                  3.000
-               a  (173) Proveedores inmov. L/P     15.000
-   ```
-4. **15/02:** Se compran mercaderías por $4.000$ € a crédito (a pagar en 60 días).
-   ```
-    4.000  (300) Mercaderías
-               a  (400) Proveedores                 4.000
-   ```
-5. **20/02:** Se pagan $1.500$ € a los proveedores anteriores mediante transferencia bancaria.
-   ```
-    1.500  (400) Proveedores
-               a  (572) Bancos c/c                  1.500
-   ```
-
----
-
-### Ejercicio 2: Identificación en el Cuadro de Cuentas del PGC
-Clasificar las siguientes cuentas indicando su Grupo PGC, naturaleza (Activo, Pasivo o Neto) y si pertenecen al Balance o a Pérdidas y Ganancias:
-
-| Cuenta | Grupo PGC | Masa Patrimonial | Estado Financiero |
-| :--- | :---: | :--- | :--- |
-| **(100) Capital Social** | Grupo 1 | Patrimonio Neto (Fondos Propios) | Balance de Situación |
-| **(213) Maquinaria** | Grupo 2 | Activo No Corriente | Balance de Situación |
-| **(300) Mercaderías** | Grupo 3 | Activo Corriente | Balance de Situación |
-| **(400) Proveedores** | Grupo 4 | Pasivo Corriente | Balance de Situación |
-| **(430) Clientes** | Grupo 4 | Activo Corriente | Balance de Situación |
-| **(572) Bancos c/c** | Grupo 5 | Activo Corriente (Tesorería) | Balance de Situación |
-| **(600) Compras de mercaderías** | Grupo 6 | Gastos de Explotación | Cuenta de Pérdidas y Ganancias |
-| **(700) Ventas de mercaderías** | Grupo 7 | Ingresos de Explotación | Cuenta de Pérdidas y Ganancias |
+2. 📑 **[PDF Oficial de Enunciados UMU](./CONTABILIDAD1_SUPUESTOS_TEMA_3.pdf)**:
+   - Boletín oficial de supuestos prácticos facilitado por el Departamento de Economía Financiera y Contabilidad.

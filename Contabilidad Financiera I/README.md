@@ -78,7 +78,9 @@ La asignatura se estructura en bloques modulares que integran apuntes teóricos 
   - 📄 **[Tema 3: El Método Contable y la Partida Doble](./3%20-%20El%20M%C3%A9todo%20Contable/Apuntes/Tema_03_El_Metodo_Contable_y_la_Partida_Doble.md)** — Hechos contables y dualidad, circuito documental (factura IVA y letras), la cuenta en T, terminología (cargar, abonar, saldar, cerrar), convenio de cargo y abono, asientos en Diario y Mayor, caso integral *La Puerta Roja*, codificación decimal y los 9 Grupos del PGC 2007.
   - 📑 **[PDF Oficial: Tema 3 ADE CFI Alumnos](./3%20-%20El%20M%C3%A9todo%20Contable/Apuntes/Tema_3_ADE_CF_I__alumnos.pdf)**
 - **Prácticas:**
-  - 📝 **[Prácticas y Asientos Contables Tema 3](./3%20-%20El%20M%C3%A9todo%20Contable/Pr%C3%A1cticas/README.md)** — Asientos en libro diario, pases a mayor en T y clasificación en el cuadro de cuentas.
+  - 📄 **[Supuestos Prácticos Resueltos Paso a Paso (3.1 al 3.6)](./3%20-%20El%20M%C3%A9todo%20Contable/Pr%C3%A1cticas/Supuestos_Tema_03_Resueltos.md)** — Supuestos completos: bocadillos ecológicos "Mister ONK" (diario, mayor, balance), deducción de hechos contables ("Computerizando SL"), sociedad cursos de golf (divisas, préstamos, balance final), cálculo de incógnitas en balances ($W, X, Y, Z$), cuadro de cuentas PGC de "Bastet SL" (32 elementos) y análisis de asientos y balance final.
+  - 📑 **[PDF Oficial: Enunciados SUPUESTOS TEMA 3](./3%20-%20El%20M%C3%A9todo%20Contable/Pr%C3%A1cticas/CONTABILIDAD1_SUPUESTOS_TEMA_3.pdf)**
+  - 📝 **[Índice de Prácticas Tema 3](./3%20-%20El%20M%C3%A9todo%20Contable/Pr%C3%A1cticas/README.md)**
 
 ---
 
