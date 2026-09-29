@@ -2,154 +2,305 @@
 
 - **Asignatura:** Contabilidad Financiera I (Cód. 2344)
 - **Titulación:** Grado en ADE — Facultad de Economía y Empresa (Universidad de Murcia)
-- **Tema:** Tema 2 — El Patrimonio de la Empresa, Masas Patrimoniales y el Equilibrio Contable
-- **Enfoque:** Explicación desde cero para entender qué es el patrimonio, cómo funciona la ecuación contable y resolución detallada del supuesto visto en clase.
+- **Tema:** Tema 2 — Teoría del Patrimonio, Masas Patrimoniales y el Equilibrio Contable
+- **Material de Referencia:** Diapositivas Oficiales UMU (`Tema_2_ADE_CFI_alumnos.pdf`)
+- **Enfoque:** Guía integral: explicación intuitiva paso a paso + rigor técnico oficial del PGC + balances en T + análisis patrimonial.
 
 ---
 
-## 🎯 ¿Qué es el Patrimonio de una Empresa? (Para mortales)
+## 📑 Índice de Contenidos
 
-Mucha gente confunde "patrimonio" con "dinero en el banco". En contabilidad, el patrimonio es la foto completa de todo lo que tiene y debe una empresa:
-
-1. **Bienes:** Cosas que la empresa posee físicamente (dinero en efectivo, una furgoneta, un ordenador, un almacén, mercancías).
-2. **Derechos:** Dinero que otros le deben a la empresa (facturas pendientes de cobro de clientes, préstamos concedidos).
-3. **Obligaciones:** Deudas que la empresa tiene con terceros (préstamos pedidos al banco, facturas que debe a proveedores, impuestos pendientes).
-
-> 💡 **La Gran Fórmula de la Contabilidad:**
-> $$\text{Lo que tenemos (Bienes + Derechos)} - \text{Lo que debemos (Obligaciones)} = \text{Lo que realmente es nuestro (Neto)}$$
-
----
-
-## ⚖️ Las 3 Grandes Masas Patrimoniales
-
-Toda la contabilidad mundial se apoya en 3 conceptos:
-
-| Masa Patrimonial | ¿Qué representa? | ¿Qué incluye? | En lenguaje de clase |
-| :--- | :--- | :--- | :--- |
-| **ACTIVO** | **Estructura Económica:** En qué se ha gastado o invertido el dinero. | **Bienes + Derechos** | La furgoneta, el ordenador, el dinero en la cuenta corriente del banco (tesorería), las mercancías. |
-| **PASIVO** | **Estructura Financiera Ajena:** Dinero que nos han dejado otros y tenemos que devolver. | **Obligaciones / Deudas** | Préstamos bancarios a devolver a 2 años, aplazamientos de pago con proveedores. |
-| **PATRIMONIO NETO** | **Estructura Financiera Propia:** Fondos aportados por los dueños o generados por el negocio. | **Aportaciones de socios + Beneficios no repartidos** | El **Capital Social** aportado por los socios al fundar la empresa. |
+1. [La Riqueza o Patrimonio de la Empresa](#1-la-riqueza-o-patrimonio-de-la-empresa)
+2. [Estructura Económica y Estructura Financiera](#2-estructura-económica-y-estructura-financiera)
+   - 2.1. [Los Elementos Patrimoniales (Minilista)](#21-los-elementos-patrimoniales)
+3. [La Identidad Contable (Ecuación Fundamental)](#3-la-identidad-contable-ecuación-fundamental)
+4. [Análisis y Clasificación del ACTIVO](#4-análisis-y-clasificación-del-activo)
+   - 4.1. [Activo No Corriente (Estructura Fija / Bienes de Uso)](#41-activo-no-corriente)
+   - 4.2. [Activo Corriente (Estructura Circulante / Bienes de Intercambio)](#42-activo-corriente)
+   - 4.3. [Criterio de Valoración Inicial: Precio de Adquisición](#43-criterio-de-valoración-inicial)
+5. [Análisis y Clasificación del PASIVO](#5-análisis-y-clasificación-del-pasivo)
+   - 5.1. [Pasivo No Corriente vs. Pasivo Corriente](#51-pasivo-no-corriente-vs-pasivo-corriente)
+6. [Análisis del PATRIMONIO NETO](#6-análisis-del-patrimonio-neto)
+   - 6.1. [Patrimonio Neto vs. Fondos Propios](#61-patrimonio-neto-vs-fondos-propios)
+7. [El Balance de Situación como Expresión del Equilibrio Patrimonial](#7-el-balance-de-situación-como-expresión-del-equilibrio-patrimonial)
+   - 7.1. [Criterios de Ordenación: Liquidez y Exigibilidad Crecientes](#71-criterios-de-ordenación)
+   - 7.2. [Criterios de Reconocimiento del Marco Conceptual PGC](#72-criterios-de-reconocimiento)
+   - 7.3. [Principio de No Compensación](#73-principio-de-no-compensación)
+   - 7.4. [Análisis Básico: Fondo de Maniobra y Ratios Financieros](#74-análisis-básico-fondo-de-maniobra-y-ratios)
+8. [Supuesto de Clase Resuelto Paso a Paso (La Furgoneta y el Ordenador)](#8-supuesto-de-clase-resuelto-paso-a-paso)
 
 ---
 
-## 🏛️ La Ecuación Fundamental del Patrimonio
+## 1. La Riqueza o Patrimonio de la Empresa
 
-Por definición matemática y contable, los dos lados del balance **tienen que cuadrar siempre al céntimo**:
+> 🏛️ **Definición Formal:**  
+> El **Patrimonio** es el conjunto de **bienes, derechos y obligaciones** pertenecientes a una entidad económica en un momento determinado del tiempo, que constituyen los medios económicos y financieros a través de los cuales puede cumplir sus fines.
 
+Es un **concepto estático**: representa la "fotografía" o estado patrimonial de la empresa en una fecha fija (normalmente a 31 de diciembre o fecha de cierre de ejercicio).
+
+### Los Tres Componentes Esenciales
+
+```mermaid
+flowchart LR
+    Patrimonio[PATRIMONIO]
+    
+    Patrimonio --> Bienes[Bienes: Cosas materiales o inmateriales que la empresa posee para su uso, transformación o venta]
+    Patrimonio --> Derechos[Derechos: Situaciones jurídicas a favor de la empresa cobrar facturas a clientes o derechos de uso de patentes]
+    Patrimonio --> Obligaciones[Obligaciones: Deudas y compromisos exigibles con bancos, proveedores y Hacienda]
+```
+
+1. **Bienes:** Elementos tangibles que la empresa posee para:
+   - *Uso:* Edificios, maquinaria, ordenadores, furgonetas.
+   - *Transformación:* Materias primas (madera, harina, telas).
+   - *Venta:* Productos terminados o mercaderías.
+2. **Derechos:** Situaciones jurídicas a favor de la empresa:
+   - *Derechos de cobro:* Dinero que le deben los clientes por ventas a crédito o depósitos bancarios.
+   - *Derechos de uso:* Concesiones administrativas, licencias, propiedad industrial (marcas y patentes).
+3. **Obligaciones:** Deudas con terceros contraídas en el pasado que exigirán la entrega de fondos en el futuro (préstamos bancarios, facturas pendientes a proveedores, nóminas, tributos).
+
+---
+
+## 2. Estructura Económica y Estructura Financiera
+
+La contabilidad contempla el patrimonio bajo una **doble perspectiva simultánea**:
+
+```
+      ESTRUCTURA ECONÓMICA                  ESTRUCTURA FINANCIERA
+    (En qué se ha invertido)                (De dónde vino el dinero)
+┌───────────────────────────────┐       ┌───────────────────────────────┐
+│                               │       │  FUENTES DE FINANCIACIÓN      │
+│            ACTIVO             │  ═══  │  PROPIAS (Patrimonio Neto)    │
+│     (Bienes + Derechos)       │       ├───────────────────────────────┤
+│                               │       │  FUENTES DE FINANCIACIÓN      │
+│                               │       │  AJENAS (Pasivo / Deudas)     │
+└───────────────────────────────┘       └───────────────────────────────┘
+```
+
+- **Estructura Económica (ACTIVO):** Refleja la totalidad de los medios económicos reales e inversiones que la empresa controla para generar ingresos.
+- **Estructura Financiera (PASIVO + PATRIMONIO NETO):** Refleja el origen de los recursos financieros empleados para adquirir dicho activo. Indica a quién y bajo qué concepto debe responder la empresa:
+  - *Fuentes Propias:* Aportadas por los socios (Capital) o generadas por el propio negocio (Beneficios no distribuidos / Reservas).
+  - *Fuentes Ajenas:* Aportadas por terceros ajenos a los que hay que devolver el dinero (Bancos, Proveedores, Hacienda).
+
+> ⚠️ **Importante Diferencia Conceptual:**  
+> En la estructura económica existen bienes reales y tangibles (dinero en efectivo, naves, ordenadores). En la estructura financiera figuran **simples magnitudes abstractas o saldos contables** que cuantifican compromisos con los acreedores o con los socios.
+
+---
+
+### 2.1. Los Elementos Patrimoniales
+
+Para evitar ambigüedades, el PGC estandariza los nombres de cada elemento (la denominada **Minilista** contable):
+
+| Elemento Patrimonial | Cuenta Típica | Masa Patrimonial | Naturaleza |
+| :--- | :---: | :--- | :--- |
+| Dinero en efectivo físico | **570 Caja, euros** | Activo Corriente (Tesorería) | Bien |
+| Dinero en cuenta corriente bancaria | **572 Bancos c/c** | Activo Corriente (Tesorería) | Derecho de cobro inmediato |
+| Furgonetas, camiones, coches | **218 Elementos de transporte** | Activo No Corriente (Inm. Material) | Bien de uso |
+| Naves, locales, almacenes | **211 Construcciones** | Activo No Corriente (Inm. Material) | Bien de uso |
+| Solares y fincas rústicas | **210 Terrenos y bienes naturales**| Activo No Corriente (Inm. Material) | Bien de uso |
+| Ordenadores, impresoras, servidores| **217 Equipos para procesos de inf.**| Activo No Corriente (Inm. Material) | Bien de uso |
+| Mesas, sillas, estanterías | **216 Mobiliario** | Activo No Corriente (Inm. Material) | Bien de uso |
+| Mercancías en almacén para vender | **300 Mercaderías** | Activo Corriente (Existencias) | Bien de venta |
+| Deuda de clientes por ventas a plazo | **430 Clientes** | Activo Corriente (Deudores) | Derecho de cobro |
+| Letra de cambio aceptada por cliente | **431 Clientes, ef. com. a cobrar**| Activo Corriente (Deudores) | Derecho formal de cobro |
+| Aportaciones iniciales de socios | **100 Capital social** | Patrimonio Neto (Fondos Propios) | Financiación propia |
+| Beneficios acumulados no repartidos | **112 Reservas legales/voluntarias**| Patrimonio Neto (Fondos Propios) | Financiación autogenerada|
+| Préstamo bancario a devolver en 3 años | **170 Deudas a L/P ent. crédito**| Pasivo No Corriente | Obligación a largo plazo |
+| Deuda por compra de mercaderías | **400 Proveedores** | Pasivo Corriente | Obligación a corto plazo |
+| Letra de cambio emitida a proveedor | **401 Proveedores, ef. com. pagar** | Pasivo Corriente | Obligación formal a corto |
+| Deuda por suministros de luz o teléfono| **410 Acreedores por prest. servic.**| Pasivo Corriente | Obligación comercial |
+| Nóminas devengadas pendientes de pago | **465 Remuneraciones pend. pago** | Pasivo Corriente | Obligación laboral |
+
+---
+
+## 3. La Identidad Contable (Ecuación Fundamental)
+
+Dado que cada euro invertido en el Activo ha debido provenir necesariamente de alguna fuente de financiación, la igualdad es matemática y permanente:
+
+$$\mathbf{\text{ESTRUCTURA ECONÓMICA} = \text{ESTRUCTURA FINANCIERA}}$$
 $$\mathbf{\text{ACTIVO} = \text{PASIVO} + \text{PATRIMONIO NETO}}$$
 
-O despejando de otra forma:
-$$\text{PATRIMONIO NETO} = \text{ACTIVO} - \text{PASIVO}$$
-
-> [!IMPORTANT]
-> ### ⚠️ El Doble Significado de la Palabra "Patrimonio" (El gran lío en clase)
-> - **Patrimonio Bruto (o ACTIVO Total):** Es la suma de todos los bienes y derechos que controla la empresa (la furgoneta + el ordenador). En tu supuesto, este total **sube a 92.000 €**.
-> - **Patrimonio Neto:** Es lo que le quedaría a los socios si vendieran todos los activos y pagaran todas las deudas ($92.000 - 2.000 = 90.000\ €$). El Patrimonio Neto **sigue siendo 90.000 €**, porque comprar un ordenador con un préstamo no hace que los socios sean más ricos ni más pobres: simplemente tienen un bien más y una deuda más.
+Despejando el valor que corresponde legítimamente a los propietarios:
+$$\mathbf{\text{PATRIMONIO NETO} = \text{ACTIVO} - \text{PASIVO}}$$
 
 ---
 
-## 📝 Supuesto Práctico de Clase Resuelto Paso a Paso
+## 4. Análisis y Clasificación del ACTIVO
 
-> ### 📌 Enunciado
-> 1. La empresa **X** se constituye con un **capital aportado por los socios de 90.000 €** ($90$k), que se ingresa en la cuenta bancaria de la empresa (tesorería).
-> 2. La empresa compra una **furgoneta por 90.000 €** ($90$k) pagando con el dinero del banco.
-> 3. La empresa adquiere un **ordenador por 2.000 €** ($2$k) y para financiarlo solicita un **préstamo bancario a 2 años**.
+El PGC define el **Activo** como:
+> *"Bienes, derechos y otros recursos controlados económicamente por la empresa, resultantes de sucesos pasados, de los que se espera que la empresa obtenga beneficios o rendimientos económicos en el futuro."*
+
+### 4.1. Activo No Corriente (Inmovilizado / Fijo)
+Bienes y derechos que permanecen en la empresa durante **más de un ejercicio económico (más de 12 meses)**. No están destinados a la venta, sino a servir de soporte duradero a la actividad productiva:
+
+1. **Inmovilizado Material:** Activos tangibles (terrenos, construcciones, maquinaria, elementos de transporte, mobiliario, ordenadores).
+2. **Inmovilizado Intangible:** Activos inmateriales sin apariencia física susceptibles de valoración económica (programas informáticos, propiedad industrial / patentes, derechos de traspaso, gastos de I+D).
+3. **Inversiones Inmobiliarias:** Inmuebles (terrenos o edificios) que la empresa posee ajenos a su actividad ordinaria para obtener rentas por alquiler o plusvalías en su venta futura.
+4. **Inversiones Financieras a Largo Plazo:** Acciones, obligaciones o préstamos concedidos con vencimiento superior a 1 año.
+
+---
+
+### 4.2. Activo Corriente (Circulante)
+Elementos vinculados al ciclo de explotación habitual que se renuevan o **se transforman en dinero líquido en un plazo igual o inferior a 12 meses**:
+
+1. **Existencias:** Bienes para vender o consumir en la producción (mercaderías, materias primas, productos terminados).
+2. **Deudores Comerciales y Otras Cuentas a Cobrar:** Derechos de cobro surgidos del tráfico ordinario (Clientes, Deudores, Hacienda Pública deudora).
+3. **Inversiones Financieras a Corto Plazo:** Títulos valores (acciones de cotización rápida, depósitos bancarios a 3 meses) o créditos concedidos con vencimiento inferior a 1 año.
+4. **Efectivo y Otros Activos Líquidos Equivalentes (Tesorería):** Medios de liquidez inmediata (Caja en efectivo y cuentas corrientes bancarias a la vista).
+
+---
+
+### 4.3. Criterio de Valoración Inicial
+
+Todo elemento del activo entra en balance valorado por su **Coste Histórico**:
+- Si es adquirido: **Precio de Adquisición** (Factura neta de descuentos + transporte + aranceles + montaje hasta puesta en marcha).
+- Si es elaborado: **Coste de Producción** (Materias primas consumidas + mano de obra directa + costes indirectos imputables).
+
+---
+
+## 5. Análisis y Clasificación del PASIVO
+
+El PGC define el **Pasivo** como:
+> *"Obligaciones actuales surgidas como consecuencia de sucesos pasados, para cuya extinción la empresa espera desprenderse de recursos que puedan producir beneficios o rendimientos económicos en el futuro."*
+
+### 5.1. Pasivo No Corriente vs. Pasivo Corriente
+
+```mermaid
+flowchart TD
+    Pasivo[PASIVO / Financiación Ajena]
+    
+    Pasivo --> PNC[Pasivo No Corriente / A Largo Plazo]
+    Pasivo --> PC[Pasivo Corriente / A Corto Plazo]
+    
+    PNC --> PNC1[Vencimiento superior a 1 año > 12 meses]
+    PNC --> PNC2[Préstamos bancarios a L/P, Empréstitos, Proveedores de inmovilizado a L/P]
+    
+    PC --> PC1[Vencimiento igual o inferior a 1 año ≤ 12 meses]
+    PC --> PC2[Deudas con proveedores, Acreedores por servicios, Hacienda a pagar, Préstamos C/P]
+```
+
+---
+
+## 6. Análisis del PATRIMONIO NETO
+
+El PGC define el **Patrimonio Neto** como:
+> *"La parte residual de los activos de la empresa, una vez deducidos todos sus pasivos."*
+
+### 6.1. ¿Son sinónimos Patrimonio Neto y Fondos Propios?
+
+> [!NOTE]
+> **No son estrictamente sinónimos, aunque en este nivel introductorio coincidan con frecuencia.**  
+> Los **Fondos Propios** son el núcleo principal del Patrimonio Neto, pero el Patrimonio Neto es un concepto más amplio:
+> $$\text{Patrimonio Neto} = \text{Fondos Propios} + \text{Subvenciones y Donaciones no reintegrables} + \text{Ajustes por cambio de valor}$$
 > 
-> *¿Cómo evoluciona la ecuación contable y por qué el patrimonio/activo de la empresa pasa a 92.000 €?*
+> Componentes de los **Fondos Propios:**
+> 1. **Capital Social:** Aportaciones directas de los socios.
+> 2. **Reservas:** Beneficios retenidos en la empresa por imperativo legal o estatutario.
+> 3. **Resultados del Ejercicio:** Pérdidas o ganancias del último año aún pendientes de distribución.
 
 ---
 
-### Momento 0: Constitución de la Empresa
+## 7. El Balance de Situación como Expresión del Equilibrio Patrimonial
 
-Los socios entregan $90.000$ € a la empresa. La empresa abre una cuenta corriente bancaria e ingresa ese dinero.
+### 7.1. Criterios de Ordenación
 
-* **Activo (+):** Dinero en el banco / Tesorería = $90.000$ € *(Cuenta 572)*.
-* **Pasivo:** $0$ € *(No se debe nada)*.
-* **Patrimonio Neto (+):** Capital Social aportado por los socios = $90.000$ € *(Cuenta 100)*.
-
-$$\text{Activo } (90.000) = \text{Pasivo } (0) + \text{Patrimonio Neto } (90.000) \quad \checkmark$$
+En el Balance oficial según el PGC:
+- El **ACTIVO** se ordena de **MENOR a MAYOR LIQUIDEZ** (facultad de un activo para transformarse en dinero sin pérdida de valor). Arriba los terrenos e inmuebles (muy ilíquidos); abajo la cuenta corriente bancaria y la caja (liquidez total).
+- El **PASIVO Y PATRIMONIO NETO** se ordena de **MENOR a MAYOR EXIGIBILIDAD** (urgencia y cercanía temporal para devolver el fondo). Arriba el capital de los socios (no exigible); en medio las deudas a largo plazo (exigibles a varios años); abajo las deudas con proveedores a 30 días (exigibilidad inmediata).
 
 ```
-   ACTIVO (Estructura Económica)        |     PASIVO Y PATRIMONIO NETO (Financiación)
+   ACTIVO (Menor a Mayor Liquidez)      |   PASIVO Y PN (Menor a Mayor Exigibilidad)
+========================================+==============================================
+A) ACTIVO NO CORRIENTE                  |  A) PATRIMONIO NETO
+   I.   Inmovilizado Intangible         |     I.   Capital
+   II.  Inmovilizado Material           |     II.  Reservas
+   III. Inversiones Inmobiliarias       |     III. Resultado del Ejercicio
+   IV.  Inversiones Financieras L/P     |
+                                        |  B) PASIVO NO CORRIENTE (L/P > 1 año)
+B) ACTIVO CORRIENTE                     |     I.   Deudas con entidades de crédito L/P
+   I.   Existencias                     |     II.  Proveedores de inmovilizado a L/P
+   II.  Deudores comerciales (Clientes) |
+   III. Inversiones Financieras C/P     |  C) PASIVO CORRIENTE (C/P <= 1 año)
+   IV.  Tesorería (Bancos y Caja)       |     I.   Deudas con entidades de crédito C/P
+                                        |     II.  Proveedores y Acreedores comerciales
+                                        |     III. Hacienda Pública acreedora
 ----------------------------------------+----------------------------------------------
-  Bancos / Tesorería:         90.000 €  |  Capital Social (Socios):          90.000 €
-                                        |  Pasivo (Deudas):                       0 €
-----------------------------------------+----------------------------------------------
-  TOTAL ACTIVO:               90.000 €  |  TOTAL PASIVO + PN:                90.000 €
-```
-
----
-
-### Operación 1: Compra de la furgoneta por 90.000 € al contado
-
-La empresa va al concesionario y compra una furgoneta de $90$k pagando con la totalidad de su tesorería del banco.
-
-* **¿Qué entra?:** Un bien nuevo al Activo $\to$ Elemento de Transporte (Furgoneta) por $+90.000$ € *(Cuenta 218)*.
-* **¿Qué sale?:** Dinero de la cuenta corriente $\to$ Bancos / Tesorería por $-90.000$ € *(Cuenta 572)*. La tesorería queda a $0$ €.
-* **Tipo de operación contable:** **Hecho Permutativo**. Cambias un activo líquido (dinero) por otro activo inmovilizado (vehículo). El total de cosas que tienes no cambia de valor.
-
-$$\text{Activo: } \underbrace{90.000\text{ € (furgoneta)}}_{\text{Nuevo bien}} + \underbrace{0\text{ € (banco)}}_{\text{Dinero gastado}} = 90.000\text{ €}$$
-$$\text{Activo } (90.000) = \text{Pasivo } (0) + \text{Patrimonio Neto } (90.000) \quad \checkmark$$
-
-```
-   ACTIVO (Estructura Económica)        |     PASIVO Y PATRIMONIO NETO (Financiación)
-----------------------------------------+----------------------------------------------
-  Furgoneta (Transporte):     90.000 €  |  Capital Social:                   90.000 €
-  Bancos / Tesorería:              0 €  |  Pasivo (Deudas):                       0 €
-----------------------------------------+----------------------------------------------
-  TOTAL ACTIVO:               90.000 €  |  TOTAL PASIVO + PN:                90.000 €
+TOTAL ACTIVO (A + B)                    |  TOTAL PATRIMONIO NETO Y PASIVO (A + B + C)
 ```
 
 ---
 
-### Operación 2: Compra del ordenador de 2.000 € con préstamo a 2 años
+### 7.2. Criterios de Reconocimiento del Marco Conceptual PGC
 
-Como la empresa ya no tiene dinero en el banco ($0$ € en tesorería), para comprar el ordenador de $2$k pide un préstamo a un banco a devolver en 2 años.
-
-* **¿Qué entra en el Activo?:** Un nuevo bien $\to$ Equipos informáticos / Ordenador por $+2.000$ € *(Cuenta 217)*.
-* **¿Qué entra en el Pasivo?:** Una nueva deuda a largo plazo $\to$ Préstamo con entidad de crédito a 2 años por $+2.000$ € *(Cuenta 170)*.
-* **¿Qué pasa con el Patrimonio Neto?:** No se altera. Los socios ni han ganado ni han perdido dinero; simplemente la empresa ha comprado algo pidiendo un crédito.
-
-#### 📊 Estado Final del Balance y Comprobación:
-
-$$\text{ACTIVO TOTAL} = \underbrace{90.000\text{ € (Furgoneta)}}_{\text{Bien}} + \underbrace{2.000\text{ € (Ordenador)}}_{\text{Bien}} = \mathbf{92.000\text{ €}}$$
-
-$$\text{PASIVO} = \mathbf{2.000\text{ €}} \quad (\text{Préstamo a 2 años})$$
-
-$$\text{PATRIMONIO NETO} = \mathbf{90.000\text{ €}} \quad (\text{Capital inicial de los socios})$$
-
-Verificación de la Ecuación Fundamental:
-$$\mathbf{92.000\text{ € (Activo)} = 2.000\text{ € (Pasivo)} + 90.000\text{ € (Patrimonio Neto)} \quad \checkmark}$$
-
-```
-   ACTIVO (Bienes y Derechos)           |     PASIVO Y PATRIMONIO NETO (Financiación)
-----------------------------------------+----------------------------------------------
-  Furgoneta:                  90.000 €  |  Patrimonio Neto (Capital Social): 90.000 €
-  Ordenador:                   2.000 €  |  Pasivo No Corriente (Préstamo 2a): 2.000 €
-  Tesorería (Bancos):              0 €  |                                              
-----------------------------------------+----------------------------------------------
-  TOTAL ACTIVO:               92.000 €  |  TOTAL PASIVO + PN:                92.000 €
-```
+No basta con que un elemento encaje en la definición de activo o pasivo; para registrarse en balance deben cumplirse **dos condiciones indispensables**:
+1. **Probabilidad:** Que sea probable la obtención o el desprendimiento de beneficios o rendimientos económicos futuros.
+2. **Fiabilidad en la valoración:** Que el coste o valor del elemento pueda determinarse con razonable fiabilidad y objetividad.
 
 ---
 
-## 💡 La Explicación del Profesor en 3 Frases Claras
+### 7.3. Principio de No Compensación
 
-Tal y como te lo ha transmitido el profesor:
-1. *"La tesorería es el capital que está en activo":*  
-   El dinero aportado por los socios ($90$k) nace en el **Neto** como origen (quién lo pone), pero físicamente está en el **Activo** dentro de la cuenta del banco (tesorería), listo para gastarse.
-2. *"Los bienes entran en activos":*  
-   Cuando compras la furgoneta ($90$k) y el ordenador ($2$k), ambos son bienes de la empresa, por lo que se suman al **Activo**. El valor de los bienes totales que posee la empresa asciende a **$92.000$ €**.
-3. *"En pasivo están los préstamos":*  
-   El préstamo de $2.000$ € a 2 años es una deuda exigible, por lo que va directamente al **Pasivo**.
+> [!WARNING]
+> **Principio de No Compensación (Art. 38 Código de Comercio / PGC):**  
+> En ningún caso podrán compensarse las partidas del activo y del pasivo, ni las de gastos e ingresos.  
+> *Ejemplo:* Si una empresa tiene $6.000$ € en una cuenta bancaria y simultáneamente adeuda al mismo banco un préstamo de $3.000$ €, **está terminantemente prohibido** poner en activo $3.000$ €. Se debe figurar obligatoriamente un **Activo de 6.000 €** (Bancos) y un **Pasivo de 3.000 €** (Deudas con entidades de crédito).
 
 ---
 
-## ⚠️ Preguntas Típicas de Examen sobre este Supuesto
+### 7.4. Análisis Básico: Fondo de Maniobra y Ratios Financieros
 
-1. **¿Ha aumentado el Patrimonio Neto de la empresa tras pedir el préstamo y comprar el ordenador?**  
-   * **Respuesta:** **NO.** El Patrimonio Neto sigue siendo exactamente $90.000$ €. La empresa tiene más bienes ($+2$k), pero tiene exactamente la misma cantidad en deudas ($+2$k). El valor neto que pertenece a los socios no ha cambiado.
-2. **¿Por qué decimos que el patrimonio / activo total ha aumentado a 92k?**  
-   * **Respuesta:** Porque el **Activo (o Patrimonio Bruto)** refleja la suma total de bienes y derechos que gestiona la empresa. Al incorporar el ordenador financiado con deuda externa, el tamaño económico de la empresa crece de $90$k a $92$k.
-3. **¿A qué masa patrimonial pertenece el préstamo a 2 años?**  
-   * **Respuesta:** Al **Pasivo No Corriente** (o Pasivo a largo plazo), ya que el plazo de vencimiento para devolverlo es superior a 1 año (2 años).
+A partir del balance se evalúa la salud financiera inicial:
+
+1. **Fondo de Maniobra (Capital de Trabajo):**
+   $$\mathbf{FM = \text{Activo Corriente} - \text{Pasivo Corriente}}$$
+   - Si $FM > 0$: Situación de equilibrio financiero. Los activos que se cobrarán en el año cubren holgadamente las deudas que vencen en el año.
+   - Si $FM < 0$: Riesgo inminente de suspensión de pagos o problemas de liquidez a corto plazo.
+
+2. **Ratio de Liquidez:**
+   $$\text{Ratio de Liquidez} = \frac{\text{Activo Corriente}}{\text{Pasivo Corriente}} \quad (\text{Valor óptimo de referencia: } \approx 1,5)$$
+   - Si $< 1$: Falta de liquidez para atender pagos inmediatos.
+   - Si $\gg 2$: Exceso de recursos ociosos no rentabilizados.
+
+3. **Ratio de Endeudamiento:**
+   $$\text{Ratio de Endeudamiento} = \frac{\text{Pasivo Total}}{\text{Activo Total}} \quad (\text{Valor óptimo de referencia: } 0,5 - 0,6)$$
+   - Si $> 0,7$: Alto riesgo por excesiva dependencia de la financiación ajena.
+
+---
+
+## 8. Supuesto de Clase Resuelto Paso a Paso
+
+> ### 📌 Enunciado Visto en Clase
+> 1. La empresa se constituye con un **capital de 90.000 €** ingresado íntegramente en la cuenta bancaria.
+> 2. Se adquiere una **furgoneta por 90.000 €** al contado pagando por banco.
+> 3. Se compra un **ordenador por 2.000 €** financiado íntegramente mediante un **préstamo bancario a 2 años**.
+> 
+> *¿Por qué el total del activo sube a 92.000 € pero el Patrimonio Neto se mantiene inalterado en 90.000 €?*
+
+### Cronograma de Balances Sucesivos
+
+#### Momento 0: Constitución
+* Activo: Tesorería (Banco c/c) $= +90.000$ €
+* Patrimonio Neto: Capital Social $= +90.000$ €
+* Total Activo ($90.000$ €) = Total PN + Pasivo ($90.000$ €)
+
+#### Operación 1: Compra de Furgoneta al contado
+* Hecho permutativo de activo: Entra Furgoneta ($+90.000$ €), sale Banco ($-90.000$ €).
+* El Activo total se mantiene en $90.000$ €.
+
+#### Operación 2: Compra de Ordenador con Préstamo a 2 años
+* Entra al Activo No Corriente: Equipos para procesos de información ($+2.000$ €).
+* Entra al Pasivo No Corriente: Deudas a L/P con entidades de crédito ($+2.000$ €).
+* El Activo Total pasa a **92.000 €** ($90.000$ furgoneta $+ 2.000$ ordenador).
+* El Patrimonio Neto **sigue siendo exactamente 90.000 €** ($92.000 - 2.000 = 90.000$ €).
+
+```
+   ACTIVO (Estructura Económica)        |   PASIVO Y PATRIMONIO NETO (Financiación)
+----------------------------------------+----------------------------------------------
+A) ACTIVO NO CORRIENTE                  |  A) PATRIMONIO NETO
+   • Elementos de transporte:  90.000 € |     • Capital Social:              90.000 €
+   • Equipos informáticos:      2.000 € |
+                                        |  B) PASIVO NO CORRIENTE
+B) ACTIVO CORRIENTE                     |     • Deudas L/P ent. crédito:      2.000 €
+   • Tesorería (Bancos c/c):        0 € |
+----------------------------------------+----------------------------------------------
+TOTAL ACTIVO:                  92.000 € |  TOTAL PASIVO Y PN:                92.000 €
+```

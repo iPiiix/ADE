@@ -10,3 +10,6 @@ personal/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Configuración local de Obsidian
+.obsidian/

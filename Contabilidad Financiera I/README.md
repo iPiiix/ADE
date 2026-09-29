@@ -51,14 +51,39 @@ Asignatura fundamental que introduce al estudiante en la técnica contable y el 
 
 ## 🗂️ Estructura por Temas de la Asignatura
 
-La asignatura está organizada por temas individuales. Dentro de cada tema se encuentran sus carpetas de **Apuntes** (guías teóricas y esquemas PGC) y de **Prácticas** (balances y supuestos resueltos):
+La asignatura se estructura en bloques modulares que integran apuntes teóricos completos, los documentos PDF oficiales de la cátedra y guías de prácticas resueltas paso a paso:
 
-- 📁 **[2 - El Patrimonio y la Ecuación Fundamental](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental)**
-  - [📁 Apuntes](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental/Apuntes)
-    - 📄 **[Tema 2: El Patrimonio y la Ecuación Fundamental](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental/Apuntes/Tema_02_El_Patrimonio_y_la_Ecuacion_Fundamental.md)** — Masas patrimoniales (Activo, Pasivo, Neto), balance en T y supuestos resueltos paso a paso (furgoneta, ordenador y préstamos).
-  - [📁 Prácticas](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental/Prácticas) — Casos prácticos de balances, diarios contables y ejercicios resueltos.
+### 📁 [1 - Introducción a la Contabilidad](./1%20-%20Introducci%C3%B3n%20a%20la%20Contabilidad)
+- **Apuntes:**
+  - 📄 **[Tema 1: La Contabilidad como Sistema de Información](./1%20-%20Introducci%C3%B3n%20a%20la%20Contabilidad/Apuntes/Tema_01_La_Contabilidad_como_Sistema_de_Informacion.md)** — Toma de decisiones, coste histórico, formas jurídicas (SL 1 € vs. SA 60k), tipos de empresas, contabilidad financiera vs. de gestión, cuentas anuales y requisitos del PGC (imagen fiel).
+  - 📑 **[PDF Oficial: TEMA 1 ADE CFI Alumnos](./1%20-%20Introducci%C3%B3n%20a%20la%20Contabilidad/Apuntes/TEMA_1_ADE_CFI_alumnos.pdf)**
+- **Prácticas:**
+  - 📝 **[Prácticas y Cuestiones de Autoevaluación Tema 1](./1%20-%20Introducci%C3%B3n%20a%20la%20Contabilidad/Pr%C3%A1cticas/README.md)** — Precio de adquisición, responsabilidad legal y requisitos del PGC.
 
-- [📁 Exámenes](./Exámenes) — Exámenes de cursos anteriores, modelos de examen y pruebas de ciclo contable completo.
+---
+
+### 📁 [2 - El Patrimonio y la Ecuación Fundamental](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental)
+- **Apuntes:**
+  - 📄 **[Tema 2: Teoría del Patrimonio y Equilibrio Contable](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental/Apuntes/Tema_02_El_Patrimonio_y_la_Ecuacion_Fundamental.md)** — Masas patrimoniales (Activo, Pasivo, Neto), ordenación por liquidez y exigibilidad, principio de no compensación, fondo de maniobra ($FM = AC - PC$), ratios y supuesto de la furgoneta y el ordenador.
+  - 📑 **[PDF Oficial: Tema 2 ADE CFI Alumnos](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental/Apuntes/Tema_2_ADE_CFI_alumnos.pdf)**
+- **Prácticas:**
+  - 📄 **[Supuestos Prácticos Resueltos Paso a Paso (2.1 al 2.7)](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental/Pr%C3%A1cticas/Supuestos_Tema_02_Resueltos.md)** — Supuestos completos: patrimonio familiar, confección textil, balances y fondos propios, balances sucesivos, actividad relativa y análisis de balance real.
+  - 📑 **[PDF Oficial: Enunciados SUPUESTOS TEMA 2](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental/Pr%C3%A1cticas/SUPUESTOS_TEMA_2.pdf)**
+  - 📝 **[Índice de Prácticas Tema 2](./2%20-%20El%20Patrimonio%20y%20la%20Ecuaci%C3%B3n%20Fundamental/Pr%C3%A1cticas/README.md)**
+
+---
+
+### 📁 [3 - El Método Contable](./3%20-%20El%20M%C3%A9todo%20Contable)
+- **Apuntes:**
+  - 📄 **[Tema 3: El Método Contable y la Partida Doble](./3%20-%20El%20M%C3%A9todo%20Contable/Apuntes/Tema_03_El_Metodo_Contable_y_la_Partida_Doble.md)** — Hechos contables y dualidad, circuito documental (factura IVA y letras), la cuenta en T, terminología (cargar, abonar, saldar, cerrar), convenio de cargo y abono, asientos en Diario y Mayor, caso integral *La Puerta Roja*, codificación decimal y los 9 Grupos del PGC 2007.
+  - 📑 **[PDF Oficial: Tema 3 ADE CFI Alumnos](./3%20-%20El%20M%C3%A9todo%20Contable/Apuntes/Tema_3_ADE_CF_I__alumnos.pdf)**
+- **Prácticas:**
+  - 📝 **[Prácticas y Asientos Contables Tema 3](./3%20-%20El%20M%C3%A9todo%20Contable/Pr%C3%A1cticas/README.md)** — Asientos en libro diario, pases a mayor en T y clasificación en el cuadro de cuentas.
+
+---
+
+### 📁 [Exámenes](./Exámenes)
+- Exámenes parciales, finales de convocatorias ordinarias y extraordinarias, y modelos de autoevaluación.
 
 ---
 
