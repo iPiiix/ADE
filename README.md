@@ -49,28 +49,22 @@ Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos 
 
 ## 📚 Asignaturas Matriculadas (1.º Curso — 60 ECTS)
 
-### 🍂 Primer Cuatrimestre — C1 (28,5 ECTS)
+### 🍂 Asignaturas Activas en Curso — C1 (28,5 ECTS)
 
-| Cód. | Asignatura | ECTS | Tipo | Aula Principal | Carpeta |
-| :---: | :--- | :---: | :---: | :---: | :--- |
-| **2343** | Introducción a la Economía I | 6,0 | Formación Básica | A412 / A411P | [📁 Ver Asignatura](./Introducción%20a%20la%20Economía%20I) |
-| **2344** | Contabilidad Financiera I | 6,0 | Formación Básica | A412 / A411P | [📁 Ver Asignatura](./Contabilidad%20Financiera%20I) |
-| **2345** | Administración de Empresas | 6,0 | Formación Básica | A412 / A411P | [📁 Ver Asignatura](./Administración%20de%20Empresas) |
-| **2346** | Matemática de las Operaciones Financieras | 6,0 | Formación Básica | A412 / A411P | [📁 Ver Asignatura](./Matemática%20de%20las%20Operaciones%20Financieras) |
-| **2350** | Matemáticas para la Empresa I | 4,5 | Obligatoria | A412 / A411P | [📁 Ver Asignatura](./Matemáticas%20para%20la%20Empresa%20I) |
+Estas son las **5 asignaturas en las que estás matriculado y cursando actualmente**. Todo el material, apuntes y ejercicios del repositorio están adaptados para que recuperes el mes de retraso y aprendas desde la base:
 
----
+| Cód. | Asignatura | ECTS | Tipo | Enfoque Pedagógico | Carpeta |
+| :---: | :--- | :---: | :---: | :--- | :--- |
+| **2344** | **Contabilidad Financiera I** | 6,0 | Formación Básica | Conceptos de patrimonio, partida doble, diario y balance sin matemáticas complejas. | [📁 Ver Asignatura](./Contabilidad%20Financiera%20I) |
+| **2345** | **Administración de Empresas** | 6,0 | Formación Básica | 100% conceptual y organizativa (estrategia, PESTEL, Porter, funciones directivas). | [📁 Ver Asignatura](./Administración%20de%20Empresas) |
+| **2343** | **Introducción a la Economía I** | 6,0 | Formación Básica | Microeconomía intuitiva: funcionamiento del mercado, oferta, demanda y precios. | [📁 Ver Asignatura](./Introducción%20a%20la%20Economía%20I) |
+| **2350** | **Matemáticas para la Empresa I** | 4,5 | Obligatoria | **Nivelación desde cero:** Bloque `0 - Teoría Básica` con explicaciones paso a paso. | [📁 Ver Asignatura](./Matemáticas%20para%20la%20Empresa%20I) |
+| **2346** | **Matemática de las Operaciones Financieras** | 6,0 | Formación Básica | Cálculo financiero aplicado a la empresa (préstamos, intereses simples y compuestos). | [📁 Ver Asignatura](./Matemática%20de%20las%20Operaciones%20Financieras) |
 
-### 🌸 Segundo Cuatrimestre — C2 (31,5 ECTS)
-
-| Cód. | Asignatura | ECTS | Tipo | Grupo | Carpeta |
-| :---: | :--- | :---: | :---: | :---: | :--- |
-| **2347** | Introducción a la Economía II | 6,0 | Formación Básica | Grupo 5 | [📁 Ver Asignatura](./Introducción%20a%20la%20Economía%20II) |
-| **2348** | Estadística para la Empresa I | 6,0 | Formación Básica | Grupo 5 | [📁 Ver Asignatura](./Estadística%20para%20la%20Empresa%20I) |
-| **2349** | Introducción al Marketing | 6,0 | Formación Básica | Grupo 5 | [📁 Ver Asignatura](./Introducción%20al%20Marketing) |
-| **2351** | Contabilidad Financiera II | 4,5 | Obligatoria | Grupo 5 | [📁 Ver Asignatura](./Contabilidad%20Financiera%20II) |
-| **2352** | Derecho Civil | 4,5 | Obligatoria | Grupo 5 | [📁 Ver Asignatura](./Derecho%20Civil) |
-| **2353** | Matemáticas para la Empresa II | 4,5 | Obligatoria | Grupo 5 | [📁 Ver Asignatura](./Matemáticas%20para%20la%20Empresa%20II) |
+> 🚀 **Estrategia para recuperar el mes de retraso:**  
+> 1. **Asegurar los puntos fuertes (Administración y Contabilidad):** Llevar al día los apuntes y supuestos resueltos (Temas 1, 2 y 3 ya implementados).  
+> 2. **Base matemática sólida sin agobios:** Empezar por la carpeta `Matemáticas para la Empresa I/0 - Teoria Basica` para dominar fracciones, potencias y ecuaciones antes de pasar a derivadas y funciones.  
+> 3. **Práctica constante guiada:** Resolver los supuestos oficiales paso a paso con las soluciones explicadas en cada tema.
 
 ---
 
