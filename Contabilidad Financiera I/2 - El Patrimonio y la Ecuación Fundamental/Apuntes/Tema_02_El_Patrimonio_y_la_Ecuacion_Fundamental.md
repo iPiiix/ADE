@@ -207,22 +207,62 @@ En el Balance oficial según el PGC:
 - El **ACTIVO** se ordena de **MENOR a MAYOR LIQUIDEZ** (facultad de un activo para transformarse en dinero sin pérdida de valor). Arriba los terrenos e inmuebles (muy ilíquidos); abajo la cuenta corriente bancaria y la caja (liquidez total).
 - El **PASIVO Y PATRIMONIO NETO** se ordena de **MENOR a MAYOR EXIGIBILIDAD** (urgencia y cercanía temporal para devolver el fondo). Arriba el capital de los socios (no exigible); en medio las deudas a largo plazo (exigibles a varios años); abajo las deudas con proveedores a 30 días (exigibilidad inmediata).
 
+```text
+BALANCE DE SITUACIÓN
+│
+├── 1. ACTIVO (¿En qué ha invertido la empresa? / Estructura Económica)
+│    │  [Criterio: De menor a mayor liquidez]
+│    │
+│    ├── A) Activo No Corriente (Permanencia > 1 año / Estructura Fija)
+│    │    ├── Inmovilizado Intangible (Patentes, marcas, aplicaciones informáticas / software)
+│    │    ├── Inmovilizado Material (Maquinaria, locales/construcciones, ordenadores, mobiliario, vehículos)
+│    │    ├── Inversiones Inmobiliarias (Inmuebles para rentas o plusvalías, ajenos a la actividad)
+│    │    └── Inversiones Financieras a L/P (Acciones permanentes o créditos otorgados a > 1 año)
+│    │
+│    └── B) Activo Corriente (Ciclo de explotación ≤ 1 año / Circulante)
+│         ├── Existencias (Mercaderías, materias primas, productos terminados)
+│         ├── Realizable / Deudores Comerciales (Clientes por ventas a plazo, Hacienda deudora)
+│         ├── Inversiones Financieras a C/P (Imposiciones a plazo, acciones temporales a ≤ 1 año)
+│         └── Disponible / Tesorería (Caja euros, cuentas bancarias corrientes a la vista)
+│
+├── 2. PATRIMONIO NETO (Recursos propios, no exigibles / Financiación Propia)
+│    │  [Criterio: Exigibilidad nula / Fondos permanentes no reintegrables]
+│    │
+│    ├── Fondos Propios (Capital social suscrito, reservas legales/estatutarias, resultado del ejercicio)
+│    └── Subvenciones, Donaciones y Legados (Ayudas públicas o privadas de capital no reintegrables)
+│
+└── 3. PASIVO (Deudas con terceros / Financiación Ajena)
+     │  [Criterio: De menor a mayor exigibilidad]
+     │
+     ├── A) Pasivo No Corriente (Exigible a Largo Plazo > 1 año)
+     │    ├── Provisiones a L/P (Obligaciones futuras probables o de importe indeterminado)
+     │    └── Deudas a Largo Plazo (Préstamos bancarios a devolver a > 1 año, proveedores inmovilizado L/P)
+     │
+     └── B) Pasivo Corriente (Exigible a Corto Plazo ≤ 1 año / Deudas comerciales y circulante)
+          ├── Provisiones a C/P (Obligaciones y responsabilidades a liquidar en el corto plazo)
+          ├── Deudas a Corto Plazo (Préstamos bancarios a devolver en meses, efectos financieros a pagar)
+          └── Acreedores Comerciales (Proveedores de existencias, acreedores por servicios, Hacienda acreedora, Seg. Social)
 ```
+
+```text
    ACTIVO (Menor a Mayor Liquidez)      |   PASIVO Y PN (Menor a Mayor Exigibilidad)
 ========================================+==============================================
 A) ACTIVO NO CORRIENTE                  |  A) PATRIMONIO NETO
    I.   Inmovilizado Intangible         |     I.   Capital
    II.  Inmovilizado Material           |     II.  Reservas
    III. Inversiones Inmobiliarias       |     III. Resultado del Ejercicio
-   IV.  Inversiones Financieras L/P     |
-                                        |  B) PASIVO NO CORRIENTE (L/P > 1 año)
-B) ACTIVO CORRIENTE                     |     I.   Deudas con entidades de crédito L/P
-   I.   Existencias                     |     II.  Proveedores de inmovilizado a L/P
-   II.  Deudores comerciales (Clientes) |
-   III. Inversiones Financieras C/P     |  C) PASIVO CORRIENTE (C/P <= 1 año)
-   IV.  Tesorería (Bancos y Caja)       |     I.   Deudas con entidades de crédito C/P
-                                        |     II.  Proveedores y Acreedores comerciales
-                                        |     III. Hacienda Pública acreedora
+   IV.  Inversiones Financieras L/P     |     IV.  Subvenciones, donaciones y legados
+                                        |
+B) ACTIVO CORRIENTE                     |  B) PASIVO NO CORRIENTE (L/P > 1 año)
+   I.   Existencias                     |     I.   Provisiones a L/P
+   II.  Deudores comerciales (Clientes) |     II.  Deudas con entidades de crédito L/P
+   III. Inversiones Financieras C/P     |     III. Proveedores de inmovilizado a L/P
+   IV.  Tesorería (Bancos y Caja)       |
+                                        |  C) PASIVO CORRIENTE (C/P <= 1 año)
+                                        |     I.   Provisiones a C/P
+                                        |     II.  Deudas con entidades de crédito C/P
+                                        |     III. Proveedores y Acreedores comerciales
+                                        |     IV.  Hacienda Pública y Seg. Social acreedora
 ----------------------------------------+----------------------------------------------
 TOTAL ACTIVO (A + B)                    |  TOTAL PATRIMONIO NETO Y PASIVO (A + B + C)
 ```

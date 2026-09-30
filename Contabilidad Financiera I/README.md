@@ -42,6 +42,52 @@ Asignatura fundamental que introduce al estudiante en la técnica contable y el 
 
 ---
 
+## 🏛️ Esquema Maestro: Estructura del Balance de Situación (PGC)
+
+> 💡 **Reglas clave para exámenes y resolución de supuestos:**
+> - **Activo (Estructura Económica):** *¿En qué invierte y qué posee la empresa?* $\rightarrow$ Ordenado de **menor a mayor liquidez**.
+> - **Patrimonio Neto + Pasivo (Estructura Financiera):** *¿De dónde ha salido el dinero para financiarlo?* $\rightarrow$ Ordenado de **menor a mayor exigibilidad**.
+> - **Ecuación Fundamental Permanente:** $$\mathbf{\text{Activo} = \text{Patrimonio Neto} + \text{Pasivo}}$$
+
+```text
+BALANCE DE SITUACIÓN
+│
+├── 1. ACTIVO (¿En qué ha invertido la empresa? / Estructura Económica)
+│    │  [Criterio: Menor a mayor liquidez]
+│    │
+│    ├── A) Activo No Corriente (> 1 año / Soporte duradero o inmovilizado)
+│    │    ├── Inmovilizado Intangible (Patentes, marcas, aplicaciones informáticas / software)
+│    │    ├── Inmovilizado Material (Maquinaria, locales, ordenadores, mobiliario, vehículos)
+│    │    ├── Inversiones Inmobiliarias (Inmuebles para rentas o plusvalías, ajenos a la actividad)
+│    │    └── Inversiones Financieras a L/P (Acciones o créditos otorgados a largo plazo > 1 año)
+│    │
+│    └── B) Activo Corriente (≤ 1 año / Ciclo operativo y circulante)
+│         ├── Existencias (Mercaderías, materias primas, productos terminados)
+│         ├── Realizable / Deudores Comerciales (Clientes por ventas a plazo, efectos comerciales a cobrar, Hacienda deudora)
+│         ├── Inversiones Financieras a C/P (Acciones temporales, depósitos a corto plazo ≤ 1 año)
+│         └── Disponible / Tesorería (Dinero en caja efectivo, cuentas corrientes bancarias a la vista)
+│
+├── 2. PATRIMONIO NETO (Recursos propios, no exigibles / Financiación Propia)
+│    │  [Criterio: Exigibilidad nula / Fondos permanentes no reintegrables]
+│    │
+│    ├── Fondos Propios (Capital social, reservas legales/voluntarias, resultado del ejercicio)
+│    └── Subvenciones, Donaciones y Legados (Ayudas recibidas no reintegrables de capital)
+│
+└── 3. PASIVO (Deudas con terceros / Financiación Ajena)
+     │  [Criterio: Menor a mayor exigibilidad]
+     │
+     ├── A) Pasivo No Corriente (> 1 año / Exigible a Largo Plazo)
+     │    ├── Provisiones a L/P (Obligaciones estimadas o futuras probables)
+     │    └── Deudas a Largo Plazo (Préstamos bancarios a devolver a > 1 año, proveedores inmovilizado L/P)
+     │
+     └── B) Pasivo Corriente (≤ 1 año / Exigible a Corto Plazo)
+          ├── Provisiones a C/P (Obligaciones estimadas o litigios a corto plazo)
+          ├── Deudas a Corto Plazo (Préstamos a devolver en meses, efectos a pagar a C/P)
+          └── Acreedores Comerciales (Proveedores de mercaderías, acreedores varios, Hacienda acreedora, Seg. Social)
+```
+
+---
+
 ## 📊 Sistema de Evaluación Orientativo
 
 - **Evaluación Continua (30% – 40%):** Prácticas semanales de asientos contables y balances, supuestos prácticos en ordenador, pruebas intermedias y participación activa.
