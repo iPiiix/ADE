@@ -24,6 +24,23 @@ Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos 
 
 ---
 
+## 🚨 FECHAS CLAVE: EVALUACIONES CONTINUAS Y PARCIALES (C1)
+
+> [!IMPORTANT]
+> ### 📅 Calendario de Pruebas Parciales y Evaluaciones
+> Fechas límite y controles evaluables confirmados para el primer cuatrimestre:
+
+| Fecha | Asignatura | Evaluación | Enlace |
+| :--- | :--- | :--- | :---: |
+| 🗓️ **15 de octubre** | **Matemática de las Operaciones Financieras (MOF)** | **Prueba I** | [📁 Carpeta MOF](./Matemática%20de%20las%20Operaciones%20Financieras) |
+| 🗓️ **26 de octubre** | **Matemáticas para la Empresa I** | **Prueba parcial** | [📁 Carpeta Mates I](./Matemáticas%20para%20la%20Empresa%20I) |
+| 🗓️ **2 de noviembre** | **Matemáticas para la Empresa I** | **Prueba test** | [📁 Carpeta Mates I](./Matemáticas%20para%20la%20Empresa%20I) |
+| 🗓️ **10 de noviembre** | **Matemática de las Operaciones Financieras (MOF)** | **Prueba II** | [📁 Carpeta MOF](./Matemática%20de%20las%20Operaciones%20Financieras) |
+| 🗓️ **16 de noviembre** | **Contabilidad Financiera I** | **Prueba parcial** | [📁 Carpeta Contabilidad I](./Contabilidad%20Financiera%20I) |
+| 🗓️ **17 de noviembre** | **Introducción a la Economía I** | **Prueba parcial evaluable** | [📁 Carpeta Economía I](./Introducción%20a%20la%20Economía%20I) |
+
+---
+
 ## 🕒 Horario Semanal — Grupo 5 (Turno Tarde · 1.er Cuatrimestre)
 
 ![Horario Completo y Visual — Grupo 5 Grado en ADE (1.er Cuatrimestre 2026/2027)](./assets/horario_completo_grupo_5.png)

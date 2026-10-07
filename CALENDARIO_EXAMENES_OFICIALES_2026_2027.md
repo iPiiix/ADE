@@ -39,9 +39,16 @@ Segunda oportunidad oficial para recuperar cualquier asignatura que no se supere
 
 ---
 
-## 📌 ¿Y los Exámenes Parciales y la Evaluación Continua?
+## 📌 Evaluaciones Continuas y Pruebas Parciales (1.er Cuatrimestre)
+ 
+| Fecha | Asignatura | Evaluación |
+| :--- | :--- | :--- |
+| 🗓️ **15 de octubre** | **Matemática de las Operaciones Financieras (MOF)** | **Prueba I** |
+| 🗓️ **26 de octubre** | **Matemáticas para la Empresa I** | **Prueba parcial** |
+| 🗓️ **2 de noviembre** | **Matemáticas para la Empresa I** | **Prueba test** |
+| 🗓️ **10 de noviembre** | **Matemática de las Operaciones Financieras (MOF)** | **Prueba II** |
+| 🗓️ **16 de noviembre** | **Contabilidad Financiera I** | **Prueba parcial** |
+| 🗓️ **17 de noviembre** | **Introducción a la Economía I** | **Prueba parcial evaluable** |
 
-Además de los exámenes finales oficiales de arriba, cada asignatura tiene un porcentaje de **Evaluación Continua (30% al 40% de la nota final)**:
-- **Noviembre:** Suele realizarse una prueba parcial eliminatoria o de control en **Contabilidad Financiera I** (temas 1 a 3/4) y en **Matemáticas I** (matrices y sistemas).
-- **Entregas prácticas:** Supuestos prácticos semanales en clase de prácticas (Miércoles en A411P / A412 para Contabilidad; Miércoles para Mates; Lunes para Administración y MOF).
-- **Recomendación:** Participar y entregar las prácticas semanales permite sumar entre **3 y 4 puntos limpios** antes de llegar al examen final de diciembre/enero.
+> 💡 **Nota sobre la Evaluación Continua:**  
+> Estas pruebas constituyen entre el **30% y el 40% de la nota final**. Obtener buena puntuación aquí te asegura llegar a las convocatorias de examen final con puntos limpios ya acumulados.
