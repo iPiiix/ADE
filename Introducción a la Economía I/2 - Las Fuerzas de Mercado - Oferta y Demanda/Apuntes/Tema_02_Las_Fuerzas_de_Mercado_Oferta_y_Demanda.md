@@ -179,6 +179,39 @@ P2┼───• Exceso de Demanda (Escasez)
    * Aparecen colas, racionamiento y estanterías vacías.
    * **Respuesta del mercado:** Los compradores que se han quedado sin producto compiten entre sí ofreciendo pagar más; las empresas detectan la escasez y **suben los precios**. Al subir el precio, la demanda se frena y la oferta aumenta hasta restablecer el equilibrio en $P^*$.
 
+### 4.2. Esquema Metodológico: Cómo se Ajusta el Mercado ante un Cambio Exógeno (Los 4 Pasos de Clase)
+
+Cuando en clase analizamos cómo reacciona un mercado ante cualquier acontecimiento económico, seguimos de forma sistemática este esquema en **4 pasos**:
+
+```mermaid
+graph LR
+    P1["<b>1) Equilibrio Inicial</b><br>E₀ (P₀*, Q₀*)"] --> P2["<b>2) Cambio Exógeno</b><br>Desplaza S y/o D<br><i>(Desequilibrio a P₀*)</i>"]
+    P2 --> P3["<b>3) Ajuste de Mercado</b><br>Presión sobre el precio<br><i>(Mano invisible)</i>"]
+    P3 --> P4["<b>4) Nuevo Eq. y Comparación</b><br>E₁ (P₁*, Q₁*)<br><i>ΔP* y ΔQ*</i>"]
+```
+
+1. **Paso 1: Situación de equilibrio inicial ($E_0$)**
+   * El mercado parte del reposo: $Q_d(P_0^*) = Q_s(P_0^*)$.
+   * Se determinan el precio inicial $P_0^*$ y la cantidad de equilibrio $Q_0^*$.
+
+2. **Paso 2: Cambio en una variable exógena (Desplazamiento de $S$ y/o $D$)**
+   * Un factor externo (coste de materias primas, tecnología, renta, gustos, etc.) afecta al mercado.
+   * La curva correspondiente ($S$, $D$ o ambas) se desplaza a la derecha o a la izquierda.
+   * **Se crea un desequilibrio transitorio:** Al precio anterior $P_0^*$, la cantidad demandada ya no coincide con la ofrecida:
+     * Si $Q_d > Q_s \implies$ **Exceso de Demanda (Escasez)**.
+     * Si $Q_s > Q_d \implies$ **Exceso de Oferta (Excedente)**.
+
+3. **Paso 3: Proceso de ajuste hacia el nuevo equilibrio ($E_1$)**
+   * Los precios varían automáticamente para vaciar el mercado:
+     * Ante escasez $\implies$ compradores pujan $\implies$ **el precio sube**.
+     * Ante excedente $\implies$ vendedores liquidan $\implies$ **el precio baja**.
+   * Este cambio de precio genera movimientos *a lo largo* de las curvas hasta eliminar el exceso.
+
+4. **Paso 4: Comparación entre el equilibrio inicial ($E_0$) y el final ($E_1$)**
+   * Evaluamos el resultado final del análisis estático comparativo:
+     * ¿Qué ocurrió con el precio? ($\Delta P^* = P_1^* - P_0^* \implies$ sube o baja).
+     * ¿Qué ocurrió con la cantidad? ($\Delta Q^* = Q_1^* - Q_0^* \implies$ sube o baja).
+
 ---
 
 ## 5. El Análisis Estático Comparativo en Tres Pasos
