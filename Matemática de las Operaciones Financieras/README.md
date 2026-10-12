@@ -12,6 +12,15 @@
 
 ---
 
+## 🚨 FECHA CLAVE INMEDIATA
+
+> [!IMPORTANT]
+> ### 📅 PRUEBA I EVALUABLE: Jueves, 15 de octubre de 2026
+> - **Contenido evaluado:** Leyes financieras fundamentales (Capitalización simple y compuesta, equivalencia de tantos $i$ e $i^*$, relaciones entre tantos fraccionados $j_m$, $i(m)$ y TAE, y descuento simple comercial).
+> - **Material de estudio directo:** [📘 Guía y Recetario del Tema 2](./2%20-%20Leyes%20Financieras/Apuntes/Tema_02_Leyes_Financieras.md).
+
+---
+
 ## 🕒 Horarios y Aulas de Clase (Grupo 5)
 
 | Día | Franja Horaria | Modalidad | Subgrupo | Aula |
@@ -25,41 +34,51 @@
 
 ---
 
-## 📌 Descripción y Objetivos
+## 📚 Bloques Temáticos Oficiales (Curso 2026 / 2027)
 
-Disciplina fundamental para el análisis de cualquier decisión de inversión o financiación en la empresa. Desarrolla las herramientas matemáticas para valorar capitales en diferentes instantes de tiempo, estudiar leyes financieras, calcular rendimientos efectivos (TAE) y estructurar préstamos y rentas.
-
-### 📚 Bloques Temáticos Principales
-
-1. **Fundamentos y Leyes Financieras:** Concepto de capital financiero, equivalencia de capitales, leyes de capitalización y descuento simple y compuesto. Propiedad de escindibilidad.
-2. **Tantos de Interés y de Descuento:** Tipos de interés nominales (TIN), tantos efectivos fraccionados, Tasa Anual Equivalente (TAE) y tantos continuos.
-3. **Valoración de Rentas Financieras Constantes:** Rentas temporales pospagables y prepagables (inmediatas, diferidas y anticipadas). Rentas perpetuas. Fórmulas de valor actual y valor final.
-4. **Valoración de Rentas Financieras Variables:** Rentas en progresión aritmética y en progresión geométrica. Rentas continuas y fraccionadas.
-5. **Operaciones de Amortización de Préstamos:** Concepto de préstamo, cuadro de amortización (anualidad, cuota de interés, cuota de amortización, capital amortizado y capital vivo).
-   - **Sistema Francés:** Términos amortizativos constantes.
-   - **Sistema Cuota de Amortización Constante:** Devolución fija de principal.
-   - **Sistema Americano:** Abono periódico de intereses y devolución del principal al vencimiento.
-   - **Préstamos con Carencia:** Carencia total o de principal.
-6. **Empréstitos y Operaciones Complejas:** Empréstitos de obligaciones, bonos cupón cero y rentabilidades efectivas de emisiones de deuda.
+| Bloque | Tema Oficial | Diapositivas Oficiales | Apuntes y Guía de Estudio | Estado |
+| :---: | :--- | :---: | :---: | :---: |
+| **Tema 2** | **Leyes Financieras** (Simple, Compuesta y Descuento Comercial) | [📄 PDF](./2%20-%20Leyes%20Financieras/Apuntes/TEMA%202%20%202026_27.pdf) | [📘 Ver Apunte](./2%20-%20Leyes%20Financieras/Apuntes/Tema_02_Leyes_Financieras.md) | 🎯 **Prueba I (15 Oct)** |
+| **Tema 3** | **Unificación de Capitales** (Vencimiento común, medio y prórrogas) | [📄 PDF](./3%20-%20Unificaci%C3%B3n%20de%20Capitales/Apuntes/TEMA%203%20%202026_27.pdf) | [📘 Ver Apunte](./3%20-%20Unificaci%C3%B3n%20de%20Capitales/Apuntes/Tema_03_Unificacion_de_Capitales.md) | ✅ Implementado |
+| **Tema 4** | **Operaciones Activas a Corto Plazo** (Descuento bancario, remesas, TAE y letras de resaca) | [📄 PDF](./4%20-%20Operaciones%20Activas%20a%20Corto%20Plazo/Apuntes/TEMA%204%20%202026_27.pdf) | [📘 Ver Apunte](./4%20-%20Operaciones%20Activas%20a%20Corto%20Plazo/Apuntes/Tema_04_Operaciones_Activas_Corto_Plazo.md) | ✅ Implementado |
+| **Tema 5** | **Operaciones Pasivas a Corto Plazo** (Método hamburgués, cuentas remuneradas y pólizas de crédito) | [📄 PDF](./5%20-%20Operaciones%20Pasivas%20a%20Corto%20Plazo/Apuntes/TEMA%205%20%202026_27.pdf) | [📘 Ver Apunte](./5%20-%20Operaciones%20Pasivas%20a%20Corto%20Plazo/Apuntes/Tema_05_Operaciones_Pasivas_Corto_Plazo.md) | ✅ Implementado |
 
 ---
 
-## 📊 Sistema de Evaluación Orientativo
+## 📊 Sistema de Evaluación
 
-- **Evaluación Continua (30% – 40%):** Prácticas de laboratorio con hoja de cálculo (Excel), resolución de ejercicios de rentas y préstamos, y pruebas de seguimiento.
-- **Examen Final (60% – 70%):** Resolución de supuestos financieros prácticos complejos (diseño de cuadros de amortización, valoración de rentas y cálculo de costes efectivos).
+- **Evaluación Continua (30% – 40%):**
+  - **Prueba I:** 15 de octubre de 2026.
+  - **Prueba II:** 10 de noviembre de 2026.
+  - Prácticas de laboratorio y supuestos prácticos en hoja de cálculo (Excel).
+- **Examen Final Ordinario (60% – 70%):** Lunes, 18 de enero de 2027 (09:00 – 12:00 h).
 
 ---
 
-## 🗂️ Estructura de la Carpeta
+## 🗂️ Estructura de Carpetas
 
-- [📁 Apuntes](./Apuntes) — Formulario oficial de leyes financieras, rentas y préstamos.
-- [📁 Prácticas](./Prácticas) — Cuadros de amortización, ejercicios resueltos y plantillas de Excel.
-- [📁 Exámenes](./Exámenes) — Exámenes de convocatorias anteriores y soluciones comentadas.
+```text
+Matemática de las Operaciones Financieras/
+├── README.md
+├── 2 - Leyes Financieras/
+│   ├── Apuntes/       # Guía de estudio y PDF oficial
+│   └── Prácticas/     # Supuestos prácticos
+├── 3 - Unificación de Capitales/
+│   ├── Apuntes/
+│   └── Prácticas/
+├── 4 - Operaciones Activas a Corto Plazo/
+│   ├── Apuntes/
+│   └── Prácticas/
+├── 5 - Operaciones Pasivas a Corto Plazo/
+│   ├── Apuntes/
+│   └── Prácticas/
+└── Exámenes/          # Exámenes oficiales y pruebas de años anteriores
+```
 
 ---
 
 ## 🔗 Recursos de Interés
 
-- [Aula Virtual UM](https://aulavirtual.um.es/)
+- [Aula Virtual UM (Sakai)](https://aulavirtual.um.es/)
 - [Guía Docente Oficial UM — Cód. 2346](https://www.um.es/web/estudios/grados/ade/plan-guias)
+- [Calendario Oficial de Exámenes](../../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md)
