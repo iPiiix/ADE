@@ -16,8 +16,14 @@
 
 > [!IMPORTANT]
 > ### 📅 PRUEBA I EVALUABLE: Jueves, 15 de octubre de 2026
-> - **Contenido evaluado:** Leyes financieras fundamentales (Capitalización simple y compuesta, equivalencia de tantos $i$ e $i^*$, relaciones entre tantos fraccionados $j_m$, $i(m)$ y TAE, y descuento simple comercial).
-> - **Material de estudio directo:** [📘 Guía y Recetario del Tema 2](./2%20-%20Leyes%20Financieras/Apuntes/Tema_02_Leyes_Financieras.md).
+> - **Materia objeto de examen:** **TEMAS DEL 1 AL 5** completos.
+> - **Temario práctico clave:**
+>   - **Tema 2:** Leyes Financieras (Capitalización simple, compuesta y descuento comercial).
+>   - **Tema 3:** Unificación de Capitales (Vencimiento común, vencimiento medio y prórroga).
+>   - **Tema 4:** Operaciones Activas a Corto Plazo (Descuento bancario, remesas, TAE oficial y letras de resaca).
+>   - **Tema 5:** Operaciones Pasivas a Corto Plazo (Cuentas corrientes remuneradas y cuentas de crédito por método hamburgués).
+> - *(El Tema 1 es introductorio/conceptual y no requiere cálculo complejo).*
+> - **Chuleta Maestra de Examen:** [📋 Formulario y Resumen Rápido Temas 2 al 5](./Apuntes/FORMULARIO_Y_RESUMEN_EXAMEN_PRUEBA_I_TEMAS_2_A_5.md)
 
 ---
 
@@ -36,12 +42,12 @@
 
 ## 📚 Bloques Temáticos Oficiales (Curso 2026 / 2027)
 
-| Bloque | Tema Oficial | Diapositivas Oficiales | Apuntes y Guía de Estudio | Estado |
+| Bloque | Tema Oficial | Diapositivas Oficiales | Apuntes y Guía de Estudio | Evaluación |
 | :---: | :--- | :---: | :---: | :---: |
 | **Tema 2** | **Leyes Financieras** (Simple, Compuesta y Descuento Comercial) | [📄 PDF](./2%20-%20Leyes%20Financieras/Apuntes/TEMA%202%20%202026_27.pdf) | [📘 Ver Apunte](./2%20-%20Leyes%20Financieras/Apuntes/Tema_02_Leyes_Financieras.md) | 🎯 **Prueba I (15 Oct)** |
-| **Tema 3** | **Unificación de Capitales** (Vencimiento común, medio y prórrogas) | [📄 PDF](./3%20-%20Unificaci%C3%B3n%20de%20Capitales/Apuntes/TEMA%203%20%202026_27.pdf) | [📘 Ver Apunte](./3%20-%20Unificaci%C3%B3n%20de%20Capitales/Apuntes/Tema_03_Unificacion_de_Capitales.md) | ✅ Implementado |
-| **Tema 4** | **Operaciones Activas a Corto Plazo** (Descuento bancario, remesas, TAE y letras de resaca) | [📄 PDF](./4%20-%20Operaciones%20Activas%20a%20Corto%20Plazo/Apuntes/TEMA%204%20%202026_27.pdf) | [📘 Ver Apunte](./4%20-%20Operaciones%20Activas%20a%20Corto%20Plazo/Apuntes/Tema_04_Operaciones_Activas_Corto_Plazo.md) | ✅ Implementado |
-| **Tema 5** | **Operaciones Pasivas a Corto Plazo** (Método hamburgués, cuentas remuneradas y pólizas de crédito) | [📄 PDF](./5%20-%20Operaciones%20Pasivas%20a%20Corto%20Plazo/Apuntes/TEMA%205%20%202026_27.pdf) | [📘 Ver Apunte](./5%20-%20Operaciones%20Pasivas%20a%20Corto%20Plazo/Apuntes/Tema_05_Operaciones_Pasivas_Corto_Plazo.md) | ✅ Implementado |
+| **Tema 3** | **Unificación de Capitales** (Vencimiento común, medio y prórrogas) | [📄 PDF](./3%20-%20Unificaci%C3%B3n%20de%20Capitales/Apuntes/TEMA%203%20%202026_27.pdf) | [📘 Ver Apunte](./3%20-%20Unificaci%C3%B3n%20de%20Capitales/Apuntes/Tema_03_Unificacion_de_Capitales.md) | 🎯 **Prueba I (15 Oct)** |
+| **Tema 4** | **Operaciones Activas a Corto Plazo** (Descuento bancario, remesas, TAE y resaca) | [📄 PDF](./4%20-%20Operaciones%20Activas%20a%20Corto%20Plazo/Apuntes/TEMA%204%20%202026_27.pdf) | [📘 Ver Apunte](./4%20-%20Operaciones%20Activas%20a%20Corto%20Plazo/Apuntes/Tema_04_Operaciones_Activas_Corto_Plazo.md) | 🎯 **Prueba I (15 Oct)** |
+| **Tema 5** | **Operaciones Pasivas a Corto Plazo** (Método hamburgués, cuentas y pólizas de crédito) | [📄 PDF](./5%20-%20Operaciones%20Pasivas%20a%20Corto%20Plazo/Apuntes/TEMA%205%20%202026_27.pdf) | [📘 Ver Apunte](./5%20-%20Operaciones%20Pasivas%20a%20Corto%20Plazo/Apuntes/Tema_05_Operaciones_Pasivas_Corto_Plazo.md) | 🎯 **Prueba I (15 Oct)** |
 
 ---
 
