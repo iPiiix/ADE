@@ -15,10 +15,10 @@
 ## 🚨 FECHAS CLAVE DE EVALUACIÓN CONTINUA (C1)
 
 > [!IMPORTANT]
-> ### 📅 PRUEBA PARCIAL: Lunes, 26 de octubre de 2026 (18:30 – 20:30 h)
-> - **Lugar:** Aula A412
+> ### 📅 PRUEBA PARCIAL: Martes, 27 de octubre de 2026 (18:30 – 20:30 h)
+> - **Lugar:** Aula A412 (franja de clase teórica)
 > - **Materia:** Temas 1 y 2 (La Empresa, el Entorno PESTEL y las 5 Fuerzas de Porter).
-> - **Actividad Obligatoria vinculada:** **Martes, 20 de octubre de 2026 (12:30 – 14:30 h)** en el **Salón de Actos** — *Mesa Redonda: "Marketing digital. Más allá del clic."* Ponentes: Encar Gallardo (Account Director en Playroom) y Pedro Javier Gallego (Customer Support Owner en Connectif).
+> - **Actividad Obligatoria vinculada:** **Jueves, 22 de octubre de 2026 (12:30 – 14:30 h)** en el **Salón de Actos** — *Mesa Redonda: "Marketing digital. Más allá del clic."* Ponentes: Encar Gallardo (Account Director en Playroom) y Pedro Javier Gallego (Customer Support Owner en Connectif).
 > - **Examen Final Ordinario:** **Jueves, 14 de enero de 2027 (09:00 – 12:00 h)**. Consulta el [Calendario Oficial](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md).
 
 ---

@@ -13,10 +13,10 @@
 ## 🚨 FECHAS CLAVE DE EVALUACIÓN CONTINUA (C1)
 
 > [!IMPORTANT]
-> ### 📅 PRUEBA TEST EVALUABLE: Lunes, 2 de noviembre de 2026 (15:00 – 16:30 h)
-> - **Lugar:** Aula A412
+> ### 📅 PRUEBA TEST EVALUABLE: Martes, 3 de noviembre de 2026 (15:00 – 16:30 h)
+> - **Lugar:** Aula A412 (franja de clase teórica)
 > - **Tipo:** Prueba test sobre álgebra lineal, matrices y cálculo de funciones.
-> - **Actividad Obligatoria vinculada:** **Martes, 27 de octubre de 2026 (12:30 – 14:30 h)** en el **Salón de Actos** — *Mesa Redonda: "RRHH en la era de la inteligencia artificial: Tecnología con alma de personas."* Ponentes: Responsables de RRHH de empresas líderes de la Región de Murcia.
+> - **Actividad Obligatoria vinculada:** **Jueves, 29 de octubre de 2026 (12:30 – 14:30 h)** en el **Salón de Actos** — *Mesa Redonda: "RRHH en la era de la inteligencia artificial: Tecnología con alma de personas."* Ponentes: Responsables de RRHH de empresas líderes de la Región de Murcia.
 > - **Examen Final Ordinario:** **Lunes, 11 de enero de 2027 (09:00 – 12:00 h)**. Consulta el [Calendario Oficial](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md).
 
 ---

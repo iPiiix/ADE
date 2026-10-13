@@ -16,8 +16,8 @@
 ## 🚨 FECHAS CLAVE DE EVALUACIÓN CONTINUA (C1)
 
 > [!IMPORTANT]
-> ### 📅 PRUEBA PARCIAL EVALUABLE: Miércoles, 18 de noviembre de 2026 (16:30 – 18:30 h)
-> - **Lugar:** Aula A412 / Aula A411P
+> ### 📅 PRUEBA PARCIAL EVALUABLE: Martes, 17 de noviembre de 2026 (16:30 – 18:30 h)
+> - **Lugar:** Aula A412 (franja de clase teórica)
 > - **Materia:** Temas 1 al 4 (Concepto, Patrimonio, Partida Doble y Ciclo Contable PGC).
 > - **Actividad Obligatoria vinculada:** **Jueves, 5 de noviembre de 2026 (12:30 – 14:30 h)** en el **Salón de Actos** — *Conferencia-coloquio: "Consejos de Administración e Internacionalización Empresarial: el valor de la Información Financiera y no Financiera o de Sostenibilidad."* Ponente: Marisa Poncela (Economista del Estado y miembro del Consejo de Administración de AMPER, Salvat, etc.). Coloquio con Salvador Marín y Esther Ortiz.
 > - **Examen Final Ordinario:** **Lunes, 21 de diciembre de 2026 (09:00 – 12:00 h)**. Consulta el [Calendario Oficial](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md).

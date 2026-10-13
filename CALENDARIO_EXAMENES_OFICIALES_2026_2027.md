@@ -41,32 +41,33 @@ Segunda oportunidad oficial para recuperar cualquier asignatura que no se supere
 
 ## 📌 Evaluaciones Continuas y Pruebas Parciales (1.er Cuatrimestre)
 
-Fechas y franjas horarias oficiales confirmadas en el cronograma de la Facultad para el **Grupo 5**:
+Fechas y franjas horarias oficiales confirmadas en el cronograma semanal de la Facultad para el **Grupo 5**:
 
-| Fecha | Día de la Semana | Franja Horaria | Asignatura | Prueba / Tipo | Aula Prevista |
+| Fecha Oficial | Día de la Semana | Franja Horaria | Asignatura | Prueba / Tipo | Aula Prevista |
 | :--- | :---: | :---: | :--- | :--- | :---: |
-| 🗓️ **15 de octubre de 2026** | Jueves | 16:00 – 17:30 h | **Matemática de las Operaciones Financieras (MOF)** | **PRUEBA I** *(Temas 1 al 5)* | Aula A412 |
-| 🗓️ **26 de octubre de 2026** | Lunes | 18:30 – 20:30 h | **Administración de Empresas** | **Prueba parcial** | Aula A412 |
-| 🗓️ **2 de noviembre de 2026** | Lunes | 15:00 – 16:30 h | **Matemáticas para la Empresa I** | **Prueba test** | Aula A412 |
-| 🗓️ **12 de noviembre de 2026** | Jueves | 16:00 – 17:30 h | **Matemática de las Operaciones Financieras (MOF)** | **PRUEBA II** | Aula A412 |
-| 🗓️ **18 de noviembre de 2026** | Miércoles | 16:30 – 18:30 h | **Contabilidad Financiera I** | **Prueba parcial** | Aula A412 / A411P |
-| 🗓️ **19 de noviembre de 2026** | Jueves | 16:30 – 18:30 h | **Introducción a la Economía I** | **Prueba Parcial Evaluable** | Aula A412 |
+| 🗓️ **16 de octubre de 2026** | **Viernes** | 16:00 – 17:30 h | **Matemática de las Operaciones Financieras (MOF)** | **PRUEBA I** *(Temas 1 al 5)* | Aula A412 |
+| 🗓️ **27 de octubre de 2026** | **Martes** | 18:30 – 20:30 h | **Administración de Empresas** | **Prueba parcial** | Aula A412 |
+| 🗓️ **3 de noviembre de 2026** | **Martes** | 15:00 – 16:30 h | **Matemáticas para la Empresa I** | **Prueba test** | Aula A412 |
+| 🗓️ **13 de noviembre de 2026** | **Viernes** | 16:00 – 17:30 h | **Matemática de las Operaciones Financieras (MOF)** | **PRUEBA II** | Aula A412 |
+| 🗓️ **17 de noviembre de 2026** | **Martes** | 16:30 – 18:30 h | **Contabilidad Financiera I** | **Prueba parcial** | Aula A412 |
+| 🗓️ **20 de noviembre de 2026** | **Viernes** | 16:30 – 18:30 h | **Introducción a la Economía I** | **Prueba Parcial Evaluable** | Aula A412 |
 
 > 💡 **Ponderación de la Evaluación Continua:**  
-> Estas pruebas constituyen entre el **30% y el 40% de la calificación final**. Asegurar una puntuación sólida en estos parciales te garantiza acumular hasta 4 puntos directos antes de los exámenes finales.
+> Estas pruebas constituyen entre el **30% y el 40% de la calificación final**. Asegurar una puntuación sólida en estos parciales te garantiza acumular hasta 4 puntos directos antes de las convocatorias globales de examen final.
 
 ---
 
 ## 🎤 Actividades Complementarias y Conferencias Obligatorias (Salón de Actos)
 
-Sesiones plenarias programadas en el cronograma oficial que forman parte del cómputo docente o de asistencia obligatoria:
+Sesiones plenarias programadas en la franja institucional de los **Jueves (12:30 – 14:30 h)** que forman parte del cómputo docente o de asistencia obligatoria:
 
-| Fecha | Día | Franja Horaria | Ubicación | Actividad / Ponencia | Asignatura Vinculada |
+| Fecha Oficial | Día | Franja Horaria | Ubicación | Actividad / Ponencia | Asignatura Vinculada |
 | :--- | :---: | :---: | :---: | :--- | :--- |
-| **20 de octubre de 2026** | Martes | 12:30 – 14:30 h | Salón de Actos | **Mesa Redonda:** *"Marketing digital. Más allá del clic."*<br>Ponentes: Encar Gallardo (Account Dir. Playroom) y Pedro Javier Gallego (Connectif) | **Obligatoria para Administración de Empresas** |
-| **27 de octubre de 2026** | Martes | 12:30 – 14:30 h | Salón de Actos | **Mesa Redonda:** *"RRHH en la era de la inteligencia artificial: Tecnología con alma de personas."*<br>Ponentes: Responsables de RRHH de empresas de la Región de Murcia | **Obligatoria para Matemáticas para la Empresa I** |
+| **8 de octubre de 2026** | Jueves | 12:30 – 14:30 h | Salón de Actos | **Conferencia:** *"La incapacidad temporal en España"* | MOF / Transversal |
+| **22 de octubre de 2026** | Jueves | 12:30 – 14:30 h | Salón de Actos | **Mesa Redonda:** *"Marketing digital. Más allá del clic."*<br>Ponentes: Encar Gallardo (Account Dir. Playroom) y Pedro Javier Gallego (Connectif) | **Obligatoria para Administración de Empresas** |
+| **29 de octubre de 2026** | Jueves | 12:30 – 14:30 h | Salón de Actos | **Mesa Redonda:** *"RRHH en la era de la inteligencia artificial: Tecnología con alma de personas."*<br>Ponentes: Responsables de RRHH de empresas de la Región de Murcia | **Obligatoria para Matemáticas para la Empresa I** |
 | **5 de noviembre de 2026** | Jueves | 12:30 – 14:30 h | Salón de Actos | **Conferencia-Coloquio:** *"Consejos de Administración e Internacionalización Empresarial: el valor de la Información Financiera y no Financiera o de Sostenibilidad."*<br>Ponente: Marisa Poncela. Coloquio: Salvador Marín y Esther Ortiz | **Obligatoria para Contabilidad Financiera I** |
-| **10 de noviembre de 2026** | Martes | 12:30 – 14:30 h | Salón de Actos | **Mesa Redonda:** *"Encuentro con empresario/a premio Herentia 2026 de empresa familiar."* | Todas las asignaturas / Grupo 5 |
+| **12 de noviembre de 2026** | Jueves | 12:30 – 14:30 h | Salón de Actos | **Mesa Redonda:** *"Encuentro con empresario/a premio Herentia 2026 de empresa familiar."* | Todas las asignaturas / Grupo 5 |
 
 ---
 

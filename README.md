@@ -32,18 +32,19 @@ Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos 
 
 | Fecha | Día y Franja Horaria | Asignatura | Prueba | Enlace |
 | :--- | :---: | :--- | :--- | :---: |
-| 🗓️ **15 de octubre de 2026** | Jueves · 16:00 – 17:30 h | **Matemática de las Operaciones Financieras (MOF)** | **PRUEBA I** *(Temas 1 a 5)* | [📁 Carpeta MOF](./Matemática%20de%20las%20Operaciones%20Financieras) |
-| 🗓️ **26 de octubre de 2026** | Lunes · 18:30 – 20:30 h | **Administración de Empresas** | **Prueba parcial** | [📁 Carpeta ADE](./Administración%20de%20Empresas) |
-| 🗓️ **2 de noviembre de 2026** | Lunes · 15:00 – 16:30 h | **Matemáticas para la Empresa I** | **Prueba test** | [📁 Carpeta Mates I](./Matemáticas%20para%20la%20Empresa%20I) |
-| 🗓️ **12 de noviembre de 2026** | Jueves · 16:00 – 17:30 h | **Matemática de las Operaciones Financieras (MOF)** | **PRUEBA II** | [📁 Carpeta MOF](./Matemática%20de%20las%20Operaciones%20Financieras) |
-| 🗓️ **18 de noviembre de 2026** | Miércoles · 16:30 – 18:30 h | **Contabilidad Financiera I** | **Prueba parcial** | [📁 Carpeta Contabilidad I](./Contabilidad%20Financiera%20I) |
-| 🗓️ **19 de noviembre de 2026** | Jueves · 16:30 – 18:30 h | **Introducción a la Economía I** | **Prueba Parcial Evaluable** | [📁 Carpeta Economía I](./Introducción%20a%20la%20Economía%20I) |
+| 🗓️ **16 de octubre de 2026** | **Viernes** · 16:00 – 17:30 h | **Matemática de las Operaciones Financieras (MOF)** | **PRUEBA I** *(Temas 1 a 5)* | [📁 Carpeta MOF](./Matemática%20de%20las%20Operaciones%20Financieras) |
+| 🗓️ **27 de octubre de 2026** | **Martes** · 18:30 – 20:30 h | **Administración de Empresas** | **Prueba parcial** | [📁 Carpeta ADE](./Administración%20de%20Empresas) |
+| 🗓️ **3 de noviembre de 2026** | **Martes** · 15:00 – 16:30 h | **Matemáticas para la Empresa I** | **Prueba test** | [📁 Carpeta Mates I](./Matemáticas%20para%20la%20Empresa%20I) |
+| 🗓️ **13 de noviembre de 2026** | **Viernes** · 16:00 – 17:30 h | **Matemática de las Operaciones Financieras (MOF)** | **PRUEBA II** | [📁 Carpeta MOF](./Matemática%20de%20las%20Operaciones%20Financieras) |
+| 🗓️ **17 de noviembre de 2026** | **Martes** · 16:30 – 18:30 h | **Contabilidad Financiera I** | **Prueba parcial** | [📁 Carpeta Contabilidad I](./Contabilidad%20Financiera%20I) |
+| 🗓️ **20 de noviembre de 2026** | **Viernes** · 16:30 – 18:30 h | **Introducción a la Economía I** | **Prueba Parcial Evaluable** | [📁 Carpeta Economía I](./Introducción%20a%20la%20Economía%20I) |
 
-> 🏛️ **Mesas Redondas y Conferencias Obligatorias (Salón de Actos 12:30 – 14:30 h):**  
-> - **20 de oct:** *Marketing digital. Más allá del clic* (**Obligatoria ADE**).  
-> - **27 de oct:** *RRHH en la era de la IA: Tecnología con alma de personas* (**Obligatoria Matemáticas I**).  
-> - **5 de nov:** *Consejos de Administración e Internacionalización Empresarial* (**Obligatoria Contabilidad I**).  
-> - **10 de nov:** *Encuentro con empresario/a premio Herentia 2026 de empresa familiar*.  
+> 🏛️ **Mesas Redondas y Conferencias Obligatorias (Salón de Actos — Jueves 12:30 a 14:30 h):**  
+> - **Jueves 8 oct:** *La incapacidad temporal en España* (MOF / Transversal).  
+> - **Jueves 22 oct:** *Marketing digital. Más allá del clic* (**Obligatoria ADE**).  
+> - **Jueves 29 oct:** *RRHH en la era de la IA: Tecnología con alma de personas* (**Obligatoria Matemáticas I**).  
+> - **Jueves 5 nov:** *Consejos de Administración e Internacionalización Empresarial* (**Obligatoria Contabilidad I**).  
+> - **Jueves 12 nov:** *Encuentro con empresario/a premio Herentia 2026 de empresa familiar*.  
 > 👉 Consulta el **[Cronograma Semanal Grupal Completo](./CRONOGRAMA_SEMANAL_GRUPO_5.md)** y el **[Calendario Oficial de Exámenes](./CALENDARIO_EXAMENES_OFICIALES_2026_2027.md)**.
 
 ---

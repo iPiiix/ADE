@@ -15,8 +15,8 @@
 ## 🚨 FECHAS CLAVE DE EVALUACIÓN CONTINUA (C1)
 
 > [!IMPORTANT]
-> ### 📅 PRUEBA PARCIAL EVALUABLE: Jueves, 19 de noviembre de 2026 (16:30 – 18:30 h)
-> - **Lugar:** Aula A412
+> ### 📅 PRUEBA PARCIAL EVALUABLE: Viernes, 20 de noviembre de 2026 (16:30 – 18:30 h)
+> - **Lugar:** Aula A412 (sesión de viernes tarde)
 > - **Materia:** Temas 1 al 3 (Principios Básicos, Fuerzas de Mercado Oferta/Demanda y Elasticidades).
 > - **Examen Final Ordinario:** **Miércoles, 16 de diciembre de 2026 (09:00 – 12:00 h)**. Consulta el [Calendario Oficial](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md).
 
