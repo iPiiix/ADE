@@ -7,9 +7,20 @@
 - **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5 (Turno Tarde)
 - **Profesorado:**
   - **García Hernández, Begoña** ([bgarcia@um.es](mailto:bgarcia@um.es))
-  - **Gil Jara, Juan**
-  - **García, Jesús** ([jesus.garcia@um.es](mailto:jesus.garcia@um.es))
+  - **Gil Jara, Juan** ([juangiljara@um.es](mailto:juangiljara@um.es))
+  - **García, Jesús** ([jesusgas@um.es](mailto:jesusgas@um.es))
 - **Departamento:** Economía Financiera y Contabilidad
+
+---
+
+## 🚨 FECHAS CLAVE DE EVALUACIÓN CONTINUA (C1)
+
+> [!IMPORTANT]
+> ### 📅 PRUEBA PARCIAL EVALUABLE: Miércoles, 18 de noviembre de 2026 (16:30 – 18:30 h)
+> - **Lugar:** Aula A412 / Aula A411P
+> - **Materia:** Temas 1 al 4 (Concepto, Patrimonio, Partida Doble y Ciclo Contable PGC).
+> - **Actividad Obligatoria vinculada:** **Jueves, 5 de noviembre de 2026 (12:30 – 14:30 h)** en el **Salón de Actos** — *Conferencia-coloquio: "Consejos de Administración e Internacionalización Empresarial: el valor de la Información Financiera y no Financiera o de Sostenibilidad."* Ponente: Marisa Poncela (Economista del Estado y miembro del Consejo de Administración de AMPER, Salvat, etc.). Coloquio con Salvador Marín y Esther Ortiz.
+> - **Examen Final Ordinario:** **Lunes, 21 de diciembre de 2026 (09:00 – 12:00 h)**. Consulta el [Calendario Oficial](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md).
 
 ---
 
@@ -22,7 +33,8 @@
 | **Miércoles** | 17:30 – 19:00 | Prácticas (Desdoble) | **Grupo B** | **Aula A411P** |
 | **Viernes** | *(Rotativo s/ Cronograma)* | Sesiones adicionales (+3h) | Grupo 5 | **Aula A412** |
 
-> 📅 *Consulta el [Horario completo y visual del Grupo 5](../README.md#🕒-horario-semanal--grupo-5-turno-tarde--1er-cuatrimestre) con todas las asignaturas y desdobles.*
+> ⏱️ *Recuerda la regla de cortesía de los 10 minutos: las clases comienzan a y 10.*  
+> 📅 *Consulta el [Cronograma Semanal Grupal](../CRONOGRAMA_SEMANAL_GRUPO_5.md) y el [Horario completo](../README.md#🕒-horario-semanal--grupo-5-turno-tarde--1er-cuatrimestre).*
 
 ---
 

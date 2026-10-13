@@ -10,6 +10,17 @@
 
 ---
 
+## 🚨 FECHAS CLAVE DE EVALUACIÓN CONTINUA (C1)
+
+> [!IMPORTANT]
+> ### 📅 PRUEBA TEST EVALUABLE: Lunes, 2 de noviembre de 2026 (15:00 – 16:30 h)
+> - **Lugar:** Aula A412
+> - **Tipo:** Prueba test sobre álgebra lineal, matrices y cálculo de funciones.
+> - **Actividad Obligatoria vinculada:** **Martes, 27 de octubre de 2026 (12:30 – 14:30 h)** en el **Salón de Actos** — *Mesa Redonda: "RRHH en la era de la inteligencia artificial: Tecnología con alma de personas."* Ponentes: Responsables de RRHH de empresas líderes de la Región de Murcia.
+> - **Examen Final Ordinario:** **Lunes, 11 de enero de 2027 (09:00 – 12:00 h)**. Consulta el [Calendario Oficial](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md).
+
+---
+
 ## 🕒 Horarios y Aulas de Clase (Grupo 5)
 
 | Día | Franja Horaria | Modalidad | Subgrupo | Aula |
@@ -19,7 +30,8 @@
 | **Miércoles** | 16:30 – 17:30 | Prácticas (Desdoble) | **Grupo B** | **Aula A411P** |
 | **Viernes** | *(Rotativo s/ Cronograma)* | Sesiones adicionales (+3h) | Grupo 5 | **Aula A412** |
 
-> 📅 *Consulta el [Horario completo y visual del Grupo 5](../README.md#🕒-horario-semanal--grupo-5-turno-tarde--1er-cuatrimestre) con todas las asignaturas y desdobles.*
+> ⏱️ *Recuerda la regla de cortesía de los 10 minutos: las clases comienzan a y 10.*  
+> 📅 *Consulta el [Cronograma Semanal Grupal](../CRONOGRAMA_SEMANAL_GRUPO_5.md) y el [Horario completo](../README.md#🕒-horario-semanal--grupo-5-turno-tarde--1er-cuatrimestre).*
 
 ---
 

@@ -40,15 +40,42 @@ Segunda oportunidad oficial para recuperar cualquier asignatura que no se supere
 ---
 
 ## 📌 Evaluaciones Continuas y Pruebas Parciales (1.er Cuatrimestre)
- 
-| Fecha | Asignatura | Evaluación |
-| :--- | :--- | :--- |
-| 🗓️ **15 de octubre** | **Matemática de las Operaciones Financieras (MOF)** | **Prueba I** |
-| 🗓️ **26 de octubre** | **Matemáticas para la Empresa I** | **Prueba parcial** |
-| 🗓️ **2 de noviembre** | **Matemáticas para la Empresa I** | **Prueba test** |
-| 🗓️ **10 de noviembre** | **Matemática de las Operaciones Financieras (MOF)** | **Prueba II** |
-| 🗓️ **16 de noviembre** | **Contabilidad Financiera I** | **Prueba parcial** |
-| 🗓️ **17 de noviembre** | **Introducción a la Economía I** | **Prueba parcial evaluable** |
 
-> 💡 **Nota sobre la Evaluación Continua:**  
-> Estas pruebas constituyen entre el **30% y el 40% de la nota final**. Obtener buena puntuación aquí te asegura llegar a las convocatorias de examen final con puntos limpios ya acumulados.
+Fechas y franjas horarias oficiales confirmadas en el cronograma de la Facultad para el **Grupo 5**:
+
+| Fecha | Día de la Semana | Franja Horaria | Asignatura | Prueba / Tipo | Aula Prevista |
+| :--- | :---: | :---: | :--- | :--- | :---: |
+| 🗓️ **15 de octubre de 2026** | Jueves | 16:00 – 17:30 h | **Matemática de las Operaciones Financieras (MOF)** | **PRUEBA I** *(Temas 1 al 5)* | Aula A412 |
+| 🗓️ **26 de octubre de 2026** | Lunes | 18:30 – 20:30 h | **Administración de Empresas** | **Prueba parcial** | Aula A412 |
+| 🗓️ **2 de noviembre de 2026** | Lunes | 15:00 – 16:30 h | **Matemáticas para la Empresa I** | **Prueba test** | Aula A412 |
+| 🗓️ **12 de noviembre de 2026** | Jueves | 16:00 – 17:30 h | **Matemática de las Operaciones Financieras (MOF)** | **PRUEBA II** | Aula A412 |
+| 🗓️ **18 de noviembre de 2026** | Miércoles | 16:30 – 18:30 h | **Contabilidad Financiera I** | **Prueba parcial** | Aula A412 / A411P |
+| 🗓️ **19 de noviembre de 2026** | Jueves | 16:30 – 18:30 h | **Introducción a la Economía I** | **Prueba Parcial Evaluable** | Aula A412 |
+
+> 💡 **Ponderación de la Evaluación Continua:**  
+> Estas pruebas constituyen entre el **30% y el 40% de la calificación final**. Asegurar una puntuación sólida en estos parciales te garantiza acumular hasta 4 puntos directos antes de los exámenes finales.
+
+---
+
+## 🎤 Actividades Complementarias y Conferencias Obligatorias (Salón de Actos)
+
+Sesiones plenarias programadas en el cronograma oficial que forman parte del cómputo docente o de asistencia obligatoria:
+
+| Fecha | Día | Franja Horaria | Ubicación | Actividad / Ponencia | Asignatura Vinculada |
+| :--- | :---: | :---: | :---: | :--- | :--- |
+| **20 de octubre de 2026** | Martes | 12:30 – 14:30 h | Salón de Actos | **Mesa Redonda:** *"Marketing digital. Más allá del clic."*<br>Ponentes: Encar Gallardo (Account Dir. Playroom) y Pedro Javier Gallego (Connectif) | **Obligatoria para Administración de Empresas** |
+| **27 de octubre de 2026** | Martes | 12:30 – 14:30 h | Salón de Actos | **Mesa Redonda:** *"RRHH en la era de la inteligencia artificial: Tecnología con alma de personas."*<br>Ponentes: Responsables de RRHH de empresas de la Región de Murcia | **Obligatoria para Matemáticas para la Empresa I** |
+| **5 de noviembre de 2026** | Jueves | 12:30 – 14:30 h | Salón de Actos | **Conferencia-Coloquio:** *"Consejos de Administración e Internacionalización Empresarial: el valor de la Información Financiera y no Financiera o de Sostenibilidad."*<br>Ponente: Marisa Poncela. Coloquio: Salvador Marín y Esther Ortiz | **Obligatoria para Contabilidad Financiera I** |
+| **10 de noviembre de 2026** | Martes | 12:30 – 14:30 h | Salón de Actos | **Mesa Redonda:** *"Encuentro con empresario/a premio Herentia 2026 de empresa familiar."* | Todas las asignaturas / Grupo 5 |
+
+---
+
+## ⏰ Acuerdos y Normativa de Funcionamiento del Grupo 5
+
+1. **Regla de los 10 minutos de cortesía:**  
+   Las clases comenzarán **10 minutos después** de la hora fijada en el horario oficial (p. ej. una clase de 16:00 arrancará a las 16:10 h) y concluirán con puntualidad estricta al término fijado. Esta medida permite el desplazamiento y la organización ordenada de accesos entre turnos y aulas.
+2. **Desdobles de prácticas y subgrupos:**  
+   Los desdobles prácticos entraron en vigor desde el **lunes 21 de septiembre**. El alumnado debe permanecer de manera obligatoria en su subgrupo asignado (**Subgrupo A** o **Subgrupo B**) en todas las asignaturas prácticas.
+3. **Deberes del estudiantado (Art. 139 Estatutos UMU):**  
+   - Realización ética de pruebas y exámenes sin recurrir a ningún procedimiento fraudulento.  
+   - Puntualidad en el acceso a las aulas, permanencia justificada hasta el final de la clase y respeto hacia el profesorado y compañeros.

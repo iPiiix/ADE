@@ -6,9 +6,19 @@
 - **Créditos:** 6 ECTS · **Tipo:** Formación Básica
 - **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5 (Turno Tarde)
 - **Profesorado:**
-  - **Sancho Portero, Israel** ([israelsp@um.es](mailto:israelsp@um.es))
-  - **Siles López, David** ([david.siles@um.es](mailto:david.siles@um.es))
+  - **Sancho Portero, Israel** *(Teoría)* ([israelsp@um.es](mailto:israelsp@um.es))
+  - **Siles López, David** *(Práctica)* ([david.siles@um.es](mailto:david.siles@um.es))
 - **Departamento:** Fundamentos del Análisis Económico
+
+---
+
+## 🚨 FECHAS CLAVE DE EVALUACIÓN CONTINUA (C1)
+
+> [!IMPORTANT]
+> ### 📅 PRUEBA PARCIAL EVALUABLE: Jueves, 19 de noviembre de 2026 (16:30 – 18:30 h)
+> - **Lugar:** Aula A412
+> - **Materia:** Temas 1 al 3 (Principios Básicos, Fuerzas de Mercado Oferta/Demanda y Elasticidades).
+> - **Examen Final Ordinario:** **Miércoles, 16 de diciembre de 2026 (09:00 – 12:00 h)**. Consulta el [Calendario Oficial](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md).
 
 ---
 
@@ -21,8 +31,8 @@
 | **Miércoles** | 19:00 – 20:30 | Prácticas (Desdoble) | **Grupo B** | **Aula A411P** |
 | **Viernes** | *(Rotativo s/ Cronograma)* | Sesiones adicionales (+3h) | Grupo 5 | **Aula A412** |
 
-> 📅 *Consulta el [Horario completo y visual del Grupo 5](../README.md#🕒-horario-semanal--grupo-5-turno-tarde--1er-cuatrimestre) con todas las asignaturas y desdobles.*  
-> 🗓️ *Examen Oficial Convocatoria Ordinaria:* **Miércoles, 16 de diciembre de 2026 (09:00 - 12:00 h)**. Consulta el [Calendario Oficial](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md).
+> ⏱️ *Recuerda la regla de cortesía de los 10 minutos: las clases comienzan a y 10.*  
+> 📅 *Consulta el [Cronograma Semanal Grupal](../CRONOGRAMA_SEMANAL_GRUPO_5.md) y el [Horario completo](../README.md#🕒-horario-semanal--grupo-5-turno-tarde--1er-cuatrimestre).*
 
 ---
 

@@ -5,8 +5,21 @@
 - **Código de Asignatura:** `2345`
 - **Créditos:** 6 ECTS · **Tipo:** Formación Básica
 - **Cuatrimestre:** 1.er Cuatrimestre (C1) · **Grupo:** Grupo 5 (Turno Tarde)
-- **Profesorado:** **Monllor Domínguez, Jorge** ([jmonllor@um.es](mailto:jmonllor@um.es))
+- **Profesorado:**
+  - **Monllor Domínguez, Jorge** ([jmonllor@um.es](mailto:jmonllor@um.es))
+  - **Peláez Ibarrondo, Juan José** ([jpelaez@um.es](mailto:jpelaez@um.es))
 - **Departamento:** Organización de Empresas y Finanzas
+
+---
+
+## 🚨 FECHAS CLAVE DE EVALUACIÓN CONTINUA (C1)
+
+> [!IMPORTANT]
+> ### 📅 PRUEBA PARCIAL: Lunes, 26 de octubre de 2026 (18:30 – 20:30 h)
+> - **Lugar:** Aula A412
+> - **Materia:** Temas 1 y 2 (La Empresa, el Entorno PESTEL y las 5 Fuerzas de Porter).
+> - **Actividad Obligatoria vinculada:** **Martes, 20 de octubre de 2026 (12:30 – 14:30 h)** en el **Salón de Actos** — *Mesa Redonda: "Marketing digital. Más allá del clic."* Ponentes: Encar Gallardo (Account Director en Playroom) y Pedro Javier Gallego (Customer Support Owner en Connectif).
+> - **Examen Final Ordinario:** **Jueves, 14 de enero de 2027 (09:00 – 12:00 h)**. Consulta el [Calendario Oficial](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md).
 
 ---
 
@@ -19,7 +32,8 @@
 | **Lunes** | 17:30 – 19:00 | Prácticas (Desdoble) | **Grupo A** | **Aula A412** |
 | **Viernes** | *(Rotativo s/ Cronograma)* | Sesiones adicionales (+3h) | Grupo 5 | **Aula A412** |
 
-> 📅 *Consulta el [Horario completo y visual del Grupo 5](../README.md#🕒-horario-semanal--grupo-5-turno-tarde--1er-cuatrimestre) con todas las asignaturas y desdobles.*
+> ⏱️ *Recuerda la regla de cortesía de los 10 minutos: las clases comienzan a y 10.*  
+> 📅 *Consulta el [Cronograma Semanal Grupal](../CRONOGRAMA_SEMANAL_GRUPO_5.md) y el [Horario completo](../README.md#🕒-horario-semanal--grupo-5-turno-tarde--1er-cuatrimestre).*
 
 ---
 

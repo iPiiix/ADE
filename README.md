@@ -27,23 +27,35 @@ Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos 
 ## 🚨 FECHAS CLAVE: EVALUACIONES CONTINUAS Y PARCIALES (C1)
 
 > [!IMPORTANT]
-> ### 📅 Calendario de Pruebas Parciales y Evaluaciones
-> Fechas límite y controles evaluables confirmados para el primer cuatrimestre:
+> ### 📅 Calendario Oficial de Pruebas Parciales (Grupo 5)
+> Fechas, horas exactas y asignaturas confirmadas en el cronograma semanal de la Facultad:
 
-| Fecha | Asignatura | Evaluación | Enlace |
-| :--- | :--- | :--- | :---: |
-| 🗓️ **15 de octubre** | **Matemática de las Operaciones Financieras (MOF)** | **Prueba I** | [📁 Carpeta MOF](./Matemática%20de%20las%20Operaciones%20Financieras) |
-| 🗓️ **26 de octubre** | **Matemáticas para la Empresa I** | **Prueba parcial** | [📁 Carpeta Mates I](./Matemáticas%20para%20la%20Empresa%20I) |
-| 🗓️ **2 de noviembre** | **Matemáticas para la Empresa I** | **Prueba test** | [📁 Carpeta Mates I](./Matemáticas%20para%20la%20Empresa%20I) |
-| 🗓️ **10 de noviembre** | **Matemática de las Operaciones Financieras (MOF)** | **Prueba II** | [📁 Carpeta MOF](./Matemática%20de%20las%20Operaciones%20Financieras) |
-| 🗓️ **16 de noviembre** | **Contabilidad Financiera I** | **Prueba parcial** | [📁 Carpeta Contabilidad I](./Contabilidad%20Financiera%20I) |
-| 🗓️ **17 de noviembre** | **Introducción a la Economía I** | **Prueba parcial evaluable** | [📁 Carpeta Economía I](./Introducción%20a%20la%20Economía%20I) |
+| Fecha | Día y Franja Horaria | Asignatura | Prueba | Enlace |
+| :--- | :---: | :--- | :--- | :---: |
+| 🗓️ **15 de octubre de 2026** | Jueves · 16:00 – 17:30 h | **Matemática de las Operaciones Financieras (MOF)** | **PRUEBA I** *(Temas 1 a 5)* | [📁 Carpeta MOF](./Matemática%20de%20las%20Operaciones%20Financieras) |
+| 🗓️ **26 de octubre de 2026** | Lunes · 18:30 – 20:30 h | **Administración de Empresas** | **Prueba parcial** | [📁 Carpeta ADE](./Administración%20de%20Empresas) |
+| 🗓️ **2 de noviembre de 2026** | Lunes · 15:00 – 16:30 h | **Matemáticas para la Empresa I** | **Prueba test** | [📁 Carpeta Mates I](./Matemáticas%20para%20la%20Empresa%20I) |
+| 🗓️ **12 de noviembre de 2026** | Jueves · 16:00 – 17:30 h | **Matemática de las Operaciones Financieras (MOF)** | **PRUEBA II** | [📁 Carpeta MOF](./Matemática%20de%20las%20Operaciones%20Financieras) |
+| 🗓️ **18 de noviembre de 2026** | Miércoles · 16:30 – 18:30 h | **Contabilidad Financiera I** | **Prueba parcial** | [📁 Carpeta Contabilidad I](./Contabilidad%20Financiera%20I) |
+| 🗓️ **19 de noviembre de 2026** | Jueves · 16:30 – 18:30 h | **Introducción a la Economía I** | **Prueba Parcial Evaluable** | [📁 Carpeta Economía I](./Introducción%20a%20la%20Economía%20I) |
+
+> 🏛️ **Mesas Redondas y Conferencias Obligatorias (Salón de Actos 12:30 – 14:30 h):**  
+> - **20 de oct:** *Marketing digital. Más allá del clic* (**Obligatoria ADE**).  
+> - **27 de oct:** *RRHH en la era de la IA: Tecnología con alma de personas* (**Obligatoria Matemáticas I**).  
+> - **5 de nov:** *Consejos de Administración e Internacionalización Empresarial* (**Obligatoria Contabilidad I**).  
+> - **10 de nov:** *Encuentro con empresario/a premio Herentia 2026 de empresa familiar*.  
+> 👉 Consulta el **[Cronograma Semanal Grupal Completo](./CRONOGRAMA_SEMANAL_GRUPO_5.md)** y el **[Calendario Oficial de Exámenes](./CALENDARIO_EXAMENES_OFICIALES_2026_2027.md)**.
 
 ---
 
 ## 🕒 Horario Semanal — Grupo 5 (Turno Tarde · 1.er Cuatrimestre)
 
 ![Horario Completo y Visual — Grupo 5 Grado en ADE (1.er Cuatrimestre 2026/2027)](./assets/horario_completo_grupo_5.png)
+
+> ⏱️ **Regla de los 10 Minutos y Normas de Asistencia:**  
+> - Las clases **comienzan 10 minutos después** de la hora oficial (p. ej. a las 16:10 h) y finalizan puntualmente según el horario establecido para facilitar desplazamientos y relevos de aula.  
+> - Los desdobles prácticos se iniciaron el **lunes 21 de septiembre**. El subgrupo asignado en MiCampus (**5A** o **5B**) debe mantenerse en todas las asignaturas prácticas.  
+> - Cumplimiento del artículo 139 de los Estatutos UMU (máximo rigor ético y prohibición de procedimientos fraudulentos en evaluaciones y trabajos).
 
 > ⚠️ **Aviso de Festivos / No lectivos:**  
 > - **Jueves 24 de septiembre:** **NO HAY CLASE** por el *Acto de Apertura del Curso Académico*.  
@@ -57,10 +69,10 @@ Repositorio oficial y centralizado de apuntes, prácticas, ejercicios resueltos 
 | Cód. | Asignatura | Profesorado | Correo Electrónico |
 | :---: | :--- | :--- | :--- |
 | **2350** | **Matemáticas para la Empresa I** *(Coordinación)* | **Lafuente Lechuga, Matilde** *(Coordinadora de Grupo)* | [mati@um.es](mailto:mati@um.es) |
-| **2343** | **Introducción a la Economía I** | Sancho Portero, Israel<br>Siles López, David | [israelsp@um.es](mailto:israelsp@um.es)<br>[david.siles@um.es](mailto:david.siles@um.es) |
-| **2344** | **Contabilidad Financiera I** | García Hernández, Begoña<br>Gil Jara, Juan<br>García, Jesús | [bgarcia@um.es](mailto:bgarcia@um.es)<br>—<br>[jesus.garcia@um.es](mailto:jesus.garcia@um.es) |
-| **2345** | **Administración de Empresas** | Monllor Domínguez, Jorge | [jmonllor@um.es](mailto:jmonllor@um.es) |
-| **2346** | **Matemática de las Operaciones Financieras** | Hernández Carreño, Mª del Rosario<br>Hernández Nicolás, Carmen María | [mrhc@um.es](mailto:mrhc@um.es)<br>[cm.hernandeznicolas@um.es](mailto:cm.hernandeznicolas@um.es) |
+| **2343** | **Introducción a la Economía I** | **Sancho Portero, Israel** *(Teoría)*<br>**Siles López, David** *(Práctica)* | [israelsp@um.es](mailto:israelsp@um.es)<br>[david.siles@um.es](mailto:david.siles@um.es) |
+| **2344** | **Contabilidad Financiera I** | **García Hernández, Begoña**<br>**Gil Jara, Juan**<br>**García, Jesús** | [bgarcia@um.es](mailto:bgarcia@um.es)<br>[juangiljara@um.es](mailto:juangiljara@um.es)<br>[jesusgas@um.es](mailto:jesusgas@um.es) |
+| **2345** | **Administración de Empresas** | **Monllor Domínguez, Jorge**<br>**Peláez Ibarrondo, Juan José** | [jmonllor@um.es](mailto:jmonllor@um.es)<br>[jpelaez@um.es](mailto:jpelaez@um.es) |
+| **2346** | **Matemática de las Operaciones Financieras** | **Hernández Carreño, Mª del Rosario**<br>**Hernández Nicolás, Carmen María** | [mrhc@um.es](mailto:mrhc@um.es)<br>[cm.hernandeznicolas@um.es](mailto:cm.hernandeznicolas@um.es) |
 
 ---
 
