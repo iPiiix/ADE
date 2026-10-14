@@ -45,6 +45,14 @@ Esta actividad tiene como finalidad que el alumnado aprenda a **detectar errores
 
 ---
 
+### 💡 Síntesis del Caso JPMorgan Resuelto (Matemáticas Accesibles de 1.º de ADE)
+- **El Fallo Aritmético (Tema 0):** Para dos volatilidades del $10\%$ ($x_1 = 0{,}10, x_2 = 0{,}10$), la media aritmética correcta es $\frac{x_1 + x_2}{2} = 10\%$. En Excel dividieron por la suma $(x_1 + x_2)$, obteniendo $\frac{0{,}10 \times 0{,}10}{0{,}20} = 5\%$. ¡El modelo ocultó la mitad del riesgo ($50\%$)!
+- **La Derivada (Tema 1):** La función de riesgo correcta $f(x) = K \cdot x$ tiene derivada positiva $f'(x) = K > 0$ (creciente). La función errónea $g(x) = \frac{K}{x}$ tiene derivada negativa $g'(x) = -\frac{K}{x^2} < 0$ (decreciente: al aumentar el pánico del mercado, el modelo decía que había menos riesgo).
+- **El Impacto Empresarial (ADE):** Pérdida de $6.200M USD y multas de más de $1.000M.
+- **La Solución Informática (DAM / Palantir):** Sustituir hojas de cálculo manuales no testeadas por pipelines de datos empresariales con pruebas unitarias (`assert`).
+
+---
+
 ## 📋 Estructura Obligatoria de la Ficha del Alumnado
 
 La entrega debe realizarse rellenando la **Ficha del Alumnado** ([Ficha Auditoria Matemática.docx](./Ficha%20Auditoria%20Matem%C3%A1tica.docx)), la cual contiene las siguientes secciones:

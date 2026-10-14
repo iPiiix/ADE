@@ -1,11 +1,11 @@
 # 🏛️ FICHA DEL ALUMNADO: EXPEDIENTE DE AUDITORÍA MATEMÁTICA
-## Caso: El Desastre Algorítmico y de Modelización en JPMorgan Chase (London Whale, 2012)
+## Caso: El Desastre de la Hoja de Cálculo de JPMorgan Chase (London Whale, 2012)
 
 ---
 
 ### 1. DATOS IDENTIFICATIVOS
 - **Nombre y Apellidos:** Santiago [Tu Apellido]
-- **Titulación:** Doble Perfil Técnico-Económico (Graduado en DAM · Estudiante del Grado en ADE, Plan 2009)
+- **Titulación:** Graduado en DAM (Desarrollo de Aplicaciones Multiplataforma) · Estudiante del Grado en ADE (Plan 2009)
 - **Asignatura:** Matemáticas para la Empresa I (Cód. 2350)
 - **Grupo:** Grupo 5 (Turno Tarde · Facultad de Economía y Empresa, Universidad de Murcia)
 - **Docente Coordinadora:** Dña. Matilde Lafuente Lechuga
@@ -16,75 +16,84 @@
 ### 2. LA EVIDENCIA
 
 - **Tipo de Fuente:**  
-  `[X] Noticia` · `[X] Informe Corporativo / Regulatorio Oficial` · `[ ] Publicidad` · `[ ] Documento comercial` · `[ ] Otro`
+  `[X] Noticia` · `[X] Informe Corporativo / Oficial` · `[ ] Publicidad` · `[ ] Documento comercial` · `[ ] Otro`
 - **Título o Descripción del Caso:**  
-  *The $6.2 Billion Spreadsheet Bug: Fallo de formulación matemática y agregación de varianzas en el modelo de Value at Risk (VaR) de la división Chief Investment Office (CIO) de JPMorgan Chase.*
-- **Fuente Oficial y Periodística:**  
-  1. **Informe Oficial del Senado de los EE. UU.:** *United States Senate Permanent Subcommittee on Investigations: "JPMorgan Chase Whale Trades: A Case History on Derivatives Risks and Regulatory Deficiency"* (Marzo 2013).  
-  2. **Informe de Auditoría Interna del Consejo de JPMorgan:** *Report of JPMorgan Chase & Co. Management Task Force Regarding 2012 CIO Losses* (16 de enero de 2013).  
-  3. **Prensa Económica Internacional:** *Financial Times* (*"Spreadsheet mistake helped cause JPMorgan's £4bn loss"*, James Mackintosh) y *The Wall Street Journal* (*"JPMorgan's Value-at-Risk Model Was Flawed"*).
-- **Fecha del Suceso / Publicación:** Enero de 2012 (implantación del modelo defectuoso) – Enero de 2013 (publicación de la auditoría forense).
+  *El error de cálculo de 6.200 millones de dólares: cómo un fallo en una fórmula de Excel de JPMorgan dividió entre la suma en lugar de hacer una media, reduciendo el riesgo a la mitad.*
+- **Fuente Oficial y Medios de Comunicación:**  
+  1. **Informe Oficial del Senado de EE. UU.:** *United States Senate Permanent Subcommittee on Investigations: "JPMorgan Chase Whale Trades: A Case History on Derivatives Risks and Regulatory Deficiency"* (2013).  
+  2. **Informe de Auditoría Interna de JPMorgan:** *Report of JPMorgan Chase & Co. Management Task Force Regarding 2012 CIO Losses* (16 de enero de 2013).  
+  3. **Prensa Económica:** *Financial Times* (*"Spreadsheet mistake helped cause JPMorgan's £4bn loss"*) y *The Wall Street Journal* (*"JPMorgan's Value-at-Risk Model Was Flawed"*).
+- **Fecha del Suceso / Publicación:** Enero de 2012 (implementación del modelo) – Enero de 2013 (informe de investigación).
 - **Enlace o Referencia Documental:**  
-  - U.S. Senate Hearing Report: *Exhibit #103 — Model Review and Implementation Assessment (CIO Synthetic Credit Portfolio).*
-  - JPMorgan Management Task Force Report, Appendix A (*Internal Controls and Model Governance*).
+  *U.S. Senate Hearing on CIO Losses (Exhibit 103)* y *JPMorgan Management Task Force Report, p. 128*.
 
-#### Fragmento Textual de la Evidencia (Transcripción Literal del Informe de Auditoría)
-> *"The model operated through a series of Excel spreadsheets, which had to be completed manually, by a process of copying and pasting data from one spreadsheet to another... Further, the spreadsheet formula used to calculate the net position risk had an operational defect: instead of dividing by the average of the two asset variance metrics, it divided by their sum. As a result, the model artificially depressed volatility estimates, reducing the portfolio's reported Value at Risk (VaR) by approximately 50%, concealing the massive exposure being accumulated."*  
+#### Fragmento Textual de la Evidencia (Transcripción Oficial del Informe)
+> *"El modelo funcionaba a través de una serie de hojas de cálculo de Excel que se completaban manualmente, copiando y pegando datos de una hoja a otra... La fórmula de la hoja de cálculo utilizada para calcular el riesgo neto de la posición cometió un error operativo crítico: en lugar de dividir por el promedio de dos métricas, dividió por su suma. Como resultado, el modelo redujo artificialmente la volatilidad estimada, disminuyendo el riesgo reportado aproximadamente en un 50% y ocultando la enorme exposición acumulada."*  
 > — **JPMorgan Chase Management Task Force Report (2013), p. 128.**
 
 ---
 
 ### 3. ¿QUÉ AFIRMA LA FUENTE?
 
-El informe de auditoría forense y la prensa económica documentan cómo los analistas cuantitativos (*quants*) de la división CIO de JPMorgan diseñaron un nuevo modelo interno de riesgo en 2012 para sustituir al modelo anterior aprobado por los reguladores. 
+A principios de 2012, el departamento de inversiones de JPMorgan (*Chief Investment Office*, CIO) puso en marcha una nueva hoja de cálculo para medir el riesgo diario de sus inversiones financieras. 
 
-La entidad afirmaba internamente que el nuevo modelo era más "preciso y sofisticado", y reportó al Comité de Riesgos y a los reguladores de la Reserva Federal que el riesgo de la cartera sintética de crédito había disminuido drásticamente tras la implantación del algoritmo. Basándose en estas métricas falsamente optimistas, los operadores (liderados por Bruno Iksil, apodado *"The London Whale"*) incrementaron de forma masiva sus posiciones en derivados crediticios (*Credit Default Swaps*, CDS), convencidos de que estaban operando holgadamente por debajo de los límites estatutarios de capital de riesgo.
+El modelo arrojaba un resultado según el cual el riesgo de la cartera había descendido drásticamente respecto al año anterior. Respaldados por esta cifra, los gestores (entre ellos el operador conocido en la prensa como *"The London Whale"*) decidieron aumentar agresivamente sus operaciones, creyendo firmemente que sus posiciones estaban muy por debajo de los límites de riesgo permitidos por la dirección del banco y los reguladores financieros.
 
-En la realidad, el riesgo no solo no había disminuido, sino que se había duplicado; la aparente reducción era un mero espejismo producido por un error de cálculo aritmético en una celda de Excel que dividía una métrica por una suma en lugar de por un promedio.
+En la realidad, el riesgo real no había bajado en absoluto: **se había duplicado**. La supuesta tranquilidad era un error puramente aritmético cometido por el analista al programar la celda en Excel.
 
 ---
 
 ### 4. TÉRMINO MATEMÁTICO QUE PRESENTA EL PROBLEMA
 
-1. **Operadores de Agregación y Medias Ponderadas en Estadística Multivariante:**  
-   Definición formal de la media aritmética ponderada de dos magnitudes frente al operador suma.
-2. **Propiedades Axiomáticas de las Medidas de Riesgo Coherentes:**  
-   Violación de los axiomas de **Monotonicidad** ($X \le Y \implies \rho(X) \ge \rho(Y)$) y de **Homogeneidad Positiva** ($\rho(\lambda X) = \lambda \rho(X)$ para $\lambda > 0$).
-3. **Cálculo de Dispersión y Álgebra Matricial en Finanzas Cuantitativas:**  
-   Cálculo de la varianza de una combinación lineal de variables aleatorias correlacionadas a través de matrices de varianzas-covarianzas:
-   $$\sigma_p^2 = \mathbf{w}^T \mathbf{\Sigma} \mathbf{w}$$
-4. **Value at Risk (VaR) Paramétrico y Sensibilidades Marginales:**  
-   Estimación del percentil de pérdidas bajo distribución probabilística continua:
-   $$\text{VaR}_{1-\alpha} = z_{1-\alpha} \cdot \sigma_p \cdot V_0$$
+1. **Media aritmética simple vs. División por la suma (Aritmética básica - Tema 0):**  
+   Confusión en el divisor entre el número de elementos ($N = 2$) y el valor de la suma de los propios datos.
+2. **Funciones de una variable: Funciones crecientes vs. decrecientes y signo de la derivada (Tema 1):**  
+   - Una función de riesgo debe ser **estrictamente creciente** respecto a la volatilidad del mercado (su primera derivada debe ser positiva: $f'(x) > 0$).
+   - Al introducir la variable en el denominador, el error convirtió la función en **decreciente** (derivada negativa: $g'(x) < 0$), haciendo que a más riesgo real en el mercado, el modelo calculara menor riesgo en pantalla.
+3. **Porcentajes y magnitudes proporcionales (Tema 0).**
 
 ---
 
-### 5. DIAGNÓSTICO MATEMÁTICO: ¿DÓNDE Y POR QUÉ SE PRODUCE EL ERROR?
+### 5. DIAGNÓSTICO MATEMÁTICO: EXPLICACIÓN PASO A PASO CON NÚMEROS REALES
 
-#### A. Reproducción Paso a Paso del Razonamiento Erróneo
-Sean dos estimaciones de volatilidad o dispersión histórica obtenidas para dos subtipos de activos en la cartera sintética de crédito:
-- $s_1$: Desviación típica estimada de la serie histórica 1 (e.g., cotizaciones recientes).
-- $s_2$: Desviación típica estimada de la serie histórica 2 (e.g., serie estresada o referencial).
+#### A. El Cálculo Teórico Correcto (Hacer la Media)
+Imaginemos que tenemos dos estimaciones de volatilidad del mercado obtenidas de dos periodos distintos:
+- Primera estimación: $x_1 = 10\% = 0{,}10$
+- Segunda estimación: $x_2 = 10\% = 0{,}10$
 
-Para obtener la medida de dispersión agregada combinada $\bar{s}$, el diseño teórico del modelo requería promediar ambas estimaciones:
-$$\bar{s}_{\text{correcto}} = \frac{s_1 + s_2}{2}$$
+El método correcto exige calcular el **promedio simple** (la media aritmética entre ambas cifras):
+$$\text{Promedio correcto} = \frac{x_1 + x_2}{2} = \frac{0{,}10 + 0{,}10}{2} = \frac{0{,}20}{2} = \mathbf{0{,}10 \quad (10\%)}$$
 
-Sin embargo, el analista implementó la fórmula en la celda de Excel dividiendo por la suma en lugar de por el escalar constante $N = 2$:
-$$\hat{s}_{\text{error}} = \frac{s_1 + s_2}{s_1 + s_2} \equiv 1 \quad \text{(o de forma ponderada:} \quad \frac{f(s_1, s_2)}{s_1 + s_2} \text{)}$$
+Si el banco tiene una inversión de $1.000$ millones de dólares, el riesgo estimado al $10\%$ es:
+$$\text{Riesgo Real} = 1.000 \times 10\% = \mathbf{100 \text{ millones de dólares}}$$
 
-#### B. Análisis Analítico del Comportamiento Funcional
-Analicemos la función de respuesta del modelo erróneo $g(s_1, s_2)$ frente a la función matemáticamente correcta $f(s_1, s_2)$:
+#### B. El Error Cometido en la Celda de Excel (Dividir por la Suma)
+En lugar de escribir un $2$ fijo en el denominador, el analista programó la fórmula en Excel dividiendo entre la suma $(x_1 + x_2)$:
+$$\text{Fórmula errónea de Excel} = \frac{x_1 \cdot x_2}{x_1 + x_2} = \frac{0{,}10 \cdot 0{,}10}{0{,}10 + 0{,}10} = \frac{0{,}01}{0{,}20} = \mathbf{0{,}05 \quad (5\%)}$$
 
-- **Función Correcta:**  
-  $$f(s_1, s_2) = \frac{1}{2} s_1 + \frac{1}{2} s_2$$  
-  Sus derivadas parciales (sensibilidades marginales) son estrictamente positivas:
-  $$\frac{\partial f}{\partial s_1} = \frac{1}{2} > 0, \quad \frac{\partial f}{\partial s_2} = \frac{1}{2} > 0$$  
-  *Propiedad económica:* Si aumenta la volatilidad de cualquiera de los activos subyacentes, la estimación del riesgo global aumenta lineal y monótonamente.
+Con este fallo, el riesgo estimado que apareció en la pantalla del banco fue:
+$$\text{Riesgo Reportado por Excel} = 1.000 \times 5\% = \mathbf{50 \text{ millones de dólares}}$$
 
-- **Función Errónea del Modelo en Excel:**  
-  Al dividir la métrica por la suma de las volatilidades $(s_1 + s_2)$, la función introdujo al denominador como una variable dinámica en vez de un escalar constante:
-  $$\frac{\partial}{\partial s_i} \left( \frac{\text{exposición}}{s_1 + s_2} \right) = - \frac{\text{exposición}}{(s_1 + s_2)^2} < 0$$  
-  *La aberración matemática:* **A medida que el mercado entraba en turbulencias y las volatilidades $s_1$ y $s_2$ aumentaban, el denominador crecía, provocando que la volatilidad reportada disminuyera**. El modelo presentaba una derivada parcial negativa respecto al riesgo real, incentivando a los operadores a asumir un apalancamiento letal justo en el peor momento de mercado.
+**¡El error matemático hizo desaparecer el 50% del riesgo real!**  
+Los directivos pensaban que su riesgo máximo era de 50 millones, cuando en realidad se estaban jugando 100 millones.
+
+#### C. Demostración con la Primera Derivada (Tema 1: Crecimiento y Decrecimiento)
+Para comprender la gravedad del fallo desde el punto de vista del cálculo de funciones:
+
+* **Función que debería tener el modelo:**  
+  Si llamamos $x$ a la volatilidad del mercado y $K$ al volumen de inversión ($K > 0$):
+  $$f(x) = K \cdot x$$
+  Calculamos su derivada respecto a la volatilidad:
+  $$f'(x) = K > 0$$
+  Como la derivada es positiva en todo su dominio, la función es **estrictamente creciente**. Es decir: *si la inestabilidad del mercado ($x$) sube, el riesgo medido ($f(x)$) también sube*.
+
+* **Función resultante del error en Excel:**  
+  Al colocar la variable de volatilidad en el denominador dividiendo a la exposición:
+  $$g(x) = \frac{K}{x} = K \cdot x^{-1}$$
+  Calculamos su derivada:
+  $$g'(x) = -K \cdot x^{-2} = -\frac{K}{x^2} < 0$$
+  Como el cuadrado $x^2 > 0$ y $K > 0$, la derivada es **estrictamente negativa**.  
+  **La aberración matemática:** La función se convirtió en **decreciente**. Cuando el mercado entraba en crisis y la volatilidad crecía, la fórmula de Excel arrojaba un número cada vez menor, diciendo que "había menos riesgo" en el peor momento posible.
 
 ---
 
@@ -93,51 +102,39 @@ Analicemos la función de respuesta del modelo erróneo $g(s_1, s_2)$ frente a l
 - **Calificación:**  
   `[X] Error grave: puede afectar de forma importante a una decisión económica o empresarial.`
 
-- **Justificación Económica, Financiera y Empresarial (Enfoque ADE):**  
-  Este caso representa el error de cálculo con mayor coste directo documentado en la historia del sector financiero mundial:
-  1. **Pérdida Directa de Balance:** **6.200 millones de dólares** ($6.2B) evaporados del balance de JPMorgan Chase en cuestión de meses.
-  2. **Infracción Regulatoria y Destrucción de Capital:** El banco comunicó métricas de *Capital At Risk* artificialmente bajas, incumpliendo los requerimientos mínimos de capital de solvencia del acuerdo regulatorio internacional de **Basilea II/III**.
-  3. **Multas e Indemnizaciones:** La SEC (EE. UU.), la CFTC (EE. UU.) y la FCA (Reino Unido) impusieron sanciones acumuladas superiores a **1.000 millones de dólares adicionales** por deficiencias graves en la gobernanza de modelos cuantitativos.
-  4. **Impacto en Gobernanza y Reputación:** Destitución inmediata de Ina Drew (Directora del CIO y una de las ejecutivas mejor remuneradas de Wall Street), comparecencias de Jamie Dimon (CEO) ante el Senado y un desplome del 15% en la cotización bursátil de la entidad tras la confesión pública del error.
+- **Justificación Económica y Empresarial (Enfoque ADE):**  
+  Este fallo aritmético provocó el mayor quebranto operativo por error de software de la historia bancaria:
+  1. **Pérdida Directa:** JPMorgan perdió **6.200 millones de dólares** ($6.2B) en su balance.
+  2. **Multas Regulatorias:** Sanciones por más de **1.000 millones de dólares** impuestas por la SEC y los reguladores británicos (FCA).
+  3. **Dimisiones y Reputación:** Destitución de los máximos responsables de inversión y una caída inmediata del 15% en el valor de las acciones del banco.
 
 ---
 
-### 7. ENUNCIADOS Y FORMULACIONES MATEMÁTICAS CORRECTAS
+### 7. ENUNCIADO Y PROCEDIMIENTO CORRECTO
 
-#### A. Definición Formal del Value at Risk (VaR)
-Para una cartera con valor inicial $V_0$ y rendimiento aleatorio $R \sim \mathcal{N}(\mu, \sigma_p^2)$, la pérdida máxima esperada con un nivel de confianza $(1 - \alpha)$ en un horizonte temporal $T$ se formula rigurosamente como:
-$$\text{VaR}_{1-\alpha} = V_0 \cdot \left( - \mu T + z_{1-\alpha} \cdot \sigma_p \sqrt{T} \right)$$
-Donde $z_{1-\alpha} = \Phi^{-1}(1 - \alpha)$ es el cuantil correspondiente de la distribución normal estándar $\mathcal{N}(0, 1)$ (para un 95% de confianza, $z_{0.95} \approx 1.645$; para un 99%, $z_{0.99} \approx 2.326$).
+- **Enunciado Correcto:**  
+  Para promediar dos estimaciones de volatilidad ($x_1$ y $x_2$), el divisor debe ser una constante entera correspondiente al número de observaciones ($N = 2$), nunca la suma de las variables:
+  $$\bar{x} = \frac{x_1 + x_2}{2}$$
 
-#### B. Agregación de Varianza en Cartera Multivariante
-Dada una cartera compuesta por dos activos sintéticos con ponderaciones relativas normalizadas $w_1, w_2 \in [0, 1]$ tales que $w_1 + w_2 = 1$, la desviación típica agregada del portafolio $\sigma_p$ **no es una simple suma**, sino la raíz cuadrada de la forma cuadrática asociada a la matriz de varianzas-covarianzas:
-$$\mathbf{\Sigma} = \begin{pmatrix} \sigma_1^2 & \sigma_{12} \\ \sigma_{12} & \sigma_2^2 \end{pmatrix} = \begin{pmatrix} \sigma_1^2 & \rho_{12}\sigma_1\sigma_2 \\ \rho_{12}\sigma_1\sigma_2 & \sigma_2^2 \end{pmatrix}$$
-
-$$\sigma_p = \sqrt{\mathbf{w}^T \mathbf{\Sigma} \mathbf{w}} = \sqrt{w_1^2 \sigma_1^2 + w_2^2 \sigma_2^2 + 2 w_1 w_2 \rho_{12} \sigma_1 \sigma_2}$$
-
-Y en caso de requerir un promedio ponderado de estimadores históricos $\hat{\sigma}_1$ y $\hat{\sigma}_2$, el operador lineal invariante de escala es estrictamente:
-$$\bar{\sigma} = \sum_{i=1}^n \lambda_i \hat{\sigma}_i \quad \text{con} \quad \sum_{i=1}^n \lambda_i = 1 \quad (\lambda_i \ge 0)$$
-Para $n = 2$ con pesos equitativos ($\lambda_1 = \lambda_2 = 0.5$):
-$$\bar{\sigma} = \frac{\hat{\sigma}_1 + \hat{\sigma}_2}{2}$$
+- **Procedimiento Numérico Corregido:**
+  $$\text{Volatilidad Corregida} = \frac{0{,}10 + 0{,}10}{2} = 0{,}10 \quad (10\%)$$
+  $$\text{Riesgo Diario Real} = \text{Posición} \times \bar{x} = 1.000\,\text{M\$} \times 0{,}10 = \mathbf{100\,\text{M\$}}$$
+  El procedimiento correcto restablece la condición de que la derivada sea positiva ($f'(x) > 0$), garantizando que el modelo alerte del peligro cuando el mercado se vuelve inestable.
 
 ---
 
-### 8. CONCLUSIÓN DEL AUDITOR: ¿QUÉ HEMOS APRENDIDO CON ESTE EJEMPLO?
+### 8. CONCLUSIÓN DEL AUDITOR: LO QUE HEMOS APRENDIDO
 
-Este caso ofrece una lección interdisciplinar de valor incalculable que conecta directamente mis estudios previos en **Desarrollo de Aplicaciones Multiplataforma (DAM)** con mi formación actual en **Administración y Dirección de Empresas (ADE)**:
+Este caso ilustra tres lecciones clave que unen mi formación previa en **DAM (programación)** con mis estudios actuales en **ADE (gestión de empresas)**:
 
-#### 1. La Perspectiva DAM (Ingeniería de Software y Calidad de Código):
-El verdadero culpable del desastre no fue únicamente el analista que redactó una fórmula incorrecta, sino la **falta de una arquitectura de software formal en el departamento financiero**. 
-JPMorgan dependía de lo que en el sector tecnológico denominamos *"Shadow IT"*: hojas de cálculo de Excel artesanales, sin control de versiones distribuido (`git`), sin tipado estricto de variables, sin separación de capas de datos y presentación, y, sobre todo, **sin pruebas unitarias automatizadas (`Unit Tests`)**.
-En desarrollo de software, cualquier algoritmo cuantitativo debe estar protegido por aserciones de invariantes matemáticos (e.g., `assert var_calculado >= var_activo_aislado` o tests de monotonicidad). Una batería básica de pruebas unitarias habría detectado que la derivada era negativa y habría detenido el despliegue del modelo de inmediato.
+1. **La lección de DAM (Programación y Calidad de Código):**  
+   El banco confió decisiones de miles de millones de dólares a una simple hoja de cálculo de Excel mantenida sin controles. En el desarrollo de software profesional esto es inaceptable:
+   - No había control de versiones (`git`).
+   - No había separación de datos y lógica.
+   - **No había pruebas unitarias (`Unit Tests`):** Con una sola línea de código de comprobación (`assert riesgo_calculado >= 100`), el sistema informático habría detectado el error y habría impedido su uso de inmediato.
 
-#### 2. La Solución Moderna: El Paradigma de Palantir Foundry y Data Pipelines:
-Frente a la fragilidad de las hojas de cálculo tradicionales, las instituciones líderes del siglo XXI han adoptado plataformas de integración ontológica de datos como **Palantir Foundry** o pipelines cuantitativos robustos en Python/C++. 
-En estos ecosistemas:
-- Las transformaciones matemáticas se declaran como funciones puras y reproducibles sobre grafos acíclicos dirigidos (DAGs).
-- Cada cálculo dispone de linaje de datos auditable (*Data Lineage*), impidiendo la manipulación manual mediante "copiar y pegar".
-- Se aplican políticas de integración continua (CI/CD) donde ningún cambio en la formulación de un modelo de riesgo puede pasar a producción sin pasar por un comité formal de revisión de código y validación estocástica.
+2. **La alternativa moderna: Palantir Foundry y Pipelines de Datos:**  
+   Hoy en día, las grandes corporaciones y bancos sustituyen las hojas de cálculo manuales por plataformas como **Palantir Foundry**, donde las operaciones matemáticas son automáticas, están testeadas por ingenieros y no dependen de que una persona escriba una fórmula a mano en una celda de Excel.
 
-#### 3. La Perspectiva ADE (Gobernanza Corporativa y Toma de Decisiones):
-En la alta dirección empresarial existe a menudo una fe ciega y acrítica en los modelos matemáticos complejos, tratándolos como "cajas negras" infalibles. El caso de JPMorgan demuestra que **la sofisticación técnica sin rigor metodológico ni auditoría interna es una de las mayores fuentes de riesgo sistémico**. 
-Los futuros graduados en ADE no solo debemos saber resolver derivadas o multiplicar matrices en un examen; debemos poseer la competencia crítica para auditar las hipótesis subyacentes de los modelos de los que dependen las decisiones estratégicas de la empresa.
+3. **La lección de ADE (Dirección de Empresas y Control Interno):**  
+   Los directivos nunca deben aceptar una cifra como válida solo porque "lo dice el ordenador" o "viene de un modelo matemático". La dirección debe entender las hipótesis básicas y auditar los cálculos, porque un error aritmético elemental puede poner en quiebra a la empresa.
