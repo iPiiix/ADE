@@ -46,6 +46,7 @@
 | 🗓️ **13 de noviembre de 2026** | **Viernes** | 16:00 – 17:30 h | **Matemática de las Operaciones Financieras** | **PRUEBA II** | A412 |
 | 🗓️ **17 de noviembre de 2026** | **Martes** | 16:30 – 18:30 h | **Contabilidad Financiera I** | **Prueba parcial** | A412 |
 | 🗓️ **20 de noviembre de 2026** | **Viernes** | 16:30 – 18:30 h | **Introducción a la Economía I** | **Prueba Parcial Evaluable** | A412 |
+| 🗓️ **1 de diciembre de 2026** | **Martes** | Hasta 23:59 h | **Matemáticas para la Empresa I** | **Entrega 1.ª Tarea General** *(Auditoría matemática)* | Aula Virtual |
 
 ---
 
@@ -168,6 +169,8 @@
 ---
 
 ### Semana 13 (30 de noviembre al 4 de diciembre de 2026)
+* **Martes 1 Diciembre:**
+  - **Matemáticas para la Empresa I** — 🎯 **Fecha Límite de Entrega: 1.ª Tarea General** (*Auditoría de errores matemáticos en situaciones reales* a través del Aula Virtual hasta las 23:59 h).
 * Clases y prácticas según horario habitual de docencia.
 
 ---

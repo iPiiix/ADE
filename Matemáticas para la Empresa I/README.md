@@ -17,6 +17,10 @@
 > - **Lugar:** Aula A412 (franja de clase teórica)
 > - **Tipo:** Prueba test sobre álgebra lineal, matrices y cálculo de funciones.
 > - **Actividad Obligatoria vinculada:** **Jueves, 29 de octubre de 2026 (12:30 – 14:30 h)** en el **Salón de Actos** — *Mesa Redonda: "RRHH en la era de la inteligencia artificial: Tecnología con alma de personas."* Ponentes: Responsables de RRHH de empresas líderes de la Región de Murcia.
+>
+> ### 📅 ENTREGA 1.ª TAREA GENERAL: Martes, 1 de diciembre de 2026 (23:59 h)
+> - **Actividad:** [Auditoría de errores matemáticos en situaciones reales](./Tareas/1%20-%20Tarea%20General%20-%20Auditor%C3%ADa%20Matem%C3%A1tica)
+> - **Plataforma:** Entrega de ficha formal a través de la tarea habilitada en el Aula Virtual.
 > - **Examen Final Ordinario:** **Lunes, 11 de enero de 2027 (09:00 – 12:00 h)**. Consulta el [Calendario Oficial](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md).
 
 ---
@@ -93,6 +97,9 @@ La asignatura está organizada por temas individuales. Dentro de cada tema encon
     - 📄 **[Tema 2: Funciones de Varias Variables, Límite y Continuidad](./2%20-%20Funciones%20de%20Varias%20Variables/Apuntes/Tema_02_Funciones_de_Varias_Variables_Limites_y_Continuidad.md)** — Vectores, matrices (algoritmo fila por columna), Cobb-Douglas, curvas de nivel (isocuantas e indiferencia), límites dobles y continuidad.
     - 📕 **[Presentación Oficial Tema 2 UMU (PDF)](./2%20-%20Funciones%20de%20Varias%20Variables/Apuntes/Tema_02_Presentacion_Oficial.pdf)**
   - [📁 Prácticas](./2%20-%20Funciones%20de%20Varias%20Variables/Prácticas) — Casos prácticos de isocuantas, operaciones matriciales y límites dobles.
+
+- 📁 **[Tareas](./Tareas)** — *Trabajos, entregas y actividades evaluables de la asignatura*
+  - 📂 **[1 - Tarea General - Auditoría Matemática](./Tareas/1%20-%20Tarea%20General%20-%20Auditor%C3%ADa%20Matem%C3%A1tica)** — *Auditoría de errores matemáticos en situaciones reales*. Incluye instrucciones oficiales, rúbrica de calificación, plantilla editable (`.docx`) y caso de ejemplo resuelto con derivadas. Fecha límite: **1 de diciembre de 2026**.
 
 - [📁 Exámenes](./Exámenes) — Exámenes oficiales de convocatorias anteriores, modelos de examen y pruebas de autoevaluación.
 
