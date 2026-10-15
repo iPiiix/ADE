@@ -41,7 +41,7 @@
 | Fecha Oficial | Día de la Semana | Horario | Asignatura | Prueba / Actividad | Aula |
 | :--- | :---: | :---: | :--- | :--- | :---: |
 | 🗓️ **16 de octubre de 2026** | **Viernes** | 16:00 – 17:30 h | **Matemática de las Operaciones Financieras** | **PRUEBA I** *(Temas 1 a 5)* | A412 |
-| 🗓️ **27 de octubre de 2026** | **Martes** | 18:30 – 20:30 h | **Administración de Empresas** | **Prueba parcial** | A412 |
+| 🗓️ **27 de octubre de 2026** | **Martes** | 18:30 – 20:30 h | **Administración de Empresas** | **Prueba parcial** *(Temas 1 a 5)* | A412 |
 | 🗓️ **3 de noviembre de 2026** | **Martes** | 15:00 – 16:30 h | **Matemáticas para la Empresa I** | **Prueba test** | A412 |
 | 🗓️ **13 de noviembre de 2026** | **Viernes** | 16:00 – 17:30 h | **Matemática de las Operaciones Financieras** | **PRUEBA II** | A412 |
 | 🗓️ **17 de noviembre de 2026** | **Martes** | 16:30 – 18:30 h | **Contabilidad Financiera I** | **Prueba parcial** | A412 |
@@ -129,7 +129,7 @@
 
 ### Semana 8 (26 al 30 de octubre de 2026)
 * **Martes 27 Octubre:**
-  - 18:30 – 20:30 h (Aula A412): **Administración de Empresas** — 🎯 **PRUEBA PARCIAL**.
+  - 18:30 – 20:30 h (Aula A412): **Administración de Empresas** — 🎯 **PRUEBA PARCIAL EVALUABLE** *(Temas 1 al 5)*.
 * **Jueves 29 Octubre:**
   - 12:30 – 14:30 h (Salón de Actos): **Obligatoria para Matemáticas para la Empresa I** — *Mesa Redonda: "RRHH en la era de la inteligencia artificial: Tecnología con alma de personas."* Ponentes: Responsables de RRHH en empresas de la Región de Murcia.
 

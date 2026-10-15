@@ -121,8 +121,8 @@ A continuación se detalla el formato oficial de examen, tipo de preguntas y cri
 
 ### 5. 🏢 [Administración de Empresas](./Administración%20de%20Empresas/README.md)
 * **Parcial de Evaluación Continua (27 de octubre · Aula A412):**
-  * **Formato:** **Mixto (Tipo Test + Caso Práctico Numérico)**.
-  * **Contenido:** Preguntas de opción múltiple sobre la naturaleza de la empresa, tipologías jurídicas y un ejercicio numérico de productividad factorial, productividad global de factores (PGF) y rentabilidades ROA/ROE.
+  * **Formato:** **Mixto (Tipo Test + Caso Práctico Empresarial)**.
+  * **Contenido:** **Temas del 1 al 5 completos**: La Empresa (conceptos y subsistemas), La Empresa y su Entorno (PESTEL y Porter), Evolución del Pensamiento Administrativo (Taylor, Fayol, Mayo, Weber y Contingencias), La Administración de Empresas (roles de Mintzberg y habilidades de Katz) y La Función de Planificación (criterios SMART, pirámide de objetivos, conflictos y DAFO) aplicados sobre el caso de la empresa NAS, SA.
 * **Examen Final Ordinario (14 de enero · 09:00 a 12:00 h):**
   * **Formato:** **Mixto (Test Teórico + Caso Práctico Empresarial Extenso)**.
   * **Contenido:** Bloque test sobre el proceso directivo (Planificación, Organización, Liderazgo, Motivación y Control) y resolución de un caso práctico empresarial (análisis del entorno general y competitivo, matriz DAFO, diseño de organigramas y cálculo de ratios de eficiencia directiva).
