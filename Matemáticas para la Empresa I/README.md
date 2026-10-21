@@ -97,6 +97,14 @@ La asignatura está organizada por temas individuales. Dentro de cada tema encon
     - 📄 **[Tema 2: Funciones de Varias Variables, Límite y Continuidad](./2%20-%20Funciones%20de%20Varias%20Variables/Apuntes/Tema_02_Funciones_de_Varias_Variables_Limites_y_Continuidad.md)** — Vectores, matrices (algoritmo fila por columna), Cobb-Douglas, curvas de nivel (isocuantas e indiferencia), límites dobles y continuidad.
     - 📕 **[Presentación Oficial Tema 2 UMU (PDF)](./2%20-%20Funciones%20de%20Varias%20Variables/Apuntes/Tema_02_Presentacion_Oficial.pdf)**
   - [📁 Prácticas](./2%20-%20Funciones%20de%20Varias%20Variables/Prácticas) — Casos prácticos de isocuantas, operaciones matriciales y límites dobles.
+    - 📑 **[Boletín Oficial: Relación 2 (PDF)](./2%20-%20Funciones%20de%20Varias%20Variables/Prácticas/Relacion2-26-27.pdf)** · 📝 **[Guía de Ejercicios](./2%20-%20Funciones%20de%20Varias%20Variables/Prácticas/README.md)**
+
+- 📁 **[3 - Derivación y Optimización de Funciones de una Variable](./3%20-%20Derivaci%C3%B3n%20y%20Optimizaci%C3%B3n%20de%20Funciones%20de%20una%20Variable)**
+  - [📁 Apuntes](./3%20-%20Derivaci%C3%B3n%20y%20Optimizaci%C3%B3n%20de%20Funciones%20de%20una%20Variable/Apuntes)
+    - 📄 **[Tema 3: Derivación y Optimización de Funciones de una Variable](./3%20-%20Derivaci%C3%B3n%20y%20Optimizaci%C3%B3n%20de%20Funciones%20de%20una%20Variable/Apuntes/Tema_03_Derivacion_Funciones_de_Una_Variable.md)** — Tasa de cambio, derivada, marginalidad económica ($IMg = CMg$), reglas de derivación, crecimiento, extremos relativos y absolutos (Weierstrass) y curvatura.
+    - 📕 **[Presentación Oficial Tema 3 UMU (PDF)](./3%20-%20Derivaci%C3%B3n%20y%20Optimizaci%C3%B3n%20de%20Funciones%20de%20una%20Variable/Apuntes/Tema_03_Derivacion_Funciones_Una_Variable.pdf)**
+  - [📁 Prácticas](./3%20-%20Derivaci%C3%B3n%20y%20Optimizaci%C3%B3n%20de%20Funciones%20de%20una%20Variable/Prácticas) — Problemas aplicados de tasas de cambio, optimización de beneficios y costes.
+    - 📑 **[Boletín Oficial: Relación 3 (PDF)](./3%20-%20Derivaci%C3%B3n%20y%20Optimizaci%C3%B3n%20de%20Funciones%20de%20una%20Variable/Prácticas/Relacion3-26-27.pdf)** · 📝 **[Guía de Ejercicios](./3%20-%20Derivaci%C3%B3n%20y%20Optimizaci%C3%B3n%20de%20Funciones%20de%20una%20Variable/Prácticas/README.md)**
 
 - 📁 **[Tareas](./Tareas)** — *Trabajos, entregas y actividades evaluables de la asignatura*
   - 📂 **[1 - Tarea General - Auditoría Matemática](./Tareas/1%20-%20Tarea%20General%20-%20Auditor%C3%ADa%20Matem%C3%A1tica)** — *Auditoría de errores matemáticos en situaciones reales*. Incluye instrucciones oficiales, rúbrica de calificación, plantilla editable (`.docx`) y caso de ejemplo resuelto con derivadas. Fecha límite: **1 de diciembre de 2026**.
