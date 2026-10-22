@@ -24,7 +24,7 @@
 >   - **Tema 4:** La Administración de Empresas (Proceso administrativo, figuras del empresario, 10 roles de Mintzberg y habilidades de Katz).
 >   - **Tema 5:** La Función de Planificación (Proceso de Koontz, 8 elementos del plan, criterios SMART, pirámide de objetivos, conflictos y DAFO).
 > - **Caso transversal de examen:** Prácticas aplicadas sobre el caso oficial de la empresa **Nuevos Alimentos del Sureste, SA (NAS, SA)**.
-> - **Actividad Obligatoria vinculada:** **Jueves, 22 de octubre de 2026 (12:30 – 14:30 h)** en el **Salón de Actos** — *Mesa Redonda: "Marketing digital. Más allá del clic."* Ponentes: Encar Gallardo (Account Director en Playroom) y Pedro Javier Gallego (Customer Support Owner en Connectif).
+> - **Actividad Obligatoria vinculada:** **Jueves, 22 de octubre de 2026 (12:30 – 14:30 h)** en el **Salón de Actos** — *Mesa Redonda: "Marketing digital. Más allá del clic."* Ponentes: Encar Gallardo (Playroom), Pedro Javier Gallego (Connectif) y Teresa Moreno (PcComponentes). 📄 **[Ver Memoria Académica Oficial](./Actividades/Mesa_Redonda_Marketing_Digital_2026.md)**.
 > - **Examen Final Ordinario:** **Jueves, 14 de enero de 2027 (09:00 – 12:00 h)**. Consulta el [Calendario Oficial](../CALENDARIO_EXAMENES_OFICIALES_2026_2027.md).
 
 ---
