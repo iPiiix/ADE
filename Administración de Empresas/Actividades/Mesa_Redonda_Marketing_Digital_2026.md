@@ -1,114 +1,123 @@
-# 🎙️ Memoria y Síntesis Académica — Mesa Redonda: "Marketing Digital. Más allá del clic"
-
-- **Actividad:** Actividad Oficial del Plan Anual de Orientación — Vinculada a **Administración de Empresas (Cód. 2345)**
-- **Centro:** Facultad de Economía y Empresa — Universidad de Murcia (Campus de Espinardo)
-- **Lugar:** Salón de Actos de la Facultad
-- **Fecha y Hora:** Jueves, 22 de octubre de 2026 (12:30 – 14:30 h)
-- **Modera:** **Manuela López Pérez** *(Vicedecana de Comunicación y Sostenibilidad de la Facultad de Economía y Empresa)*
-- **Ponentes Invitados:**
-  1. 🔹 **Encar Gallardo Segarra:** Co-Directora General en *Playroom* (Agencia de Comunicación y Marketing Estratégico).
-  2. 🔹 **Pedro Javier Gallego Acosta:** Customer Support Owner en *Connectif Artificial Intelligence* (Plataforma SaaS de Marketing Automation con IA).
-  3. 🔹 **Teresa Moreno:** Head of Brand & Communication en *PcComponentes* (Líder e-commerce tecnológico nacional fundado en Alhama de Murcia).
-- **Documento Fuente:** [📄 MARKETING_MESA_REDONDA_EN_SUCIO.pdf](./MARKETING_MESA_REDONDA_EN_SUCIO.pdf)
+# 📄 MEMORIA DE ASISTENCIA Y APROVECHAMIENTO ACADÉMICO
+## Mesa Redonda: *"Marketing Digital. Más allá del clic"*
 
 ---
 
-## 📌 Resumen Ejecutivo de la Sesión (BLUF)
+### 📋 DATOS IDENTIFICATIVOS DEL ESTUDIANTE Y DE LA ASIGNATURA
 
-> La mesa redonda desmontó los mitos superficiales del marketing digital centrado en la consecución del "clic" inmediato, profundizando en la realidad operativa del **subsistema comercial**: la gestión rigurosa del dato, la alineación con la cultura organizativa y la integración de la inteligencia artificial. La gran conclusión compartida por las empresas líderes de la Región de Murcia (Connectif, PcComponentes y Playroom) es que **a mayor tecnificación e implantación de agentes inteligentes, más críticas y diferenciales se vuelven las habilidades humanas, el criterio estratégico y la proactividad del personal**.
-
----
-
-## 🧭 Desarrollo Temático de la Mesa Redonda
-
-### 1. El "Marketing sin Filtro": Realidad Operativa vs. Falsa Apariencia
-La moderadora inició el debate contrastando la percepción externa y aspiracional del marketing con la rutina empresarial cotidiana:
-* **Gestión de la operativa y soporte al cliente (Connectif):** La jornada comienza revisando bandejas de consultas, incidencias y *tickets* de soporte de clientes e-commerce. La clave no es la inspiración puntual, sino el **control de calidad continuado** y la verificación periódica de si las soluciones implementadas satisfacen las necesidades reales del usuario.
-* **Identidad de marca y reputación corporativa (PcComponentes):** El foco reside en proyectar la propuesta de valor de la compañía, gestionar los canales de *social media* y monitorizar de forma constante la repercusión mediática y el sentimiento del consumidor.
-* **Gestión de cuentas y orientación al cliente (Playroom):** Como agencia, el día a día se basa en conectar con clientes dispares, entender sus objetivos de negocio y liderar proyectos. Se destacó una clara **evolución en los perfiles profesionales buscados**: las organizaciones han transitado de demandar perfiles estrictamente ejecutores a exigir **profesionales proactivos e intraemprendedores**, capaces de anticipar problemas y proponer soluciones antes de recibir órdenes.
-
----
-
-### 2. Fronteras Difusas: Integración Omnicanal (Digital vs. Offline)
-Frente a la clásica dicotomía entre marketing tradicional y digital, los ponentes evidenciaron que la frontera es porosa y complementaria:
-* **El caso de éxito y diferenciación de PcComponentes frente a gigantes globales:**  
-  Nacida en Alhama de Murcia, la compañía ha logrado escalar y competir de tú a tú con colosos como Amazon o El Corte Inglés. Teresa Moreno explicó cómo su posicionamiento de marca ha evolucionado: aunque su denominación histórica remite a "componentes de ordenador", el departamento comercial ha diversificado con éxito su catálogo hacia telefonía, domótica, sistemas y tecnología global.  
-  * *Aprovechamiento de tendencias y marketing en tiempo real (Newsjacking):* PcComponentes destaca por monitorizar el dinamismo del entorno social (por ejemplo, aprovechando conversaciones virales y polémicas en redes durante el verano para integrarlas en sus campañas con cercanía y humor murciano).
-* **Campañas estacionales y ventanas de oportunidad:** Playroom incidió en cómo eventos estacionales (Halloween, Black Friday) son palancas estratégicas donde las marcas deben anticipar su planificación para ganar cuota frente a competidores saturados de anuncios.
-* **La perspectiva de un modelo 99% digital (Connectif):** Aunque su comercialización SaaS hacia e-commerces es casi íntegramente digital, Pedro Gallego subrayó que la **captación omnicanal física** sigue existiendo (por ejemplo, la recogida de datos y consentimientos en el punto de venta físico mediante el teléfono o el correo al pasar por caja).
+* **Estudiante:** Santiago Pérez Guerrero
+* **DNI / NIF:** 21068132V
+* **Titulación:** Grado en Administración y Dirección de Empresas (GADE) — Plan 2009
+* **Centro:** Facultad de Economía y Empresa — Universidad de Murcia (Campus de Espinardo)
+* **Asignatura:** Administración de Empresas (Código: `2345`)
+* **Grupo y Turno:** Grupo 5 — Turno de Tarde
+* **Profesorado Responsable:** Jorge Monllor Domínguez *(Coordinador)* / Juan José Peláez Ibarrondo
+* **Marco de la Actividad:** Plan Anual de Orientación de la Facultad de Economía y Empresa (Actividad Vinculada a Evaluación Continua)
+* **Fecha y Horario:** Jueves, 22 de octubre de 2026 (12:30 – 14:30 h)
+* **Lugar:** Salón de Actos de la Facultad de Economía y Empresa
 
 ---
 
-### 3. El Gobierno del Dato y la Toma de Decisiones Estratégicas
-El dato empírico es el combustible del marketing moderno, pero exige madurez analítica:
-1. **Paciencia analítica y perspectiva temporal:** Las decisiones no pueden basarse en métricas impulsivas de 24 horas. Los ponentes recalcaron que es imperativo **dar tiempo al dato para que se asiente y adquiera significación estadística**. El cortoplacismo conduce a diagnósticos erróneos y rectificaciones innecesarias.
-2. **Métricas de rendimiento e interactividad en e-commerce:** En marketing de automatización, los clientes exigen visibilidad total de los indicadores clave (*KPIs*): tasas de apertura, tasa de rebote (*bounce rate*), desvíos a carpetas de spam y embudos de conversión.
-3. **Investigación cuantitativa y cualitativa:** Playroom recordó que los registros analíticos digitales deben complementarse con metodologías de investigación primaria, como cuestionarios directos y paneles de satisfacción, para comprender el *porqué* detrás de las cifras.
+## 1. 🎯 FICHA TÉCNICA Y PANEL DE PONENTES
+
+* **Moderadora:**
+  * **Dña. Manuela López Pérez:** Vicedecana de Comunicación y Sostenibilidad de la Facultad de Economía y Empresa (UMU).
+* **Mesa de Expertos Invitados:**
+  1. **Dña. Encar Gallardo Segarra:** Co-Directora General en **Playroom** *(Agencia de Publicidad, Comunicación y Marketing Estratégico)*.
+  2. **D. Pedro Javier Gallego Acosta:** Customer Support Owner en **Connectif Artificial Intelligence** *(Plataforma SaaS líder de Marketing Automation con IA)*.
+  3. **Dña. Teresa Moreno:** Head of Brand & Communication en **PcComponentes** *(Compañía tecnológica de comercio electrónico fundada en Alhama de Murcia)*.
 
 ---
 
-### 4. La Disrupción de la Inteligencia Artificial: La Revalorización de lo Humano
-La IA monopolizó el bloque de futuro de la mesa, arrojando reflexiones de alto calado directivo:
-* **Innovación defensiva y adaptativa en Connectif:** En un mercado tecnológico hipercompetitivo, adoptar IA no es opcional: *"si nuestros competidores la implementan y nosotros no, quedamos expulsados del mercado"*. La empresa ya incorpora modelos generativos internamente y entrena **sistemas de IA agéntica** (asistentes autónomos capaces de ejecutar flujos completos de marketing y resolver tickets de clientes complejos).
-* **El criterio humano como timonel de la tecnología:** Encar Gallardo puntualizó que las herramientas de IA son meros amplificadores de velocidad: exigen **criterio crítico previo, sólidos conocimientos de negocio y capacidad de dirección** por parte del profesional para guiarlas con rigor.
-* **La paradoja de la digitalización: más IA implica mayor valor humano:**  
-  Los tres ponentes coincidieron unánimemente en una aparente paradoja: **cuanto más se automatizan los procesos rutinarios, más cotizadas son las competencias humanas**. La ventaja competitiva residirá en la empatía, la negociación interpersonal, la intuición estratégica y la conexión genuina con el usuario.  
-* **Obsolescencia del canal web tradicional:** Se anticipó una transformación estructural en el comportamiento del consumidor: con el auge de los agentes de IA conversacionales, las webs estáticas perderán peso progresivamente frente a consultas directas asistidas por modelos de lenguaje.
-* **Consejos de empleabilidad para los estudiantes de ADE:** Frente a las campañas inminentes (como el Black Friday), los ponentes enfatizaron que el mercado laboral busca graduados **despiertos, proactivos, con iniciativa propia y alta capacidad de adaptación**.
+## 2. 📝 SÍNTESIS ESTRUCTURADA DEL DEBATE (¿DE QUÉ SE HABLÓ EN LA SESIÓN?)
+
+La sesión se articuló en torno a cuatro grandes bloques que desmontaron la visión idealizada o puramente estética del marketing digital, trasladando a los alumnos cómo opera en la realidad organizativa cotidiana:
+
+### Bloque A: El "Marketing sin Filtro" — Operativa Real y Evolución del Perfil Profesional
+La mesa arrancó confrontando el marketing que se proyecta en redes sociales con el trabajo diario de trinchera empresarial:
+* **El día a día operativo:** Pedro Gallego (Connectif) explicó que su labor no empieza creando eslóganes, sino revisando bandejas de correo, resolviendo *tickets* de soporte técnico y analizando incidencias de clientes e-commerce. Recalcó que la clave de la retención reside en el **control periódico de la calidad** del servicio.
+* **Identidad y reputación:** Teresa Moreno (PcComponentes) centró su intervención en la necesidad de cuidar la coherencia de marca, monitorizar permanentemente la conversación social en medios y velar por la credibilidad frente a los consumidores.
+* **Del perfil ejecutor al perfil proactivo:** Encar Gallardo (Playroom) señaló un cambio drástico en las demandas de las agencias. Tradicionalmente se contrataban perfiles dóciles y puramente ejecutivos que esperaban instrucciones; hoy en día, las organizaciones exigen **empleados con iniciativa, espíritu intraemprendedor y capacidad de anticipación**, capaces de plantear soluciones antes de que surja la crisis.
+
+### Bloque B: La Conexión Digital vs. Offline y el Reto de Competir con Gigantes
+Frente al debate de si el marketing digital ha sustituido al tradicional, los ponentes demostraron que ambos canales conviven y se retroalimentan:
+* **El caso de éxito de PcComponentes frente a Amazon y El Corte Inglés:**  
+  Nacida como una modesta tienda en Alhama de Murcia, la empresa ha logrado disputar el liderazgo tecnológico nacional a gigantes mundiales. Teresa Moreno explicó cómo su denominación histórica ("Pc") no les ha impedido diversificar con éxito hacia telefonía, domótica y gama blanca. Destacó como ventaja competitiva su agilidad para el **marketing en tiempo real (*newsjacking*)**, aprovechando tendencias virales de internet y conversaciones veraniegas en redes con un tono humano, cercano y humorístico para conectar emocionalmente con su comunidad.
+* **Estacionalidad y campañas clave:** Playroom expuso cómo fechas como Halloween o el Black Friday exigen una exhaustiva planificación previa en agencias para romper la saturación publicitaria y destacar frente a la competencia.
+* **Omnicanalidad en modelos SaaS:** Connectif (cuyo modelo de negocio B2B es 99% digital) reconoció que el mundo físico sigue siendo el gran captador de datos: la simple solicitud del teléfono o el correo en la línea de cajas de un comercio físico es el detonante que activa todos los flujos automatizados en la nube.
+
+### Bloque C: La Gestión del Dato en la Toma de Decisiones
+Los ponentes analizaron el papel de la analítica digital en la toma de decisiones empresariales:
+1. **Paciencia analítica vs. Cortoplacismo:** Se advirtió contra la tentación de tomar decisiones precipitadas mirando métricas de un solo día. Es indispensable **dar tiempo al dato para que se asiente**, evitando rectificaciones impulsivas basadas en fluctuaciones puntuales.
+2. **Métricas de control en e-commerce:** Los clientes exigen auditoría continua de sus indicadores clave (KPIs): tasa de rebote (*bounce rate*), desvíos a bandejas de spam, ratios de apertura (*open rate*) y embudos de conversión.
+3. **Complementariedad metodológica:** Playroom enfatizó que la analítica cuantitativa debe combinarse con encuestas y paneles cualitativos para entender la motivación psicológica y el *porqué* detrás del número.
+
+### Bloque D: La Disrupción de la Inteligencia Artificial y la Paradoja Humana
+El debate sobre IA arrojó las conclusiones de mayor calado para los futuros graduados:
+* **Adopción obligada para la supervivencia:** Pedro Gallego expuso que Connectif integra modelos generativos e IA agéntica (chatbots autónomos para resolución integral de incidencias) porque en el sector tecnológico **no innovar significa quedar fuera de mercado**.
+* **El timón del criterio crítico:** Encar Gallardo defendió que la IA carece de sentido sin un profesional detrás con **criterio propio, base teórica y conocimientos del negocio** que sepa guiarla y formularle las instrucciones oportunas.
+* **La paradoja de la digitalización:** Todos los ponentes coincidieron en que **cuanta más IA se implante para realizar tareas técnicas repetitivas, más cotizadas y valiosas serán las habilidades estrictamente humanas**. La empatía, el saber escuchar, la psicología del cliente, el liderazgo y la intuición directiva serán los únicos factores que la tecnología no podrá sustituir. Asimismo, anticiparon que el formato web tradicional irá perdiendo relevancia frente a interfaces conversacionales y motores de respuesta directa.
 
 ---
 
-## 🔗 Conexiones Conceptuales con el Temario de Administración de Empresas
+## 3. 🔗 CONEXIÓN DE LA SESIÓN CON LA ASIGNATURA DE ADMINISTRACIÓN DE EMPRESAS
 
-Aunque la jornada versó sobre Marketing Digital, las dinámicas debatidas constituyen ejemplos de libro de los conceptos teóricos explicados en la asignatura:
+Como estudiante de ADE, la mesa redonda me ha permitido corroborar de manera empírica conceptos fundamentales estudiados en los **Temas 1, 2, 4 y 5 del programa**:
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│               CONEXIONES CON EL TEMARIO DE ADMINISTRACIÓN DE EMPRESAS                 │
+│                   MAPA DE CONEXIÓN CONCEPTUAL CON LA ASIGNATURA                       │
 ├────────────────────────┬───────────────────────────────────────────────────────────────┤
-│ TEMA DE ADMINISTRACIÓN │ APLICACIÓN PRÁCTICA OBSERVADA EN LA MESA REDONDA              │
+│ TEMA DEL PROGRAMA      │ APLICACIÓN DIRECTA EN LOS CASOS DE LA MESA REDONDA            │
 ├────────────────────────┼───────────────────────────────────────────────────────────────┤
-│ Tema 1: La Empresa     │ • El Marketing como Subsistema Comercial interdependiente.    │
-│ & Capital Intelectual  │ • Capital Humano (criterio/empatía) vs Estructural (IA/SaaS). │
+│ Tema 1: La Empresa     │ • El Marketing como Subsistema Comercial coordinado.          │
+│ como Sistema           │ • Triple Dimensión del Capital Intelectual: Humano vs         │
+│                        │   Estructural (software IA) vs Relacional (comunidad marca). │
 ├────────────────────────┼───────────────────────────────────────────────────────────────┤
-│ Tema 2: Entorno        │ • Dimensión Tecnológica PESTEL (Disrupción por IA y agentes). │
-│ (PESTEL y Porter)      │ • 5 Fuerzas de Porter: Rivalidad PcComponentes vs Amazon.     │
-│                        │ • Operativa en Entorno Turbulento (VUCA e hiperdinámico).     │
+│ Tema 2: El Entorno     │ • Dimensión Tecnológica PESTEL (revolución de la IA agéntica).│
+│ de la Empresa          │ • 5 Fuerzas de Porter: Rivalidad PcComponentes vs multinacio- │
+│                        │   nales resuelta mediante Estrategia de Diferenciación.       │
+│                        │ • Operativa en Entornos Turbulentos (conceptos VUCA).         │
 ├────────────────────────┼───────────────────────────────────────────────────────────────┤
-│ Tema 4: La Función de  │ • Habilidades de Robert Katz: La IA reemplaza la Técnica;     │
-│ Administración         │   se revalorizan la Habilidad Humana y la Conceptual.         │
-│                        │ • Roles de Mintzberg: Monitor (datos) y Empresario (agilidad).│
+│ Tema 4: La Función de  │ • Las Habilidades de Robert Katz: La IA asume la habilidad    │
+│ Administración         │   técnica; la dirección exige Habilidad Humana y Conceptual.  │
+│                        │ • Roles Directivos de Mintzberg: Monitor y Emprendedor.       │
 ├────────────────────────┼───────────────────────────────────────────────────────────────┤
-│ Tema 5: Planificación  │ • Toma de decisiones racional y basada en datos (Data-Driven).│
-│ y Control              │ • Objetivos SMART y métricas de control (rebotes, apertura).  │
+│ Tema 5: Planificación  │ • Toma de decisiones racional orientada por datos (Data-Driven│
+│ y Control              │ • Las métricas de e-commerce como mecanismos de Feedback      │
+│                        │   para corregir desviaciones en los objetivos del plan.       │
 └────────────────────────┴───────────────────────────────────────────────────────────────┘
 ```
 
-### 1. Conexión con el Tema 1 (Capital Intelectual y Subsistemas)
-* **Capital Estructural:** Los algoritmos propietarios de *Connectif*, los modelos de IA entrenados, las bases de datos de clientes y las plataformas de ticketing constituyen activos inmateriales codificados que permanecen en la organización.
-* **Capital Humano:** El talento de los analistas, su capacidad reflexiva para interpretar las tendencias y su empatía constituyen el activo decisivo que "vuelve a casa a las 18:00 h" y que la inteligencia artificial no puede replicar.
-* **Capital Relacional:** La sólida reputación construida por *PcComponentes* en redes sociales y la comunidad de clientes fieles que defienden la marca frente a competidores impersonales.
+### A) Conexión con el Tema 1: Teoría General de Sistemas y Capital Intelectual
+* **El Subsistema Comercial / Marketing:** Lejos de funcionar de forma aislada, el marketing opera como un subsistema de frontera interdependiente del subsistema de dirección y de sistemas de información.
+* **El Capital Intelectual como Ventaja Competitiva:**
+  * **Capital Estructural:** Algoritmos propietarios de *Connectif*, modelos de IA agéntica patentados y arquitecturas de software que permanecen en la compañía.
+  * **Capital Humano:** El talento, la visión crítica y la capacidad de resolución de los especialistas, cuyo valor diferencial "se marcha a casa al finalizar la jornada" y no puede ser programado en un servidor.
+  * **Capital Relacional:** La reputación y comunidad construida por *PcComponentes*, que actúa como escudo protector frente a competidores impersonales.
 
-### 2. Conexión con el Tema 2 (PESTEL, Porter y Entornos Turbulentos)
-* **Dimensión Tecnológica del PESTEL:** La irrupción vertiginosa de los agentes autónomos de IA y el cambio en el comportamiento de búsqueda del consumidor representan un factor exógeno que transforma las reglas del juego de todo el sector.
-* **Rivalidad y Estrategia de Diferenciación (Michael Porter):**  
-  *PcComponentes* es el ejemplo paradigmático de cómo una empresa regional compite en un sector dominado por multinacionales (*Amazon, MediaMarkt*): en lugar de librar únicamente una batalla suicida en costes estándar, aplica una **estrategia de diferenciación basada en el servicio postventa, la humanización de la marca y la cercanía en la comunicación**.
-* **Entorno Turbulento:** Las empresas participantes operan bajo condiciones de **alto dinamismo** (cambios de algoritmos continuos), **alta complejidad** (tecnologías de IA y modelos predictivos) y **fuerte hostilidad** en precios y márgenes.
+### B) Conexión con el Tema 2: Análisis del Entorno (PESTEL, Porter y Tipología)
+* **PESTEL (Dimensión Tecnológica):** La proliferación de modelos de lenguaje y la previsión de que los buscadores web tradicionales queden obsoletos constituyen un cambio macroambiental exógeno que obliga a rediseñar estrategias de captación.
+* **Las 5 Fuerzas de Michael Porter (Rivalidad y Diferenciación):**  
+  El sector de la distribución informática presenta una rivalidad feroz con grandes operadores de capital extranjero (*Amazon, MediaMarkt*). El éxito de PcComponentes reside en no competir exclusivamente en precio (liderazgo en costes), sino en aplicar una **estrategia de diferenciación basada en el servicio al cliente, la cercanía en redes y la rapidez de envío**.
+* **Entorno Turbulento:** Las organizaciones analizadas se desenvuelven en un entorno caracterizado por **alto dinamismo** (cambios continuos en algoritmos), **alta complejidad técnica** y **fuerte hostilidad competitiva**.
 
-### 3. Conexión con el Tema 4 (Las Habilidades Directivas de Robert Katz)
-Uno de los momentos más lúcidos de la ponencia de Connectif hizo referencia explícita a la primacía de las **habilidades conceptuales y humanas**:
-* **Habilidades Técnicas:** Tradicionalmente eran la puerta de entrada al marketing (saber redactar un post, programar un envío de correo, configurar un ticket). Hoy en día, la IA realiza estas tareas técnicas de forma automatizada y veloz.
-* **Habilidades Humanas:** Se convierten en el activo más escaso: escuchar activamente al cliente insatisfecho, mediar en crisis de comunicación y liderar equipos multidisciplinares.
-* **Habilidades Conceptuales:** Imprescindibles para la dirección: capacidad de interpretar el entorno global, conectar el dato con la estrategia general de la empresa y decidir en qué dirección orientar las herramientas tecnológicas.
+### C) Conexión con el Tema 4: Las Habilidades Directivas de Robert Katz
+Durante la intervención de Connectif se formuló de forma explícita la taxonomía de **Robert Katz**:
+* **Habilidades Técnicas:** Tradicionalmente centradas en la operativa básica (redacción de correos, gestión de tickets, programación rutinaria). Hoy en día la IA realiza estas tareas con mayor velocidad.
+* **Habilidades Humanas:** Adquieren carácter prioritario. Conectar con el cliente, gestionar quejas con empatía, mediar en conflictos y liderar equipos son competencias insustituibles por algoritmos.
+* **Habilidades Conceptuales:** Imprescindibles para la dirección: tener visión global de la empresa, comprender cómo interactúan las variables del entorno y fijar el rumbo estratégico hacia el que orientar la tecnología.
 
-### 4. Conexión con el Tema 5 (Planificación y Control)
-* **El papel del Control y la Retroalimentación (Feedback):** Las métricas analizadas por los ponentes (rebotes, ratios de apertura, engagement en redes) constituyen la fase de **control del proceso administrativo**: comparar los resultados reales frente a los objetivos previstos y aplicar medidas correctoras.
-* **Visión a Medio Plazo vs. Cortoplacismo:** La advertencia de "dejar reposar los datos" conecta con la necesidad de no supeditar los planes estratégicos de la compañía a fluctuaciones tácticas de corto plazo.
+### D) Conexión con el Tema 5: La Función de Planificación y el Control
+* **Toma de Decisiones basada en Datos:** La insistencia en dar tiempo a los datos para que adquieran relevancia estadística responde al principio de planificación racional: los planes no deben sustentarse en corazonadas, sino en evidencias empíricas consolidadas.
+* **El Bucle de Control y Retroalimentación:** Las métricas de e-commerce (ratios de apertura, rebotes, bajas) representan los **indicadores de control** que permiten a la empresa comparar los resultados alcanzados con los estándares presupuestados y aplicar las acciones correctoras pertinentes.
 
 ---
 
-## 💡 Conclusión y Aprendizajes Clave para el Alumno de ADE
+## 4. 💡 VALORACIÓN PERSONAL Y CONCLUSIÓN PARA UN FUTURO GRADUADO EN ADE
 
-1. **El marketing no es un compartimento estanco:** Es el subsistema comercial de la empresa y debe estar estrechamente coordinado con la dirección general, la infraestructura tecnológica y el departamento de atención al cliente.
-2. **La tecnología sin estrategia carece de valor:** Disponer de la IA más avanzada no garantiza el éxito si no existe un modelo de negocio coherente, una marca con identidad propia y un equipo con criterio analítico para tomar decisiones.
-3. **El perfil profesional diferencial:** En un mercado laboral automatizado, las empresas no buscan autómatas que pulsen botones, sino personas curiosas, resolutivas y con visión integral del negocio.
+La asistencia a esta mesa redonda me ha resultado de enorme utilidad formativa por tres motivos principales:
+
+1. **Aterrizar la teoría en el tejido empresarial murciano:** Comprobar cómo empresas de nuestra propia región como **PcComponentes** (Alhama de Murcia) o **Connectif** lideran sus respectivos mercados compitiendo internacionalmente demuestra la vigencia real de los modelos estratégicos explicados en el aula.
+2. **Replantear el impacto de la Inteligencia Artificial:** Frente al temor infundado de que la automatización inutilice los estudios universitarios, la jornada evidenció todo lo contrario: **la técnica se abarata, pero el criterio directivo se encarece**. El dominio del razonamiento económico, la visión estratégica y la ética empresarial serán más determinantes que nunca.
+3. **Orientación hacia la empleabilidad:** El mensaje unánime de los ponentes para los estudiantes de ADE fue nítido: las empresas no demandan perfiles pasivos que esperen a que les digan qué hacer, sino **profesionales proactivos, con iniciativa, espíritu resolutivo y capacidad de aprendizaje continuo**.
