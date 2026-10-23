@@ -1,6 +1,6 @@
 # 🏛️ ONE-PAGER EJECUTIVO — TEMA 3: EVOLUCIÓN DEL PENSAMIENTO ADMINISTRATIVO
 > **Asignatura:** Administración de Empresas (Cód. 2345) · Grado en ADE — Universidad de Murcia  
-> **Formato:** Executive Briefing Horizontal (One-Pager 3 Columnas) · **Objetivo:** Dominio 100% de autores, escuelas y caso práctico de socios de NAS, SA para el Examen Parcial
+> **Formato:** Executive Briefing Horizontal (One-Pager 3 Columnas) · **Especial Tipo Test:** Columna 1 dedicada a Autores y Palabras Clave
 
 ---
 
@@ -8,25 +8,24 @@
 
 ```text
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│ 🏛️ ENCABEZADO: TEMA 3 — EVOLUCIÓN DEL PENSAMIENTO ADMINISTRATIVO · BLUF EJECUTIVO                                      │
-│ "La teoría de la administración ha evolucionado desde concepciones mecanicistas y cerradas del trabajador (Taylor/Fayol)│
-│  hacia la dimensión psicosocial (Mayo) y la racionalidad estructural (Weber), culminando en el Enfoque Contingente     │
-│  ('No One Best Way'): no existe una forma universal de dirigir; la estructura óptima depende del ajuste al entorno."  │
+│ 🏛️ ENCABEZADO: TEMA 3 — EVOLUCIÓN DEL PENSAMIENTO ADMINISTRATIVO · BLUF TIPO TEST                                      │
+│ "En el tipo test, cada pregunta asocia un AUTOR a su PALABRA CLAVE o ESCUELA: de la máquina y el taller (Taylor), al  │
+│  organigrama formal (Fayol), al grupo social y psicológico (Mayo), al funcionario meritocrático (Weber) y al enfoque   │
+│  contingente donde 'No existe una única mejor forma de dirigir, todo depende de la situación' (Luthans / Burns)."     │
 ├───────────────────────────────┬───────────────────────────────┬────────────────────────────────────────────────────────┤
 │          COLUMNA 1            │          COLUMNA 2            │                       COLUMNA 3                        │
-│       EL ENFOQUE CLÁSICO      │    RELACIONES HUMANAS (MAYO)  │       ENFOQUE CONTINGENTE, ESTRATÉGICO         │
-│       (TAYLOR vs FAYOL)       │     & BUROCRACIA (WEBER)      │         & CASO OFICIAL DE CLASE (NAS, SA)              │
+│   DICCIONARIO DE AUTORES      │      LAS 4 GRANDES ESCUELAS   │       ENFOQUE CONTINGENTE (AÑOS 60)            │
+│    & PALABRAS CLAVE (TEST)    │     (COMPARATIVA Y TEORÍA)    │        & CASO PRÁCTICO NAS, SA (EXAMEN)        │
 │                               │                               │                                                        │
-│ • Etapas: Origen/Precurs/Explo│ • Elton Mayo & Hawthorne:     │ • Enfoque de Contingencias:                            │
-│ • TAYLOR (Adm. Científica):   │   - 4 fases (luz, relés,      │   - Principio: "No One Best Way"                       │
-│   - Nivel: Taller/Puesto      │     entrevistas, bobinado)    │   - Luthans: "Si ocurre X ➔ Entonces aplicar Y"        │
-│   - "The One Best Way"        │   - Homo Socialis & G.Informal│   - Burns & Stalker (Mecánico vs Orgánico)             │
-│   - Homo Economicus (Dinero)  │   - Críticas: Paternalismo    │ • Teoría de Recursos y Capacidades (Grant)             │
-│   - ORT: Tiempos y Therbligs  │ • Max Weber (Burocracia):     │ • Caso Examen NAS, SA (Los 3 Socios):                  │
-│ • FAYOL (Adm. General):       │   - Racionalidad legal formal │   - María (Lab): Relaciones Humanas (Mayo)             │
-│   - Nivel: Dirección Global   │   - 10 Rasgos (Norma escrita, │   - Juan y Felipe: Burocracia/Fayol (Weber)            │
-│   - 6 Funciones de la Empresa │     impersonalidad, mérito)   │   - Violeta y Amalio: Adm. Científica (Taylor)         │
-│   - Proceso PODCC & 14 Ppios  │   - Disfunciones: Papeleo     │ • Tabla Comparativa Rápida para el Examen              │
+│ • Pacioli ➔ Partida doble     │ • Taylor: Taller, ORT, pala   │ • Contingencias ("No One Best Way"):                   │
+│ • Adam Smith ➔ División trab. │ • Fayol: Alta dirección, PODCC│   - Luthans: "Si X (entorno) ➔ Entonces Y (empresa)"   │
+│ • Taylor ➔ "One Best Way"     │   - 14 Ppios (Unidad Mando)   │   - Mecánica (estable) vs Orgánica (turbulento)        │
+│ • Gilbreth ➔ Therbligs        │ • Mayo: Hawthorne (4 fases)   │ • Grant ➔ Teoría Recursos y Capacidades                │
+│ • Fayol ➔ PODCC, U. Mando     │   - Homo Socialis & Informal  │ • Caso Oficial NAS, SA (Socios Fundadores):            │
+│ • Mayo ➔ Hawthorne, Socialis  │ • Weber: Burocracia ideal     │   - María ➔ Mayo (Relaciones Humanas)                  │
+│ • Weber ➔ Legal, Mérito       │   - 10 Rasgos y Meritocracia  │   - Juan y Felipe ➔ Weber / Fayol (Burocracia)         │
+│ • Merton ➔ Reglamentitis      │ • Merton: Disfunciones        │   - Violeta y Amalio ➔ Taylor (Adm. Científica)        │
+│ • Luthans ➔ Contingencias     │ • Tabla comparativa 4 escuelas│ • 4 Trampas de Test típicas de Monllor y Peláez        │
 └───────────────────────────────┴───────────────────────────────┴────────────────────────────────────────────────────────┘
 ```
 
@@ -34,102 +33,82 @@
 
 ## 🏛️ CONTENIDO DETALLADO POR COLUMNAS (MECE)
 
-### 📌 COLUMNA 1: EL ENFOQUE CLÁSICO (TAYLOR vs FAYOL)
+### 📌 COLUMNA 1: MASTER INDEX DE AUTORES & PALABRAS CLAVE (GATILLOS DE TEST)
 
-#### 1. Fases Históricas de la Administración
-* **Etapa de Origen (hasta s. XVIII):** Prácticas empíricas mercantiles; Luca Pacioli (partida doble contable).
-* **Etapa Precursora (hasta s. XX):** Revolución Industrial, Adam Smith (división del trabajo fabril).
-* **Etapa de Explosión (s. XX - Actualidad):** Disciplina científica multidisciplinar, empírica y dinámica.
+*Usa esta columna como un diccionario binario: si en el test ves la palabra clave, marcas directamente al autor asociado.*
 
-#### 2. Frederick W. Taylor — Escuela de la Administración Científica (1911)
-* **Foco y Objetivo:** **Nivel operativo / taller de trabajo**. Busca la **eficiencia técnica** descubriendo *"The One Best Way"* (la única mejor manera de trabajar).
-* **Visión del Hombre:** **Homo Economicus** (el obrero es perezoso por naturaleza; solo se mueve por incentivos salariales por pieza/rendimiento).
-* **Separación radical:** La gerencia piensa y planifica; el operario ejecuta rígidamente.
-* **Los 4 Principios de Taylor:** Planificación científica, Preparación/Selección por aptitudes, Control de tiempos y Ejecución disciplinada.
-* **Organización Racional del Trabajo (ORT) — Taylor y Gilbreth:**
-  * Estudio de tiempos y movimientos cronometrados (*Therbligs*).
-  * Estudio de la fatiga humana y ergonomía.
-  * Especialización extrema de tareas (un solo movimiento repetitivo).
-  * Estandarización de herramientas (experimento de las palas).
-  * Supervisión funcional (varios capataces especializados para un mismo obrero).
-* **Críticas:** Visión mecanicista (hombre = engranaje de la máquina), fatiga psicológica y alienación laboral.
-
-#### 3. Henri Fayol — Escuela de la Administración General (1916)
-* **Foco y Objetivo:** **Estructura global de la empresa y alta dirección** (*top-down*). Busca la **eficiencia organizativa**.
-* **Las 6 Funciones de la Empresa:** Técnicas (producción), Comerciales (compra/venta), Financieras, De Seguridad, Contables y **Administrativas (la función directiva que coordina a las demás)**.
-* **El Proceso Administrativo (5 funciones del directivo):**
-  $$\boxed{\text{Prever} \longrightarrow \text{Organizar} \longrightarrow \text{Dirigir} \longrightarrow \text{Coordinar} \longrightarrow \text{Controlar} \text{ (PODCC)}}$$
-* **Principios Clave de Fayol (de los 14):**
-  * **Unidad de Mando:** Cada subordinado recibe órdenes de **un solo jefe** (evita contradicciones).
-  * **Unidad de Dirección:** Un solo jefe y un solo plan para un mismo objetivo.
-  * **Cadena Escalar (Jerarquía):** Línea de mando vertical ininterrumpida.
-  * **Subordinación del interés individual al interés general de la empresa.**
-* **Críticas:** Rígido, excesivamente normativo, sin base experimental de laboratorio.
+| Autor(es) | Escuela / Época | Palabras Clave y Gatillos de Test |
+| :--- | :--- | :--- |
+| **Luca Pacioli** *(1494)* | Orígenes | Partida doble contable, comercio mercantil veneciano, registro empírico. |
+| **Adam Smith** *(1776)* | Precursora | Fábrica de alfileres, división del trabajo, especialización fabril, mano invisible. |
+| **Erich Gutenberg** | Precursora | Separación científica formal entre Administración de Empresas y Economía Política. |
+| **Frederick W. Taylor** *(1911)* | Adm. Científica | **"The One Best Way"**, nivel taller/operario (*bottom-up*), **Homo Economicus**, salario por pieza/rendimiento, estudio de tiempos, separación pensar (jefe) vs ejecutar (obrero), experimento de las palas y lingotes. |
+| **Frank y Lillian Gilbreth** | Adm. Científica | **Therbligs** (17 movimientos elementales cronometrados), ergonomía, estudio de la fatiga humana. |
+| **Henri Fayol** *(1916)* | Adm. General | **Estructura global** y alta dirección (*top-down*), 6 funciones básicas de la empresa, **Proceso PODCC** (Prever, Organizar, Dirigir, Coordinar, Controlar), **Unidad de Mando** (1 solo jefe), cadena escalar. |
+| **Elton Mayo** *(1927-1932)* | Relaciones Humanas | **Experimentos de Hawthorne** (planta de Chicago), **Homo Socialis**, Efecto Hawthorne (rendir más al sentirse observado), **Organización Informal** (amigos, líderes espontáneos), motivación por reconocimiento y afecto grupal. |
+| **Max Weber** *(1864-1920)* | Burocracia | **Racionalidad legal**, organización formal ideal, **comunicación por escrito**, **impersonalidad** (obedecer al cargo, no a la persona), jerarquía piramidal, **meritocracia y competencia técnica** (exámenes y títulos, cero nepotismo), previsibilidad total. |
+| **Robert Merton & Selznick** | Crítica Burocrática | **Disfunciones de la burocracia**: apego ciego a la norma (**"reglamentitis"**), lentitud, papeleo excesivo, resistencia extrema al cambio, deshumanización. |
+| **Burns y Stalker** *(1961)* | Contingencia | Estructuras **Mecanicistas** (entorno estable, rígidas) vs Estructuras **Orgánicas** (entorno cambiante/turbulento, flexibles y descentralizadas). |
+| **Joan Woodward** *(1965)* | Contingencia | La tecnología productiva (unitaria, masiva o continua) determina la estructura organizativa óptima. |
+| **Fred Luthans** *(Años 60)* | Contingencia | **"No One Best Way"** (No hay una única mejor forma de dirigir). Esquema condicional: **"Si ocurre la variable X ➔ Entonces aplicar la técnica directiva Y"**. |
+| **Robert Grant** *(2006)* | Estratégica actual | **Teoría de Recursos y Capacidades**: la ventaja competitiva duradera radica en activos internos valiosos, raros y difíciles de imitar (patentes, talento, cultura). |
+| **Guerras y Navas** *(2008)* | Dirección Estratégica | Ajuste estratégico entre fortalezas/debilidades internas y oportunidades/amenazas del entorno (Matriz DAFO). |
 
 ---
 
-### 📌 COLUMNA 2: ESCUELA DE RELACIONES HUMANAS & BUROCRACIA
+### 📌 COLUMNA 2: COMPARATIVA DE LAS 4 GRANDES ESCUELAS (NÚCLEO TEÓRICO)
 
-#### 1. Elton Mayo — Escuela de las Relaciones Humanas (1927–1932)
-* **Origen:** Reacción contra la deshumanización clásica; experimentos en la planta de Hawthorne de Western Electric (Chicago).
-* **Concepción del Hombre:** **Homo Socialis** (ser social motivado por el reconocimiento, el afecto y la pertenencia grupal).
-* **Las 4 Fases de los Experimentos de Hawthorne:**
-  1. *Fase 1 (Iluminación):* Al subir o bajar la luz, la producción subía. Descubren el **Efecto Hawthorne** (los obreros rinden más al saberse observados y atendidos).
-  2. *Fase 2 (Sala de Relés):* Condiciones laborales y supervisión flexible generan ambiente de confianza.
-  3. *Fase 3 (Entrevistas masivas):* Descubrimiento de la **ORGANIZACIÓN INFORMAL** (redes de amistad y lealtad al margen del organigrama formal).
-  4. *Fase 4 (Sala de Bobinado):* El grupo social impone normas no escritas: castigan al que produce de más ("matón") y al que produce de menos ("vago").
-* **Aportaciones Nucleares:** La productividad depende de la integración social; el dinero no es el único motivador.
-* **Críticas:** Paternalismo empresarial y manipulación emocional para cumplir cuotas.
+#### 1. F.W. Taylor (Adm. Científica) vs Henri Fayol (Adm. General)
+* **El contraste fundamental:**
+  * **Taylor (Taller, abajo-arriba):** Le preocupa la eficiencia del operario manual en la máquina. Su lema es *"The One Best Way"* a través de la **ORT (Organización Racional del Trabajo)**.
+  * **Fayol (Dirección, arriba-abajo):** Le preocupa cómo estructurar toda la empresa desde el despacho del director. Formula las **6 funciones de la empresa** (Técnicas, Comerciales, Financieras, Seguridad, Contables y **Administrativas**) y los **14 Principios Generales**.
+* **El principio estrella de Fayol en el test:** **UNIDAD DE MANDO**: *"Para cada acción, un subordinado debe recibir órdenes de un solo superior"*. (Taylor defendía en cambio la supervisión funcional de varios capataces).
 
-#### 2. Max Weber — Teoría de la Burocracia (1864–1920)
-* **Concepto:** Organización formal humana basada en la **racionalidad**: adecuar rigurosamente los medios a los fines para lograr la máxima **eficiencia y previsibilidad**.
-* **Las 10 Características del Modelo Burocrático Ideal:**
-  1. Carácter legal de normas y reglamentos exhaustivos.
-  2. Comunicaciones formales **por escrito** (actas, oficios).
-  3. División sistemática del trabajo y puestos claros.
-  4. **Impersonalidad en las relaciones** (se obedece al cargo, no a la persona).
-  5. Jerarquía piramidal de autoridad.
-  6. Procedimientos y rutinas estandarizadas (manuales).
-  7. **Competencia técnica y meritocracia** (selección por pruebas y títulos, cero nepotismo).
-  8. Separación entre propiedad y gestión (directivos asalariados).
-  9. Profesionalización y dedicación exclusiva.
-  10. Previsibilidad total del funcionamiento.
-* **Disfunciones de la Burocracia (Merton):** Apego ciego al reglamento ("reglamentitis"), lentitud por papeleo, deshumanización y fuerte resistencia al cambio.
+#### 2. Elton Mayo y los Experimentos de Hawthorne (1927–1932)
+* Reacción contra el mecanicismo clásico. El trabajador rinde por su **integración social**, no por su capacidad física.
+* **Las 4 Fases de Hawthorne para el test:**
+  1. *Fase 1 (Iluminación):* Al subir o bajar la luz, la producción subía $\to$ **Efecto Hawthorne** (factor psicológico por sentirse atendidos).
+  2. *Fase 2 (Sala de Relés):* Supervisión flexible y descansos $\to$ confianza y ambiente distendido.
+  3. *Fase 3 (Entrevistas clínicas a 20.000 operarios):* Descubrimiento de la **Organización Informal** al margen del organigrama.
+  4. *Fase 4 (Sala de Bobinado):* El grupo social castiga al "matón" (produce de más) y al "vago" (produce de menos). La presión social fija la tasa de rendimiento.
+
+#### 3. Max Weber y el Modelo Burocrático Ideal
+* Burocracia no significa papeleo inútil para Weber; significa **organización racional formal**.
+* Puntos clave de examen:
+  - Todo se registra y comunica **por escrito**.
+  - Puestos basados en **competencia técnica comprobada** (meritocracia), no por amistad.
+  - Relaciones **impersonales**: se obedece a la norma y al cargo, no al capricho del jefe.
+* **Disfunciones (Merton):** La norma escrita deja de ser un medio y se convierte en un fin obsesivo (*"reglamentitis"*), provocando rigidez y lentitud.
 
 ---
 
-### 📌 COLUMNA 3: CONTINGENCIA, ESTRATEGIA & CASO DE EXAMEN (NAS, SA)
+### 📌 COLUMNA 3: ENFOQUE CONTINGENTE & CASO PRÁCTICO NAS, SA (EXAMEN)
 
-#### 1. El Enfoque de Contingencias (Años 60 - Burns, Stalker, Woodward, Luthans)
-* **Principio Fundamental:** **"No One Best Way"** (No existe una forma universal y perfecta de dirigir válida para todas las empresas).
-* **Esquema Condicional de Luthans:** *"Si se da la condición ambiental/tecnológica $X$, entonces la técnica de organización adecuada es $Y$"*.
-* **Ajuste Contingente:** La empresa debe adaptar su estructura interna a la volatilidad del entorno:
-  * Entorno Estable $\to$ Estructura **Mecanicista** (jerárquica, centralizada, formal).
-  * Entorno Turbulento $\to$ Estructura **Orgánica** (flexible, descentralizada, trabajo en equipo).
-
-#### 2. Extensiones Contemporáneas
-* **Dirección Estratégica (Guerras y Navas):** Ajuste entre recursos internos (F-D) y amenazas/oportunidades del entorno (A-O).
-* **Teoría de Recursos y Capacidades (Grant):** La ventaja competitiva duradera radica en activos internos valiosos, raros y difíciles de imitar (patentes, talento, cultura).
+#### 1. El Enfoque de Contingencias (Años 60)
+* **Premisa nuclear:** Rechaza rotundamente el *"One Best Way"* de Taylor. **NO hay reglas universales**.
+* La eficacia organizativa depende del ajuste entre:
+  * **Variables Independientes (Entorno / Tecnología / Personas):** El "SI..."
+  * **Variables Dependientes (Estructura interna / Liderazgo):** El "ENTONCES..."
+* **Burns y Stalker:**
+  * *Entorno Estable:* Estructura **Mecanicista** (jerarquía, reglas fijas, centralizada).
+  * *Entorno Turbulento:* Estructura **Orgánica** (equipos multidisciplinares, flexible, descentralizada).
 
 ---
 
-### ⚡ RESOLUCIÓN OFICIAL DEL CASO DE CLASE: NAS, SA (EXAMEN)
+### ⚡ RESOLUCIÓN DEL CASO PRÁCTICO OFICIAL: NAS, SA (SOCIOS FUNDADORES)
 
-En el examen te pedirán clasificar las 3 empresas de los socios de NAS, SA:
+*Si este caso cae como la pregunta práctica del parcial, esta es la plantilla exacta de respuesta:*
 
-| Socio / Empresa | Escuela Identificada | Autor de Referencia | Rasgos del Caso de Clase |
+| Socio / Antigua Empresa | Escuela Identificada | Autor Clave | Justificación con Evidencias del Caso |
 | :--- | :--- | :--- | :--- |
-| **María** *(Laboratorio)* | **Relaciones Humanas** | **Elton Mayo** | Equipos autónomos de 3-4 personas, rotación de tareas para no aburrirse, consulta participativa y motivación social. |
-| **Juan y Felipe** *(Conservas)* | **Burocracia y Adm. General** | **Max Weber & Henri Fayol** | Manual de normas escrito, jerarquía rígida, orden impersonal según el cargo, puntualidad y cumplimiento del 100%. |
-| **Violeta y Amalio** *(Envases)* | **Administración Científica** | **Frederick W. Taylor** | Producción masiva a mínimo coste, parcelación extrema de tareas, ingenieros con cronómetro (tiempos y movimientos). |
+| **María** *(Laboratorio de Calidad)* | **Relaciones Humanas** | **Elton Mayo** | Trabajo en **equipos autónomos** de 3-4 personas; rotación periódica de tareas para evitar monotonía; consulta participativa a empleados para fijar volumen; responsabilidad e identidad grupal. |
+| **Juan y Felipe** *(Fábrica de Conservas)* | **Burocracia & Adm. General** | **Max Weber & Henri Fayol** | **Manual de normas y protocolos escritos** para todo; jerarquía rígida y cadena de mando; relaciones impersonales regidas por el cargo; puntualidad estricta y cumplimiento 100% sin improvisación. |
+| **Violeta y Amalio** *(Fábrica de Vidrio)* | **Administración Científica** | **Frederick W. Taylor** | Producción masiva a mínimo coste mediante **parcelación de tareas en movimientos mínimos**; ingenieros industriales cronometrando **tiempos y movimientos**; trabajador visto como ejecutor mecánico. |
 
 ---
 
-## 🎯 TABLA COMPARATIVA RÁPIDA DE LAS 4 ESCUELAS
-
-| Criterio | Taylor (Científica) | Fayol (General) | Mayo (Relaciones Humanas) | Weber (Burocracia) | Contingencia |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Foco** | Puesto operativo / Taller | Toda la empresa / Cúpula | Grupos de trabajo / Personas | Estructura legal formal | Ajuste Entorno-Empresa |
-| **Hombre** | *Homo Economicus* | Recurso jerárquico | *Homo Socialis* | Funcionario técnico | Ser complejo y variable |
-| **Clave** | Estudio de tiempos (ORT) | 14 ppios, Unidad de Mando | Clima laboral, integración | Normas escritas, mérito | Depende de la situación |
-| **Lema** | *"The One Best Way"* | *"Coordinar y Dirigir"* | *"El grupo motiva"* | *"Previsibilidad total"* | *"No One Best Way"* |
+### ⚠️ LAS 4 TRAMPAS CLÁSICAS DE TEST EN EL TEMA 3
+1. *¿Quién defendió la supervisión funcional de varios capataces?* **Taylor** (Fayol defendía lo contrario: Unidad de Mando estricta con un solo jefe).
+2. *¿Cuál es la función directiva que coordina a las otras cinco en Fayol?* La función **Administrativa** (PODCC).
+3. *¿Qué descubrió Hawthorne en la 3ª fase de entrevistas?* La **Organización Informal**.
+4. *¿Qué sostiene el enfoque de contingencias de Luthans?* Que **no existe una única mejor forma de administrar**; todo depende del entorno (*"No One Best Way"*).
