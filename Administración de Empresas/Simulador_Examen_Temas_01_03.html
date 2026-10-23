@@ -1,0 +1,1346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Examen Parcial — Administración de Empresas (Temas 1 a 3)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0a0e17;
+      --bg-secondary: #111827;
+      --bg-card: rgba(17, 24, 39, 0.75);
+      --bg-card-hover: rgba(31, 41, 55, 0.85);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-active: #6366f1;
+      --text-main: #f9fafb;
+      --text-muted: #9ca3af;
+      --text-dim: #6b7280;
+      --accent: #6366f1;
+      --accent-glow: rgba(99, 102, 241, 0.25);
+      --success: #10b981;
+      --success-glow: rgba(16, 185, 129, 0.25);
+      --danger: #ef4444;
+      --danger-glow: rgba(239, 68, 68, 0.25);
+      --warning: #f59e0b;
+      --t1-color: #3b82f6;
+      --t2-color: #10b981;
+      --t3-color: #ec4899;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      background-color: var(--bg-primary);
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(99, 102, 241, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(236, 72, 153, 0.06) 0%, transparent 40%),
+        radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.04) 0%, transparent 60%);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 16px 60px;
+    }
+
+    /* Container */
+    .app-container {
+      width: 100%;
+      max-width: 860px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* Top Bar */
+    header {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 20px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-icon {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #6366f1, #a855f7);
+      border-radius: 12px;
+      display: grid;
+      place-items: center;
+      font-size: 20px;
+      box-shadow: 0 4px 14px var(--accent-glow);
+    }
+
+    .brand-text h1 {
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      background: linear-gradient(to right, #fff, #cbd5e1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .brand-text p {
+      font-size: 12px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .stats-bar {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 8px 16px;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    .stat-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .stat-label {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-dim);
+      font-weight: 700;
+    }
+
+    .stat-value {
+      font-family: var(--font-mono);
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-main);
+    }
+
+    .stat-value.score-green { color: var(--success); }
+    .stat-value.score-red { color: var(--danger); }
+
+    /* Filter / Modes */
+    .controls-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .pill-group {
+      display: flex;
+      gap: 8px;
+      background: var(--bg-card);
+      padding: 4px;
+      border-radius: 14px;
+      border: 1px solid var(--border-color);
+    }
+
+    .pill-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-family: var(--font-sans);
+    }
+
+    .pill-btn:hover {
+      color: #fff;
+    }
+
+    .pill-btn.active {
+      background: var(--accent);
+      color: #fff;
+      box-shadow: 0 2px 10px var(--accent-glow);
+    }
+
+    .mode-toggle {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 42px;
+      height: 24px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: #374151;
+      transition: .3s;
+      border-radius: 24px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 18px;
+      width: 18px;
+      left: 3px;
+      bottom: 3px;
+      background-color: white;
+      transition: .3s;
+      border-radius: 50%;
+    }
+
+    input:checked + .slider {
+      background-color: var(--accent);
+    }
+
+    input:checked + .slider:before {
+      transform: translateX(18px);
+    }
+
+    /* Progress Indicator */
+    .progress-bar-container {
+      width: 100%;
+      height: 6px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #6366f1, #a855f7, #ec4899);
+      transition: width 0.3s ease;
+    }
+
+    /* Question Card */
+    .question-card {
+      background: var(--bg-card);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--border-color);
+      border-radius: 24px;
+      padding: 32px 28px;
+      box-shadow: 0 14px 40px rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .question-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent), transparent);
+    }
+
+    .q-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .q-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      border-radius: 8px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .badge-t1 { background: rgba(59, 130, 246, 0.15); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+    .badge-t2 { background: rgba(16, 185, 129, 0.15); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+    .badge-t3 { background: rgba(236, 72, 153, 0.15); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.3); }
+
+    .q-counter {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      color: var(--text-dim);
+      font-weight: 600;
+    }
+
+    .q-text {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 1.5;
+      color: #fff;
+      letter-spacing: -0.01em;
+    }
+
+    .q-hint-case {
+      background: rgba(99, 102, 241, 0.08);
+      border-left: 3px solid var(--accent);
+      padding: 10px 14px;
+      border-radius: 0 8px 8px 0;
+      font-size: 13px;
+      color: #cbd5e1;
+      font-style: italic;
+    }
+
+    /* Options */
+    .options-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .option-btn {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 14px 18px;
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      text-align: left;
+      font-family: var(--font-sans);
+      color: #e2e8f0;
+      font-size: 14px;
+      line-height: 1.45;
+      position: relative;
+    }
+
+    .option-btn:hover:not(:disabled) {
+      background: rgba(255, 255, 255, 0.06);
+      border-color: rgba(99, 102, 241, 0.4);
+      transform: translateY(-1px);
+    }
+
+    .opt-letter {
+      width: 26px;
+      height: 26px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.06);
+      display: grid;
+      place-items: center;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      transition: all 0.2s ease;
+    }
+
+    .option-btn:hover:not(:disabled) .opt-letter {
+      background: var(--accent);
+      color: white;
+    }
+
+    /* State styles */
+    .option-btn.selected {
+      border-color: var(--accent);
+      background: rgba(99, 102, 241, 0.12);
+    }
+
+    .option-btn.selected .opt-letter {
+      background: var(--accent);
+      color: white;
+    }
+
+    .option-btn.correct {
+      border-color: var(--success) !important;
+      background: rgba(16, 185, 129, 0.15) !important;
+      color: #fff !important;
+      box-shadow: 0 0 20px var(--success-glow);
+    }
+
+    .option-btn.correct .opt-letter {
+      background: var(--success) !important;
+      color: #fff !important;
+    }
+
+    .option-btn.incorrect {
+      border-color: var(--danger) !important;
+      background: rgba(239, 68, 68, 0.15) !important;
+      color: #fca5a5 !important;
+      box-shadow: 0 0 20px var(--danger-glow);
+    }
+
+    .option-btn.incorrect .opt-letter {
+      background: var(--danger) !important;
+      color: #fff !important;
+    }
+
+    /* Feedback Box */
+    .feedback-box {
+      margin-top: 8px;
+      border-radius: 14px;
+      padding: 18px 20px;
+      display: none;
+      animation: fadeIn 0.3s ease;
+      font-size: 13.5px;
+      line-height: 1.5;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .feedback-box.correct {
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      color: #a7f3d0;
+    }
+
+    .feedback-box.incorrect {
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: #fecaca;
+    }
+
+    .feedback-title {
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+      font-size: 14px;
+    }
+
+    .feedback-reason {
+      color: #cbd5e1;
+    }
+
+    .feedback-trap {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px dashed rgba(255, 255, 255, 0.15);
+      font-size: 12.5px;
+      color: #fde047;
+    }
+
+    /* Footer / Actions */
+    .action-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+    }
+
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 10px 18px;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 13px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-family: var(--font-sans);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      border: none;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-family: var(--font-sans);
+      box-shadow: 0 4px 16px var(--accent-glow);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-primary:hover:not(:disabled) {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 22px rgba(99, 102, 241, 0.4);
+    }
+
+    .btn-primary:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    /* Results Screen */
+    .results-card {
+      display: none;
+      background: var(--bg-card);
+      backdrop-filter: blur(20px);
+      border: 1px solid var(--border-color);
+      border-radius: 28px;
+      padding: 40px 32px;
+      text-align: center;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+      animation: fadeIn 0.4s ease;
+    }
+
+    .grade-circle {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.15) 0%, rgba(17, 24, 39, 0.8) 100%);
+      border: 4px solid var(--accent);
+      margin: 0 auto 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 30px var(--accent-glow);
+    }
+
+    .grade-number {
+      font-family: var(--font-mono);
+      font-size: 40px;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1;
+    }
+
+    .grade-total {
+      font-size: 13px;
+      color: var(--text-dim);
+      font-weight: 600;
+      margin-top: 4px;
+    }
+
+    .results-title {
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+
+    .results-msg {
+      font-size: 15px;
+      color: var(--text-muted);
+      max-width: 520px;
+      margin: 0 auto 30px;
+      line-height: 1.5;
+    }
+
+    .topic-breakdown {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+      margin-bottom: 32px;
+      text-align: left;
+    }
+
+    @media (max-width: 640px) {
+      .topic-breakdown { grid-template-columns: 1fr; }
+    }
+
+    .topic-stat-box {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--border-color);
+      border-radius: 14px;
+      padding: 14px 16px;
+    }
+
+    .topic-name {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 6px;
+    }
+
+    .topic-score-bar {
+      height: 6px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 8px;
+    }
+
+    .topic-score-fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.5s ease;
+    }
+
+    .topic-score-text {
+      font-family: var(--font-mono);
+      font-size: 13px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .results-actions {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    /* Sound notification */
+    .sound-toggle-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-dim);
+      cursor: pointer;
+      font-size: 16px;
+      display: grid;
+      place-items: center;
+      padding: 6px;
+      border-radius: 8px;
+    }
+
+    .sound-toggle-btn:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-container">
+    
+    <!-- Header -->
+    <header>
+      <div class="brand">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-text">
+          <h1>Simulador Parcial ADE — UMU</h1>
+          <p>Prof. Jorge Monllor & Juan José Peláez · Temas 1 a 3</p>
+        </div>
+      </div>
+
+      <div class="stats-bar">
+        <div class="stat-item">
+          <span class="stat-label">Aciertos</span>
+          <span class="stat-value score-green" id="correct-count">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Fallos</span>
+          <span class="stat-value score-red" id="incorrect-count">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Nota</span>
+          <span class="stat-value" id="current-grade">0.0</span>
+        </div>
+        <button class="sound-toggle-btn" id="sound-btn" title="Activar/Silenciar sonido">🔊</button>
+      </div>
+    </header>
+
+    <!-- Controls / Filters -->
+    <div class="controls-row">
+      <div class="pill-group">
+        <button class="pill-btn active" data-filter="all">Todos (15 Qs)</button>
+        <button class="pill-btn" data-filter="t1">Tema 1</button>
+        <button class="pill-btn" data-filter="t2">Tema 2</button>
+        <button class="pill-btn" data-filter="t3">Tema 3</button>
+      </div>
+
+      <div class="mode-toggle">
+        <span>Feedback Inmediato</span>
+        <label class="switch">
+          <input type="checkbox" id="immediate-feedback" checked>
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar-container">
+      <div class="progress-fill" id="progress-bar"></div>
+    </div>
+
+    <!-- Question Card -->
+    <div class="question-card" id="question-card">
+      <div class="q-meta">
+        <span class="q-badge" id="q-topic-badge">Tema 1</span>
+        <span class="q-counter" id="q-counter">Pregunta 1 de 15</span>
+      </div>
+
+      <div class="q-text" id="q-text">Cargando pregunta...</div>
+      <div class="q-hint-case" id="q-hint" style="display: none;"></div>
+
+      <div class="options-grid" id="options-container">
+        <!-- Generado dinámicamente -->
+      </div>
+
+      <div class="feedback-box" id="feedback-box">
+        <div class="feedback-title" id="fb-title"></div>
+        <div class="feedback-reason" id="fb-reason"></div>
+        <div class="feedback-trap" id="fb-trap"></div>
+      </div>
+
+      <div class="action-bar">
+        <button class="btn-secondary" id="btn-prev" disabled>← Anterior</button>
+        <button class="btn-primary" id="btn-next" disabled>Siguiente →</button>
+      </div>
+    </div>
+
+    <!-- Results Screen -->
+    <div class="results-card" id="results-card">
+      <div class="grade-circle">
+        <div class="grade-number" id="final-grade">0.0</div>
+        <div class="grade-total">sobre 10.0</div>
+      </div>
+
+      <h2 class="results-title" id="results-headline">¡Simulacro Completado!</h2>
+      <p class="results-msg" id="results-subtext">Has finalizado las preguntas seleccionadas. Aquí tienes tu desglose por temas según la rúbrica oficial de la UMU.</p>
+
+      <div class="topic-breakdown">
+        <div class="topic-stat-box">
+          <div class="topic-name" style="color: var(--t1-color);">Tema 1: La Empresa</div>
+          <div class="topic-score-bar">
+            <div class="topic-score-fill" id="bar-t1" style="background: var(--t1-color); width: 0%;"></div>
+          </div>
+          <div class="topic-score-text" id="score-t1">0 / 0 (0%)</div>
+        </div>
+
+        <div class="topic-stat-box">
+          <div class="topic-name" style="color: var(--t2-color);">Tema 2: Entorno & Porter</div>
+          <div class="topic-score-bar">
+            <div class="topic-score-fill" id="bar-t2" style="background: var(--t2-color); width: 0%;"></div>
+          </div>
+          <div class="topic-score-text" id="score-t2">0 / 0 (0%)</div>
+        </div>
+
+        <div class="topic-stat-box">
+          <div class="topic-name" style="color: var(--t3-color);">Tema 3: Escuelas & Autores</div>
+          <div class="topic-score-bar">
+            <div class="topic-score-fill" id="bar-t3" style="background: var(--t3-color); width: 0%;"></div>
+          </div>
+          <div class="topic-score-text" id="score-t3">0 / 0 (0%)</div>
+        </div>
+      </div>
+
+      <div class="results-actions">
+        <button class="btn-secondary" id="btn-retry-all">Repetir Todo el Test</button>
+        <button class="btn-primary" id="btn-retry-failed">Repetir Preguntas Falladas</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    /* BANCO DE PREGUNTAS OFICIALES — TEMAS 1 A 3 (UMU) */
+    const rawQuestions = [
+      // TEMA 1
+      {
+        id: 1,
+        topic: 1,
+        topicName: "Tema 1: La Empresa",
+        question: "En relación con los componentes del Capital Intelectual, ¿cuál de los siguientes elementos forma parte de forma inequívoca del Capital Estructural de la empresa?",
+        caseHint: "Caso NAS, SA: La empresa posee un procedimiento de envasado aséptico patentado y una base de datos propia de proveedores.",
+        options: [
+          "La experiencia acumulada y la creatividad de los técnicos de laboratorio.",
+          "Las patentes registradas, los manuales de procedimientos y el software de gestión.",
+          "La lealtad histórica y el afecto de los clientes de la comarca del río Segura.",
+          "La red de contactos informales de Juan Juárez con la cooperativa de agricultores."
+        ],
+        correct: 1,
+        explanation: "El Capital Estructural es el conocimiento que pertenece y PERMANECE en la organización cuando los empleados se van a su casa por la noche (patentes, sistemas informáticos, manuales de calidad, bases de datos). Las personas son Capital Humano y los clientes/proveedores son Capital Relacional.",
+        trap: "⚠️ TRAMPA CLÁSICA: Confundir Capital Humano (reside en la cabeza del trabajador) con Capital Estructural (documentado y propiedad de la empresa)."
+      },
+      {
+        id: 2,
+        topic: 1,
+        topicName: "Tema 1: La Empresa",
+        question: "Según la Recomendación 2003/361/CE de la Comisión Europea, una empresa con 42 trabajadores, un volumen de negocios de 7 millones de euros y un balance general de 6 millones de euros clasifica como:",
+        options: [
+          "Microempresa.",
+          "Pequeña empresa.",
+          "Mediana empresa.",
+          "Gran empresa corporativa."
+        ],
+        correct: 1,
+        explanation: "Una Pequeña Empresa tiene menos de 50 trabajadores y su volumen de negocio o balance general no supera los 10 millones de euros. (Micro es <10 trabajadores y $\\le 2$M€; Mediana es <250 trabajadores y $\\le 50$M€).",
+        trap: "⚠️ TRAMPA CLÁSICA: Para ser Mediana debe superar los 50 empleados o los 10M€ de volumen/balance."
+      },
+      {
+        id: 3,
+        topic: 1,
+        topicName: "Tema 1: La Empresa",
+        question: "¿Qué propiedad de los sistemas abiertos define la capacidad de una organización para importar energía, recursos e información del exterior con el fin de evitar el desgaste interno y la desaparición?",
+        options: [
+          "Equifinalidad.",
+          "Homeostasis dinámica.",
+          "Entropía negativa o Negentropía.",
+          "Sinergia estructural."
+        ],
+        correct: 2,
+        explanation: "La entropía es la tendencia natural de todo sistema cerrado hacia el caos y la muerte. Los sistemas abiertos sobreviven gracias a la Negentropía (entropía negativa), absorbiendo recursos del entorno.",
+        trap: "⚠️ TRAMPA CLÁSICA: La homeostasis es el equilibrio o autorregulación interna; la equifinalidad es llegar al mismo fin por caminos distintos."
+      },
+      {
+        id: 4,
+        topic: 1,
+        topicName: "Tema 1: La Empresa",
+        question: "En una Sociedad Anónima (S.A.) en España, ¿cuál es el capital social mínimo legal y la regla mínima de desembolso inicial exigida por la Ley de Sociedades de Capital?",
+        options: [
+          "3.000 € íntegramente desembolsados en el momento de la constitución.",
+          "60.000 € totalmente suscritos y desembolsado al menos el 25% de cada acción.",
+          "60.000 € desembolsados al 100% en la cuenta bancaria ante notario.",
+          "120.000 € suscritos y desembolsado al menos el 50% de las participaciones."
+        ],
+        correct: 1,
+        explanation: "La S.A. exige un capital mínimo de 60.000 € dividido en acciones negociables, debiendo estar íntegramente suscrito y desembolsado al menos en un 25% en la escritura pública de constitución.",
+        trap: "⚠️ TRAMPA CLÁSICA: Los 3.000 € son de la S.L. y su capital se divide en participaciones, no en acciones."
+      },
+      {
+        id: 5,
+        topic: 1,
+        topicName: "Tema 1: La Empresa",
+        question: "¿En qué etapa histórica de la empresa se produce la separación formal entre los propietarios del capital (accionistas) y los gestores que ejercen el control efectivo (aparición de la tecnoestructura de Galbraith)?",
+        options: [
+          "Empresa Primitiva (Feudalismo / Edad Media).",
+          "Empresa Comercial (Siglos XVI a XVIII / Mercantilismo).",
+          "Empresa Industrial (Siglo XIX / Primera Revolución Industrial).",
+          "Empresa Financiera o Corporativa (Siglo XX en adelante)."
+        ],
+        correct: 3,
+        explanation: "En la Empresa Financiera/Corporativa del siglo XX, las gigantescas necesidades de capital hacen que la propiedad se pulverice en miles de accionistas, cediendo el poder diario a directivos profesionales (tecnoestructura).",
+        trap: "⚠️ TRAMPA CLÁSICA: En la empresa industrial del siglo XIX el dueño solía ser todavía el propio director de la fábrica."
+      },
+
+      // TEMA 2
+      {
+        id: 6,
+        topic: 2,
+        topicName: "Tema 2: Entorno & Porter",
+        question: "De acuerdo con el modelo de las 5 Fuerzas de Michael Porter, la existencia de elevadas 'Barreras de Salida' en un sector provoca:",
+        options: [
+          "Una reducción inmediata del poder de negociación de los proveedores.",
+          "Un aumento considerable en la intensidad de la rivalidad entre competidores actuales.",
+          "Una disminución drástica en la amenaza de productos sustitutivos.",
+          "Una caída en las barreras de entrada para nuevos competidores internacionales."
+        ],
+        correct: 1,
+        explanation: "Si salir del sector es muy costoso (por activos especializados que nadie compra o altas indemnizaciones por despido), las empresas en crisis no pueden cerrar y se ven forzadas a luchar a muerte bajando precios para sobrevivir, disparando la rivalidad.",
+        trap: "⚠️ TRAMPA CLÁSICA: Las barreras de salida NO frenan la entrada de otros; encierran a los que ya están dentro obligándolos a una guerra encarnizada."
+      },
+      {
+        id: 7,
+        topic: 2,
+        topicName: "Tema 2: Entorno & Porter",
+        question: "¿Cuál de las siguientes situaciones representa de forma inequívoca la amenaza de un PRODUCTO SUSTITUTIVO para una empresa de zumos envasados?",
+        caseHint: "NAS, SA fabrica zumos de naranja y melocotón pasteurizados en tetrabrik y botella de vidrio.",
+        options: [
+          "Don Simón lanza un nuevo zumo de melocotón un 15% más barato en los supermercados.",
+          "Una cadena de fruterías prolifera vendiendo naranjas frescas y exprimidores domésticos para autoconsumo.",
+          "Hero España compra una nueva nave industrial para duplicar su producción de zumos.",
+          "Mercadona exige a NAS, SA un descuento del 10% por volumen bajo amenaza de no comprarle."
+        ],
+        correct: 1,
+        explanation: "Don Simón y Hero son competidores RIVALES (mismo sector de zumos industriales). Las naranjas frescas con exprimidor proceden de OTRO sector (distribución agrícola tradicional) pero satisfacen la misma necesidad de beber zumo.",
+        trap: "⚠️ TRAMPA CLÁSICA: El rival hace el mismo producto con la misma tecnología. El sustitutivo viene de OTRA industria distinta."
+      },
+      {
+        id: 8,
+        topic: 2,
+        topicName: "Tema 2: Entorno & Porter",
+        question: "Cuando los agricultores de la Región de Murcia se asocian en grandes cooperativas y deciden construir sus propias plantas envasadoras para vender directamente al consumidor final, en el marco de Porter se produce:",
+        caseHint: "Los proveedores de fruta amenazan con entrar en el negocio de los envasadores como NAS, SA.",
+        options: [
+          "Una amenaza creíble de integración vertical hacia atrás por parte de los clientes.",
+          "Una amenaza creíble de integración vertical hacia adelante por parte de los proveedores.",
+          "Una disminución del dinamismo del entorno macroeconómico.",
+          "Una barrera de entrada gubernamental basada en licencias administrativas."
+        ],
+        correct: 1,
+        explanation: "Integración hacia ADELANTE significa avanzar en la cadena hacia el consumidor final. Cuando el proveedor (agricultor) amenaza con montar la fábrica y red comercial, aumenta brutalmente su poder negociador.",
+        trap: "⚠️ TRAMPA CLÁSICA: Hacia atrás es cuando el cliente (Mercadona) decide montar granjas o fábricas para no comprar a terceros."
+      },
+      {
+        id: 9,
+        topic: 2,
+        topicName: "Tema 2: Entorno & Porter",
+        question: "Según Claver et al. (2002), ¿qué postura caracteriza al 'Enfoque Negativo' o clásico (Milton Friedman) sobre la Responsabilidad Social Corporativa?",
+        options: [
+          "La empresa asume un compromiso activo voluntario por encima de la ley para mejorar su reputación.",
+          "La empresa busca negociar compromisos mínimos con sindicatos para evitar huelgas.",
+          "La única responsabilidad de los administradores es maximizar el beneficio de los accionistas dentro del cumplimiento estricto de la ley.",
+          "La empresa debe destinar obligatoriamente el 5% de su beneficio a fines filantrópicos locales."
+        ],
+        correct: 2,
+        explanation: "Friedman argumentaba que la única responsabilidad social de la empresa es generar beneficios para los accionistas respetando la legalidad vigente. Los problemas sociales corresponden exclusivamente al Estado.",
+        trap: "⚠️ TRAMPA CLÁSICA: No confundir el Enfoque Negativo (beneficio puro del accionista) con el Enfoque Favorable (RSC proactiva) o Intermedio (negociador)."
+      },
+      {
+        id: 10,
+        topic: 2,
+        topicName: "Tema 2: Entorno & Porter",
+        question: "Siguiendo a Bueno, Cruz y Durán (2002), un entorno empresarial caracterizado por cambios continuos a gran velocidad, alta exigencia de conocimientos técnicos avanzados y mercados diversificados se clasifica como:",
+        options: [
+          "Entorno Estable.",
+          "Entorno Reactivo.",
+          "Entorno Turbulento.",
+          "Entorno Munificente Integrado."
+        ],
+        correct: 2,
+        explanation: "Un entorno Dinámico, Complejo, Diversificado, Hostil e Incierto constituye la definición formal de un Entorno Turbulento (entorno VUCA contemporáneo).",
+        trap: "⚠️ TRAMPA CLÁSICA: Estable es justo lo contrario (lento, simple y predecible)."
+      },
+
+      // TEMA 3
+      {
+        id: 11,
+        topic: 3,
+        topicName: "Tema 3: Escuelas & Autores",
+        question: "Frederick W. Taylor centró sus investigaciones en el taller operativo (*bottom-up*). ¿Cuál de las siguientes afirmaciones define su principio de supervisión frente a la propuesta de Henri Fayol?",
+        options: [
+          "Taylor defendió la estricta Unidad de Mando (1 solo jefe), mientras Fayol prefería capataces múltiples.",
+          "Taylor defendió la Supervisión Funcional (varios capataces especializados), mientras Fayol formuló el principio de Unidad de Mando.",
+          "Tanto Taylor como Fayol rechazaron cualquier tipo de jerarquía vertical en la fábrica.",
+          "Fayol consideraba al obrero como 'Homo Economicus' y Taylor como 'Homo Socialis'."
+        ],
+        correct: 1,
+        explanation: "Taylor fragmentaba la supervisión en capataces funcionales (uno de velocidad, otro de calidad, otro de mantenimiento). Fayol criticó esto duramente y formuló el principio universal de UNIDAD DE MANDO: un subordinado sólo debe recibir órdenes de un único superior.",
+        trap: "⚠️ TRAMPA CLÁSICA: Invertir las posturas: Taylor es Supervisión Funcional; Fayol es Unidad de Mando (1 solo jefe)."
+      },
+      {
+        id: 12,
+        topic: 3,
+        topicName: "Tema 3: Escuelas & Autores",
+        question: "¿Qué trascendental hallazgo sobre el comportamiento humano en las organizaciones surgió de la 3ª fase (programa masivo de entrevistas clínicas) en los Experimentos de Hawthorne de Elton Mayo?",
+        options: [
+          "Que los trabajadores solo se motivan mediante primas económicas por pieza producida.",
+          "La existencia de la 'Organización Informal', compuesta por redes espontáneas de relaciones y grupos no recogidos en el organigrama oficial.",
+          "Que la iluminación tenue reduce la fatiga visual de los operarios de relés.",
+          "Que la burocracia meritocrática elimina los conflictos psicológicos en la empresa."
+        ],
+        correct: 1,
+        explanation: "Al entrevistar confidencialmente a más de 20.000 operarios, Mayo descubrió que existía un universo informal de lealtades, amistades y líderes naturales que influía mucho más en la productividad que las órdenes formales de la dirección.",
+        trap: "⚠️ TRAMPA CLÁSICA: El 'Efecto Hawthorne' se descubrió en la 1ª fase (iluminación); la 'Organización Informal' se descubrió en la 3ª fase de entrevistas."
+      },
+      {
+        id: 13,
+        topic: 3,
+        topicName: "Tema 3: Escuelas & Autores",
+        question: "En el modelo burocrático ideal formulado por Max Weber, ¿cuál es la justificación para exigir la 'Impersonalidad en las relaciones' y la comunicación formal por escrito?",
+        options: [
+          "Fomentar la creatividad y el liderazgo carismático de los directores generales.",
+          "Garantizar la máxima previsibilidad, tratar a todos los miembros por igual según el cargo y erradicar favoritismos personales o nepotismo.",
+          "Permitir que los operarios decidan libremente sus horarios mediante asambleas.",
+          "Aumentar los costes fijos de administración para evitar la entrada de competidores."
+        ],
+        correct: 1,
+        explanation: "Weber buscaba la racionalidad legal absoluta: que la organización funcione exactamente igual cambie quien cambie de persona. La autoridad reside en el cargo formal y se ejerce mediante expedientes y normas escritas para ser imparcial.",
+        trap: "⚠️ TRAMPA CLÁSICA: Para Weber la burocracia no era 'ineficiencia o papeleo molesto' (eso son las disfunciones que criticó Merton), sino el modelo más racional y perfecto posible."
+      },
+      {
+        id: 14,
+        topic: 3,
+        topicName: "Tema 3: Escuelas & Autores",
+        question: "En el caso práctico oficial de clase sobre los tres socios fundadores de NAS, SA, la socia MARÍA gestionaba su antiguo laboratorio organizando el trabajo en equipos de 3 o 4 personas, rotando tareas y consultando objetivos. ¿A qué escuela teórica corresponde su modelo?",
+        caseHint: "Práctica oficial de clase Tema 3: Juan Juárez, Felipe, María, Violeta y Amalio debaten sus antiguos modelos.",
+        options: [
+          "Escuela de la Administración Científica (Frederick W. Taylor).",
+          "Escuela de las Relaciones Humanas (Elton Mayo).",
+          "Escuela de la Burocracia Racional (Max Weber).",
+          "Escuela Clásica de la Administración General (Henri Fayol)."
+        ],
+        correct: 1,
+        explanation: "María aplica al 100% las conclusiones de Hawthorne: el trabajo en equipo social, la lucha contra la monotonía mediante rotación y la motivación mediante reconocimiento y participación en objetivos.",
+        trap: "⚠️ TRAMPA CLÁSICA: Violeta y Amalio eran Taylor (cronómetro y movimientos mínimos); Juan y Felipe eran Weber/Fayol (manual escrito y puntualidad)."
+      },
+      {
+        id: 15,
+        topic: 3,
+        topicName: "Tema 3: Escuelas & Autores",
+        question: "¿Cuál es el postulado central del Enfoque de Contingencias (Burns, Stalker, Woodward, Luthans) frente a las escuelas clásicas precedentes?",
+        options: [
+          "Existe una única mejor manera científica universal de dirigir ('The One Best Way').",
+          "La motivación de los trabajadores depende exclusivamente del nivel salarial percibido.",
+          "No existe una única mejor forma de organizar ('No One Best Way'); las técnicas directivas óptimas dependen del ajuste a las variables del entorno y la tecnología.",
+          "Las empresas públicas burocráticas son siempre más eficientes que las empresas privadas orgánicas."
+        ],
+        correct: 2,
+        explanation: "El enfoque contingente rompe con los dogmas universales de Taylor y Fayol. Todo depende de las circunstancias: si el entorno es estable conviene una estructura mecanicista; si es turbulento conviene una estructura orgánica flexible.",
+        trap: "⚠️ TRAMPA CLÁSICA: El 'One Best Way' era de Taylor; el enfoque contingente defiende justo lo contrario ('No One Best Way')."
+      }
+    ];
+
+    /* APP STATE */
+    let currentFilter = "all";
+    let questions = [...rawQuestions];
+    let currentIndex = 0;
+    let userAnswers = {}; // { questionId: selectedIndex }
+    let soundEnabled = true;
+
+    /* SOUND SYNTHESIZER (Web Audio API) */
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+
+    function playTone(type) {
+      if (!soundEnabled || !audioCtx) return;
+      try {
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+
+        const now = audioCtx.currentTime;
+
+        if (type === 'correct') {
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(523.25, now); // C5
+          osc.frequency.exponentialRampToValueAtTime(659.25, now + 0.1); // E5
+          osc.frequency.exponentialRampToValueAtTime(783.99, now + 0.2); // G5
+          gain.gain.setValueAtTime(0.15, now);
+          gain.gain.linearRampToValueAtTime(0.01, now + 0.35);
+          osc.start(now);
+          osc.stop(now + 0.35);
+        } else if (type === 'wrong') {
+          osc.type = 'sawtooth';
+          osc.frequency.setValueAtTime(220, now); // A3
+          osc.frequency.linearRampToValueAtTime(146.83, now + 0.25); // D3
+          gain.gain.setValueAtTime(0.12, now);
+          gain.gain.linearRampToValueAtTime(0.01, now + 0.3);
+          osc.start(now);
+          osc.stop(now + 0.3);
+        } else if (type === 'click') {
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(440, now);
+          gain.gain.setValueAtTime(0.05, now);
+          gain.gain.linearRampToValueAtTime(0.001, now + 0.05);
+          osc.start(now);
+          osc.stop(now + 0.05);
+        }
+      } catch (e) {
+        console.warn("Audio error:", e);
+      }
+    }
+
+    /* DOM ELEMENTS */
+    const qBadge = document.getElementById("q-topic-badge");
+    const qCounter = document.getElementById("q-counter");
+    const qText = document.getElementById("q-text");
+    const qHint = document.getElementById("q-hint");
+    const optionsContainer = document.getElementById("options-container");
+    const feedbackBox = document.getElementById("feedback-box");
+    const fbTitle = document.getElementById("fb-title");
+    const fbReason = document.getElementById("fb-reason");
+    const fbTrap = document.getElementById("fb-trap");
+    const btnPrev = document.getElementById("btn-prev");
+    const btnNext = document.getElementById("btn-next");
+    const progressBar = document.getElementById("progress-bar");
+    const correctCountEl = document.getElementById("correct-count");
+    const incorrectCountEl = document.getElementById("incorrect-count");
+    const currentGradeEl = document.getElementById("current-grade");
+    const questionCard = document.getElementById("question-card");
+    const resultsCard = document.getElementById("results-card");
+    const immediateCheckbox = document.getElementById("immediate-feedback");
+    const soundBtn = document.getElementById("sound-btn");
+
+    /* SOUND TOGGLE */
+    soundBtn.addEventListener("click", () => {
+      soundEnabled = !soundEnabled;
+      soundBtn.textContent = soundEnabled ? "🔊" : "🔇";
+      soundBtn.style.opacity = soundEnabled ? "1" : "0.5";
+    });
+
+    /* FILTER BUTTONS */
+    document.querySelectorAll(".pill-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        document.querySelectorAll(".pill-btn").forEach(b => b.classList.remove("active"));
+        btn.classList.add("active");
+        currentFilter = btn.dataset.filter;
+        applyFilter();
+      });
+    });
+
+    function applyFilter() {
+      if (currentFilter === "all") {
+        questions = [...rawQuestions];
+      } else if (currentFilter === "t1") {
+        questions = rawQuestions.filter(q => q.topic === 1);
+      } else if (currentFilter === "t2") {
+        questions = rawQuestions.filter(q => q.topic === 2);
+      } else if (currentFilter === "t3") {
+        questions = rawQuestions.filter(q => q.topic === 3);
+      }
+      currentIndex = 0;
+      userAnswers = {};
+      questionCard.style.display = "flex";
+      resultsCard.style.display = "none";
+      updateLiveStats();
+      renderQuestion();
+    }
+
+    /* RENDER QUESTION */
+    function renderQuestion() {
+      if (questions.length === 0) return;
+      const q = questions[currentIndex];
+
+      // Update badge
+      qBadge.textContent = q.topicName;
+      qBadge.className = `q-badge badge-t${q.topic}`;
+
+      // Update counter
+      qCounter.textContent = `Pregunta ${currentIndex + 1} de ${questions.length}`;
+
+      // Progress bar
+      const progressPercent = ((currentIndex) / questions.length) * 100;
+      progressBar.style.width = `${progressPercent}%`;
+
+      // Text & hint
+      qText.textContent = q.question;
+      if (q.caseHint) {
+        qHint.textContent = "💡 " + q.caseHint;
+        qHint.style.display = "block";
+      } else {
+        qHint.style.display = "none";
+      }
+
+      // Options
+      optionsContainer.innerHTML = "";
+      const letters = ["A", "B", "C", "D"];
+      const answeredIndex = userAnswers[q.id];
+      const isAnswered = answeredIndex !== undefined;
+
+      q.options.forEach((optText, idx) => {
+        const btn = document.createElement("button");
+        btn.className = "option-btn";
+        btn.innerHTML = `<span class="opt-letter">${letters[idx]}</span> <span>${optText}</span>`;
+
+        if (isAnswered) {
+          btn.disabled = true;
+          if (idx === q.correct) {
+            btn.classList.add("correct");
+          } else if (idx === answeredIndex) {
+            btn.classList.add("incorrect");
+          }
+        } else {
+          btn.addEventListener("click", () => selectOption(idx));
+        }
+
+        optionsContainer.appendChild(btn);
+      });
+
+      // Feedback
+      if (isAnswered && immediateCheckbox.checked) {
+        showFeedback(answeredIndex === q.correct, q);
+      } else {
+        feedbackBox.style.display = "none";
+      }
+
+      // Buttons
+      btnPrev.disabled = currentIndex === 0;
+      if (currentIndex === questions.length - 1) {
+        btnNext.textContent = isAnswered ? "Ver Resultados 🏆" : "Finalizar Examen";
+      } else {
+        btnNext.textContent = "Siguiente →";
+      }
+      btnNext.disabled = !isAnswered;
+    }
+
+    /* SELECT OPTION */
+    function selectOption(idx) {
+      const q = questions[currentIndex];
+      userAnswers[q.id] = idx;
+      playTone('click');
+
+      const isCorrect = idx === q.correct;
+      setTimeout(() => {
+        playTone(isCorrect ? 'correct' : 'wrong');
+      }, 50);
+
+      updateLiveStats();
+      renderQuestion();
+    }
+
+    /* SHOW FEEDBACK */
+    function showFeedback(isCorrect, q) {
+      feedbackBox.className = `feedback-box ${isCorrect ? 'correct' : 'incorrect'}`;
+      fbTitle.innerHTML = isCorrect ? "✅ ¡CORRECTO! (Puntuación oficial: +1.00)" : "❌ INCORRECTO (Penalización UMU: -0.33)";
+      fbReason.textContent = q.explanation;
+      if (q.trap) {
+        fbTrap.textContent = q.trap;
+        fbTrap.style.display = "block";
+      } else {
+        fbTrap.style.display = "none";
+      }
+      feedbackBox.style.display = "block";
+    }
+
+    /* UPDATE LIVE STATS */
+    function updateLiveStats() {
+      let correct = 0;
+      let incorrect = 0;
+
+      questions.forEach(q => {
+        const ans = userAnswers[q.id];
+        if (ans !== undefined) {
+          if (ans === q.correct) correct++;
+          else incorrect++;
+        }
+      });
+
+      correctCountEl.textContent = correct;
+      incorrectCountEl.textContent = incorrect;
+
+      // Cálculo de nota UMU sobre 10 con penalización oficial (acierto = 1, fallo = -0.33)
+      const totalAnswered = correct + incorrect;
+      if (totalAnswered === 0) {
+        currentGradeEl.textContent = "0.0";
+        currentGradeEl.className = "stat-value";
+      } else {
+        // Ponderación estándar sobre 10
+        const rawScore = Math.max(0, correct - (incorrect * 0.33));
+        const grade10 = ((rawScore / questions.length) * 10).toFixed(1);
+        currentGradeEl.textContent = grade10;
+        currentGradeEl.className = `stat-value ${parseFloat(grade10) >= 5 ? 'score-green' : 'score-red'}`;
+      }
+    }
+
+    /* NAVIGATION BUTTONS */
+    btnPrev.addEventListener("click", () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        renderQuestion();
+      }
+    });
+
+    btnNext.addEventListener("click", () => {
+      if (currentIndex < questions.length - 1) {
+        currentIndex++;
+        renderQuestion();
+      } else {
+        showResults();
+      }
+    });
+
+    /* SHOW RESULTS */
+    function showResults() {
+      questionCard.style.display = "none";
+      resultsCard.style.display = "block";
+      progressBar.style.width = "100%";
+
+      let correct = 0;
+      let incorrect = 0;
+      const topicStats = {
+        1: { total: 0, correct: 0 },
+        2: { total: 0, correct: 0 },
+        3: { total: 0, correct: 0 }
+      };
+
+      questions.forEach(q => {
+        topicStats[q.topic].total++;
+        const ans = userAnswers[q.id];
+        if (ans !== undefined) {
+          if (ans === q.correct) {
+            correct++;
+            topicStats[q.topic].correct++;
+          } else {
+            incorrect++;
+          }
+        }
+      });
+
+      const rawScore = Math.max(0, correct - (incorrect * 0.33));
+      const finalGrade = ((rawScore / questions.length) * 10).toFixed(1);
+      document.getElementById("final-grade").textContent = finalGrade;
+
+      const headline = document.getElementById("results-headline");
+      const subtext = document.getElementById("results-subtext");
+
+      if (finalGrade >= 9.0) {
+        headline.textContent = "🎖️ ¡MATRÍCULA DE HONOR! (Nivel Socio Big 4 / VP)";
+        subtext.textContent = "Dominio quirúrgico de conceptos, autores y casos. No has caído en ninguna de las trampas de Monllor y Peláez.";
+      } else if (finalGrade >= 7.0) {
+        headline.textContent = "⭐ ¡NOTABLE ALTO! (Rumbo al Sobresaliente)";
+        subtext.textContent = "Tienes las bases teóricas y prácticas muy consolidadas. Revisa únicamente un par de fallos puntuales.";
+      } else if (finalGrade >= 5.0) {
+        headline.textContent = "👍 APROBADO (Buen camino, a blindar detalles)";
+        subtext.textContent = "Superas el corte oficial del parcial. Con repasar las hojas apaisadas este fin de semana subes al 8 o 9.";
+      } else {
+        headline.textContent = "⚠️ REPASO NECESARIO (Cuidado con los fallos)";
+        subtext.textContent = "La penalización de -0.33 por fallo resta bastante. Utiliza tus hojas horizontales para memorizar las palabras clave de autores.";
+      }
+
+      // Breakdown por temas
+      for (let t = 1; t <= 3; t++) {
+        const stat = topicStats[t];
+        const pct = stat.total > 0 ? Math.round((stat.correct / stat.total) * 100) : 0;
+        document.getElementById(`bar-t${t}`).style.width = `${pct}%`;
+        document.getElementById(`score-t${t}`).textContent = `${stat.correct} / ${stat.total} (${pct}%)`;
+      }
+    }
+
+    /* RETRY BUTTONS */
+    document.getElementById("btn-retry-all").addEventListener("click", () => {
+      userAnswers = {};
+      currentIndex = 0;
+      questionCard.style.display = "flex";
+      resultsCard.style.display = "none";
+      updateLiveStats();
+      renderQuestion();
+    });
+
+    document.getElementById("btn-retry-failed").addEventListener("click", () => {
+      const failedQuestions = questions.filter(q => userAnswers[q.id] !== q.correct);
+      if (failedQuestions.length === 0) {
+        alert("¡No tienes preguntas falladas! Enhorabuena.");
+        return;
+      }
+      questions = failedQuestions;
+      userAnswers = {};
+      currentIndex = 0;
+      questionCard.style.display = "flex";
+      resultsCard.style.display = "none";
+      updateLiveStats();
+      renderQuestion();
+    });
+
+    // INIT
+    applyFilter();
+  </script>
+</body>
+</html>
